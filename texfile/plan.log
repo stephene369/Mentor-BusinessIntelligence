@@ -1,0 +1,195 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.9.10)  4 OCT 2024 17:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**plan.tex
+(./plan.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-16>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count269
+\l__pdf_internal_box=\box52
+)
+No file plan.aux.
+\openout1 = `plan.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/cm-super/cm-super-t1.enc}]
+No file plan.toc.
+\tf@toc=\write3
+\openout3 = `plan.toc'.
+
+
+
+[1
+
+]
+Chapter 1.
+
+
+[2
+
+]
+Chapter 2.
+
+
+[3
+
+]
+Chapter 3.
+
+
+[4
+
+]
+
+[5]
+
+[6]
+Chapter 4.
+
+Overfull \hbox (12.30441pt too wide) in paragraph at lines 88--89
+\T1/cmr/m/n/12 Divers out-ils et tech-niques sont util-isés pour au-toma-tiser 
+et fa-ciliter l'intégration
+ []
+
+
+
+[7
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (32.49817pt too wide) in paragraph at lines 92--93
+\T1/cmr/m/n/12 Nifi, et Mi-crosoft SSIS qui per-me-t-tent d'automatiser le pro-
+ces-sus d'intégration
+ []
+
+
+
+[8]
+Chapter 5.
+
+
+[9
+
+]
+
+[10]
+Chapter 6.
+
+Overfull \hbox (0.49203pt too wide) in paragraph at lines 142--143
+\T1/cmr/m/n/12 L'analyse statis-tique con-siste à utiliser des méth-odes math-é
+-ma-tiques et statis-
+ []
+
+
+
+[11
+
+]
+Overfull \hbox (6.54517pt too wide) in paragraph at lines 159--159
+[]\T1/cmr/bx/n/17.28 Modélisation pré-dic-tive et ap-pren-tis-sage au-
+ []
+
+
+
+[12]
+Chapter 7.
+
+Overfull \hbox (13.14722pt too wide) in paragraph at lines 189--190
+[]\T1/cmr/bx/n/12 Filtres et sélecteurs \T1/cmr/m/n/12 : Per-me-t-tent aux util
+-isa-teurs de mod-i-fier l'affichage
+ []
+
+
+
+[13
+
+]
+Overfull \hbox (20.68796pt too wide) in paragraph at lines 195--195
+[]\T1/cmr/bx/n/17.28 Création de tableaux de bord et de graphiques 
+ []
+
+
+
+[14]
+Chapter 8.
+
+
+[15
+
+] (./plan.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-16>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 735 strings out of 475437
+ 11464 string characters out of 5774790
+ 1930957 words of memory out of 5000000
+ 23457 multiletter control sequences out of 15000+600000
+ 566563 words of font info for 50 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 35i,6n,50p,481b,200s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm2074.pfb>
+Output written on plan.pdf (16 pages, 152877 bytes).
+PDF statistics:
+ 96 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
