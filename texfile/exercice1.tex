@@ -1,0 +1,72 @@
+\documentclass[20pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+
+\title{Exercice Chapitre 1}
+\author{Spero TESSY \\ Stephene WANTCHEKON}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+    \item Utilisez le web scraping pour collecter la liste des médicaments prescrits à partir de : \\ \url{https://www.doctissimo.fr/asp/medicaments/les-medicaments-les-plus-prescrits.htm}
+    
+    \item Créez un dictionnaire data = \{ 'Medicament' : values \}, avec values la liste des médicaments recueillis sur le site internet.
+    
+    \item Créez un fichier JSON et stockez la base de données dans ce fichier JSON.
+    
+    \item Utilisez le module sqlite3 et créez une base de données nommée "medicaments".
+    
+    \item Créez une table "medicaments" avec une clé primaire "Id" de type integer et autoincrement, et une clé secondaire "prescrits".
+    
+    \item Utilisez une boucle pour injecter tous les médicaments dans la base de données.
+\end{enumerate}
+
+\section{Pour aller plus loin}
+
+Utilisez ce format de lien pour accéder à la page URL de chaque médicament :
+
+Exemple : \url{https://www.doctissimo.fr/medicament-<<DOLIPRANE>>.htm}
+
+Remplacez <<DOLIPRANE>> par le nom du médicament.
+
+Pour chaque médicament, collectez les informations suivantes :
+
+\begin{itemize}
+    \item L'état du médicament (si le médicament est toujours sur le marché)
+    \item Le prix de vente
+    \item Le taux de remboursement social
+    \item La classe thérapeutique
+    \item Le principe actif
+    \item Les effets indésirables
+    \item La liste des médicaments similaires
+    \item Les précautions d'emploi
+    \item Les contre-indications
+\end{itemize}
+
+Stockez toutes ces données dans une base de données SQL de façon bien structurée.
+
+
+
+
+\section{Finalisation du projet}
+
+Pour conclure ce projet :
+
+\begin{enumerate}
+    \item Créez un nouveau repository sur GitHub.
+    \item Initialisez Git dans votre dossier de travail local.
+    \item Ajoutez tous les fichiers créés (codes, bases de données, etc.) à votre repository local.
+    \item Effectuez un commit avec un message descriptif.
+    \item Poussez tous les fichiers vers votre repository GitHub distant.
+\end{enumerate}
+
+Assurez-vous d'inclure tous les fichiers pertinents, y compris les scripts Python, les fichiers JSON, et la base de données SQLite.
+Ce sera le lien que vous m'envoierez pour la correction. 
+Bonsoir et bonne reflexion.
+
+
+\end{document}

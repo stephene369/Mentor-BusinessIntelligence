@@ -1,0 +1,4266 @@
+{
+    "DOLIPRANE - Paracétamol": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Choc anaphylactique",
+            "Oedème de Quincke",
+            "Erythème cutané",
+            "Urticaire",
+            "Rash cutané",
+            "Réaction cutanée"
+        ],
+        "PRECAUTIONS": [
+            "Réservé à l'adulte et à l'enfant à partir de 27 kg",
+            "Adulte de moins de 50 kg",
+            "Insuffisance hépatocellulaire légère à modérée",
+            "Insuffisance rénale sévère (Clcr < 30 ml/mn)",
+            "Alcoolisme chronique",
+            "Déshydratation",
+            "Malnutrition chronique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatocellulaire sévère",
+            "Enfant avant 6 ans",
+            "Consommation d'alcool"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGODOL",
+            "CLARADOL",
+            "DAFALGAN",
+            "DAFALGANCAPS",
+            "DAFALGANHOP",
+            "DAFALGANTABS",
+            "DOLIPRANE",
+            "DOLIPRANE ADULTES",
+            "DOLIPRANECAPS",
+            "DOLIPRANELIQUIZ",
+            "DOLIPRANELIQUIZ S/S",
+            "DOLIPRANEORODOZ",
+            "DOLIPRANETABS",
+            "DOLKO",
+            "EFFERALGAN",
+            "EFFERALGAN 1 000 mg",
+            "EFFERALGAN 1000 mg",
+            "EFFERALGAN FRAISE",
+            "EFFERALGAN FRAMBOISE",
+            "EFFERALGANMED",
+            "EFFERALGANMED PEDIATRIQUE",
+            "PARACETAMOL ACCORD",
+            "PARACETAMOL AHCL",
+            "PARACETAMOL ALMUS",
+            "PARACETAMOL ALTER",
+            "PARACETAMOL ARROW",
+            "PARACETAMOL ARROW CONSEIL",
+            "PARACETAMOL ARROW LAB",
+            "PARACETAMOL B BRAUN",
+            "PARACETAMOL BENTA",
+            "PARACETAMOL BIOGARAN",
+            "PARACETAMOL BIOGARAN CONSEIL",
+            "PARACETAMOL CRISTERS",
+            "PARACETAMOL CRISTERS PHARMA",
+            "PARACETAMOL EG",
+            "PARACETAMOL EG LABO CONSEIL",
+            "PARACETAMOL EVOLUGEN",
+            "PARACETAMOL KABI",
+            "PARACETAMOL KRKA",
+            "PARACETAMOL MACOPHARMA",
+            "PARACETAMOL MYLAN",
+            "PARACETAMOL MYLAN CONSEIL",
+            "PARACETAMOL MYLAN PHARMA",
+            "PARACETAMOL PANPHARMA",
+            "PARACETAMOL RANBAXY MO",
+            "PARACETAMOL SANDOZ",
+            "PARACETAMOL SANDOZ CONSEIL",
+            "PARACETAMOL SUN",
+            "PARACETAMOL TEVA",
+            "PARACETAMOL TEVA CONSEIL",
+            "PARACETAMOL TEVA SANTE",
+            "PARACETAMOL VIATRIS",
+            "PARACETAMOL VJ-PHARM",
+            "PARACETAMOL ZENTIVA",
+            "PARACETAMOL ZENTIVA CONSEIL",
+            "PARACETAMOL ZENTIVA LAB",
+            "PARACETAMOL ZYDUS",
+            "PARALYOC",
+            "PERFALGAN"
+        ]
+    },
+    "EFFERALGAN - Paracétamol": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Thrombocytopénie",
+            "Leucopénie",
+            "Neutropénie",
+            "Hypersensibilité",
+            "Réaction anaphylactique",
+            "Hypotension",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance hépatocellulaire légère à modérée",
+            "Insuffisance rénale",
+            "Syndrome de Gilbert",
+            "Alcoolisme chronique",
+            "Déficit en G6PD",
+            "Etat de déplétion en glutathion",
+            "Déshydratation"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatocellulaire sévère",
+            "Patient de moins de 12 ans",
+            "Patient de moins de 50 kg",
+            "Malabsorption du glucose-galactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGODOL",
+            "CLARADOL",
+            "DAFALGAN",
+            "DAFALGANCAPS",
+            "DAFALGANHOP",
+            "DAFALGANTABS",
+            "DOLIPRANE",
+            "DOLIPRANE ADULTES",
+            "DOLIPRANECAPS",
+            "DOLIPRANELIQUIZ",
+            "DOLIPRANELIQUIZ S/S",
+            "DOLIPRANEORODOZ",
+            "DOLIPRANETABS",
+            "DOLKO",
+            "EFFERALGAN",
+            "EFFERALGAN 1 000 mg",
+            "EFFERALGAN 1000 mg",
+            "EFFERALGAN FRAISE",
+            "EFFERALGAN FRAMBOISE",
+            "EFFERALGANMED",
+            "EFFERALGANMED PEDIATRIQUE",
+            "PARACETAMOL ACCORD",
+            "PARACETAMOL AHCL",
+            "PARACETAMOL ALMUS",
+            "PARACETAMOL ALTER",
+            "PARACETAMOL ARROW",
+            "PARACETAMOL ARROW CONSEIL",
+            "PARACETAMOL ARROW LAB",
+            "PARACETAMOL B BRAUN",
+            "PARACETAMOL BENTA",
+            "PARACETAMOL BIOGARAN",
+            "PARACETAMOL BIOGARAN CONSEIL",
+            "PARACETAMOL CRISTERS",
+            "PARACETAMOL CRISTERS PHARMA",
+            "PARACETAMOL EG",
+            "PARACETAMOL EG LABO CONSEIL",
+            "PARACETAMOL EVOLUGEN",
+            "PARACETAMOL KABI",
+            "PARACETAMOL KRKA",
+            "PARACETAMOL MACOPHARMA",
+            "PARACETAMOL MYLAN",
+            "PARACETAMOL MYLAN CONSEIL",
+            "PARACETAMOL MYLAN PHARMA",
+            "PARACETAMOL PANPHARMA",
+            "PARACETAMOL RANBAXY MO",
+            "PARACETAMOL SANDOZ",
+            "PARACETAMOL SANDOZ CONSEIL",
+            "PARACETAMOL SUN",
+            "PARACETAMOL TEVA",
+            "PARACETAMOL TEVA CONSEIL",
+            "PARACETAMOL TEVA SANTE",
+            "PARACETAMOL VIATRIS",
+            "PARACETAMOL VJ-PHARM",
+            "PARACETAMOL ZENTIVA",
+            "PARACETAMOL ZENTIVA CONSEIL",
+            "PARACETAMOL ZENTIVA LAB",
+            "PARACETAMOL ZYDUS",
+            "PARALYOC",
+            "PERFALGAN"
+        ]
+    },
+    "DAFALGAN - Paracétamol": {
+        "Retirer": false,
+        "Prix": "1,16 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Thrombopénie",
+            "Leucopénie",
+            "Neutropénie",
+            "Réaction d'hypersensibilité",
+            "Réaction anaphylactique",
+            "Hypotension",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Hépatite virale aiguë",
+            "Adulte de moins de 50 kg",
+            "Insuffisance hépatique légère à modérée",
+            "Alcoolisme chronique",
+            "Sevrage alcoolique",
+            "Insuffisance rénale",
+            "Syndrome de Gilbert"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatique sévère",
+            "Patient de moins de 6 ans",
+            "Patient de moins de 27 kg"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGODOL",
+            "CLARADOL",
+            "DAFALGAN",
+            "DAFALGANCAPS",
+            "DAFALGANHOP",
+            "DAFALGANTABS",
+            "DOLIPRANE",
+            "DOLIPRANE ADULTES",
+            "DOLIPRANECAPS",
+            "DOLIPRANELIQUIZ",
+            "DOLIPRANELIQUIZ S/S",
+            "DOLIPRANEORODOZ",
+            "DOLIPRANETABS",
+            "DOLKO",
+            "EFFERALGAN",
+            "EFFERALGAN 1 000 mg",
+            "EFFERALGAN 1000 mg",
+            "EFFERALGAN FRAISE",
+            "EFFERALGAN FRAMBOISE",
+            "EFFERALGANMED",
+            "EFFERALGANMED PEDIATRIQUE",
+            "PARACETAMOL ACCORD",
+            "PARACETAMOL AHCL",
+            "PARACETAMOL ALMUS",
+            "PARACETAMOL ALTER",
+            "PARACETAMOL ARROW",
+            "PARACETAMOL ARROW CONSEIL",
+            "PARACETAMOL ARROW LAB",
+            "PARACETAMOL B BRAUN",
+            "PARACETAMOL BENTA",
+            "PARACETAMOL BIOGARAN",
+            "PARACETAMOL BIOGARAN CONSEIL",
+            "PARACETAMOL CRISTERS",
+            "PARACETAMOL CRISTERS PHARMA",
+            "PARACETAMOL EG",
+            "PARACETAMOL EG LABO CONSEIL",
+            "PARACETAMOL EVOLUGEN",
+            "PARACETAMOL KABI",
+            "PARACETAMOL KRKA",
+            "PARACETAMOL MACOPHARMA",
+            "PARACETAMOL MYLAN",
+            "PARACETAMOL MYLAN CONSEIL",
+            "PARACETAMOL MYLAN PHARMA",
+            "PARACETAMOL PANPHARMA",
+            "PARACETAMOL RANBAXY MO",
+            "PARACETAMOL SANDOZ",
+            "PARACETAMOL SANDOZ CONSEIL",
+            "PARACETAMOL SUN",
+            "PARACETAMOL TEVA",
+            "PARACETAMOL TEVA CONSEIL",
+            "PARACETAMOL TEVA SANTE",
+            "PARACETAMOL VIATRIS",
+            "PARACETAMOL VJ-PHARM",
+            "PARACETAMOL ZENTIVA",
+            "PARACETAMOL ZENTIVA CONSEIL",
+            "PARACETAMOL ZENTIVA LAB",
+            "PARACETAMOL ZYDUS",
+            "PARALYOC",
+            "PERFALGAN"
+        ]
+    },
+    "LEVOTHYROX - Lévothyroxine sodique": {
+        "Retirer": false,
+        "Prix": "3,57 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Levothyroxine sodique",
+        "PRINCIPE_ACTIF": "Lévothyroxine sodique",
+        "EFFETS_INDESIRABLES": [
+            "Aggravation de cardiopathie",
+            "Aggravation de l'insuffisance cardiaque",
+            "Aggravation d'angor",
+            "Aggravation d'un trouble du rythme",
+            "Hyperthyroïdie",
+            "Tachycardie",
+            "Tremblement"
+        ],
+        "PRECAUTIONS": [
+            "Obésité sans hypothyroïdie",
+            "Pathologie cardiaque équilibrée",
+            "Hypertension",
+            "Aggravation d'une hypertension",
+            "Insuffisance corticosurrénalienne",
+            "Grossesse",
+            "Ménopause"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hyperthyroïdie sauf lorsque celle-ci a été traitée",
+            "Insuffisance surrénalienne non traitée",
+            "Syndrome coronaire aigu",
+            "Myocardite aiguë",
+            "Patient de moins de 6 ans",
+            "Cardiopathie décompensée",
+            "Coronaropathie non contrôlée"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "EUTHYROX",
+            "L-THYROXIN HENNING",
+            "L-THYROXINE SERB",
+            "LEVOTHYROX",
+            "TCAPS",
+            "THYROFIX",
+            "TSOLUDOSE"
+        ]
+    },
+    "IMODIUM - Lopéramide chlorhydrate": {
+        "Retirer": true,
+        "Prix": "2,25 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Lopéramide",
+        "PRINCIPE_ACTIF": "Lopéramide chlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Céphalée",
+            "Sensation vertigineuse",
+            "Somnolence",
+            "Perte de conscience",
+            "Diminution du niveau de conscience",
+            "Hypertonie",
+            "Trouble de la coordination"
+        ],
+        "PRECAUTIONS": [
+            "SIDA",
+            "Distension abdominale",
+            "Constipation",
+            "Trouble hépatique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Dysenterie aiguë avec présence de sang dans les selles et fièvre",
+            "Poussée aiguë de rectocolite hémorragique",
+            "Colite pseudomembraneuse associée aux antibiotiques",
+            "Situations dans lesquelles l'inhibition du péristaltisme doit être évitée",
+            "Patient de moins de 8 ans",
+            "Intolérance au lactose",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DIARETYL",
+            "DIASTROLIB",
+            "GASTROWELL LOPERAMIDE",
+            "IMODIUM",
+            "IMODIUMCAPS",
+            "IMODIUMLINGUAL",
+            "IMODIUMLIQUICAPS",
+            "INDIARAL",
+            "LOPERAMIDE ALMUS",
+            "LOPERAMIDE ARROW",
+            "LOPERAMIDE ARROW CONSEIL",
+            "LOPERAMIDE ARROW LAB",
+            "LOPERAMIDE BGR CONSEIL",
+            "LOPERAMIDE BIOGARAN",
+            "LOPERAMIDE BIOGARAN CONSEIL",
+            "LOPERAMIDE EG",
+            "LOPERAMIDE EG CONSEIL",
+            "LOPERAMIDE EVOLUGEN",
+            "LOPERAMIDE LYOC",
+            "LOPERAMIDE REF",
+            "LOPERAMIDE RPG",
+            "LOPERAMIDE SANDOZ",
+            "LOPERAMIDE SANDOZ CONSEIL",
+            "LOPERAMIDE TEVA",
+            "LOPERAMIDE TEVA CONSEIL",
+            "LOPERAMIDE VIATRIS",
+            "LOPERAMIDE VIATRIS CONSEIL",
+            "LOPERAMIDE ZENTIVA",
+            "LOPERAMIDE ZENTIVA CONSEIL",
+            "LOPERAMIDE ZYDUS",
+            "LOPERAMIDE ZYDUS FRANCE"
+        ]
+    },
+    "KARDEGIC - Acétylsalicylate de DL-lysine": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "Prise en charge selon modalités hospitalières",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Acétylsalicylique acide",
+        "PRINCIPE_ACTIF": "Acétylsalicylate de DL-lysine",
+        "EFFETS_INDESIRABLES": [
+            "Syndrome hémorragique",
+            "Hématome",
+            "Hémorragie urogénitale",
+            "Epistaxis",
+            "Gingivorragie",
+            "Purpura",
+            "Augmentation du temps de saignement"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent d'ulcère gastroduodénal",
+            "Antécédent d'hémorragie digestive",
+            "Antécédent de gastrite",
+            "Insuffisance rénale légère à modérée",
+            "Insuffisance hépatique légère à modérée",
+            "Asthme",
+            "Métrorragie"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Grossesse à partir du 6ème mois",
+            "Antécédent d'asthme associé à la prise d'AINS",
+            "Antécédent d'asthme associé à la prise d'aspirine",
+            "Ulcère gastroduodénal en évolution",
+            "Maladie hémorragique",
+            "Mastocytose",
+            "Risque hémorragique"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ACIDE ACETYLSALICYLIQUE VTS",
+            "ASPIRINE ARROW",
+            "ASPIRINE PROTECT",
+            "KARDEGIC",
+            "MODIXIS",
+            "RESITUNE"
+        ]
+    },
+    "SPASFON - Phloroglucinol": {
+        "Retirer": false,
+        "Prix": "2,14 €",
+        "TAUX_REMBOURSEMENT": "15 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Phloroglucinol",
+        "PRINCIPE_ACTIF": "Phloroglucinol",
+        "EFFETS_INDESIRABLES": [
+            "Eruption cutanée",
+            "Urticaire",
+            "Prurit cutané",
+            "Oedème de Quincke",
+            "Choc anaphylactique",
+            "Hypotension artérielle",
+            "Pustulose exanthématique aiguë généralisée"
+        ],
+        "PRECAUTIONS": [],
+        "CONTRE_INDICATIONS": [
+            "Allergie amidon de blé",
+            "Patient de moins de 6 ans",
+            "Intolérance au lactose",
+            "Malabsorption du glucose-galactose",
+            "Allaitement",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "PHLOROGLUCINOL/TRIMETHYLPHLORO",
+            "SPASFON"
+        ]
+    },
+    "ISIMIG - Frovatriptan": {
+        "Retirer": false,
+        "Prix": "3,69 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Frovatriptan",
+        "PRINCIPE_ACTIF": "Frovatriptan",
+        "EFFETS_INDESIRABLES": [
+            "Lymphadénopathie",
+            "Réaction d'hypersensibilité",
+            "Réaction cutanée allergique",
+            "Angioedème",
+            "Anaphylaxie",
+            "Déshydratation",
+            "Hypoglycémie"
+        ],
+        "PRECAUTIONS": [
+            "Migraine hémiplégique",
+            "Migraine basilaire",
+            "Migraine ophtalmoplégique",
+            "Facteur de risque de cardiopathie ischémique",
+            "Gros fumeur",
+            "Patient utilisant des thérapies de substitution à base de nicotine",
+            "Réaction d'hypersensibilité"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Antécédent d'infarctus du myocarde",
+            "Pathologie cardiaque ischémique",
+            "Vasospasme coronarien",
+            "Angor de Prinzmetal",
+            "Pathologie vasculaire périphérique",
+            "Symptôme de pathologie cardiaque ischémique",
+            "Hypertension modérée à sévère"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "FROVATRIPTAN BIOGARAN",
+            "FROVATRIPTAN MYLAN",
+            "FROVATRIPTAN TEVA",
+            "ISIMIG",
+            "TIGREAT"
+        ]
+    },
+    "TAHOR - Atorvastatine": {
+        "Retirer": false,
+        "Prix": "4,34 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Atorvastatine",
+        "PRINCIPE_ACTIF": "Atorvastatine",
+        "EFFETS_INDESIRABLES": [
+            "Nasopharyngite",
+            "Thrombocytopénie",
+            "Réaction allergique",
+            "Anaphylaxie",
+            "Hyperglycémie",
+            "Hypoglycémie",
+            "Prise de poids"
+        ],
+        "PRECAUTIONS": [
+            "Augmentation des transaminases",
+            "Consommation importante d'alcool",
+            "Antécédent d'affection hépatique",
+            "Antécédent d'accident vasculaire cérébral hémorragique",
+            "Antécédent d'infarctus lacunaire",
+            "Facteur prédisposant à la survenue d'une rhabdomyolyse",
+            "Sujet âgé de plus de 70 ans"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Affection hépatique évolutive",
+            "Elévation prolongée et inexpliquée des transaminases > 3 N",
+            "Grossesse",
+            "Allaitement",
+            "Absence de contraception féminine efficace",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 10 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ATORVASTATINE ACCORD",
+            "ATORVASTATINE ALMUS",
+            "ATORVASTATINE ALMUS PHARMA",
+            "ATORVASTATINE ALTER",
+            "ATORVASTATINE ARROW GENERIQUES",
+            "ATORVASTATINE BIOGARAN",
+            "ATORVASTATINE CRISTERS",
+            "ATORVASTATINE CRISTERS PHARMA",
+            "ATORVASTATINE EG LABO",
+            "ATORVASTATINE EVOLUGEN",
+            "ATORVASTATINE EVOLUGEN PHARMA",
+            "ATORVASTATINE HCS",
+            "ATORVASTATINE LABORAT ALTER",
+            "ATORVASTATINE SANDOZ",
+            "ATORVASTATINE SUN",
+            "ATORVASTATINE TEVA SANTE",
+            "ATORVASTATINE VIATRIS",
+            "ATORVASTATINE ZENTIVA",
+            "ATORVASTATINE ZYDUS",
+            "ATORVASTATINE ZYDUS FRANCE",
+            "TAHOR"
+        ]
+    },
+    "SPEDIFEN - Ibuprofène": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Ibuprofène",
+        "PRINCIPE_ACTIF": "Ibuprofène",
+        "EFFETS_INDESIRABLES": [
+            "Thrombopénie",
+            "Agranulocytose",
+            "Anémie aplasique",
+            "Anémie",
+            "Anémie hémolytique",
+            "Réaction allergique",
+            "Anaphylaxie"
+        ],
+        "PRECAUTIONS": [
+            "Asthme associé à une rhinite chronique",
+            "Asthme associé à une sinusite chronique",
+            "Asthme associé à une polypose nasale",
+            "Allergie AINS",
+            "Sujet âgé",
+            "Antécédent digestif",
+            "Antécédent d'hypertension"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Antécédent de réaction d'hypersensibilité à un AINS",
+            "Antécédent de réaction d'hypersensibilité à l'acide acétylsalicylique",
+            "Antécédent d'hémorragie ou de perforation digestive par AINS",
+            "Hémorragie gastro-intestinale",
+            "Hémorragie cérébrovasculaire",
+            "Saignement évolutif cliniquement significatif",
+            "Ulcère peptique évolutif"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ADVIL",
+            "ADVILCAPS",
+            "ADVILMED Enfant Nourrisson",
+            "ANTARENE Gé",
+            "ANTARENE Gé Enf Nour s/s",
+            "HEMAGENE TAILLEUR",
+            "IBUPRADOLL",
+            "IBUPRADOLL Gé",
+            "IBUPROFENE ALMUS",
+            "IBUPROFENE ARROW",
+            "IBUPROFENE ARROW CONSEIL",
+            "IBUPROFENE ARROW LAB",
+            "IBUPROFENE BIOGARAN",
+            "IBUPROFENE BIOGARAN CONSEIL",
+            "IBUPROFENE CRISTERS",
+            "IBUPROFENE CRISTERS CONSEIL",
+            "IBUPROFENE EG",
+            "IBUPROFENE EG LABO CONSEIL",
+            "IBUPROFENE EVOLUGEN",
+            "IBUPROFENE EVOLUGEN PHARMA",
+            "IBUPROFENE NEPENTHES",
+            "IBUPROFENE PRODILAB",
+            "IBUPROFENE SANDOZ",
+            "IBUPROFENE SANDOZ CONSEIL",
+            "IBUPROFENE SET",
+            "IBUPROFENE TEVA",
+            "IBUPROFENE TEVA CONSEIL",
+            "IBUPROFENE VIATRIS",
+            "IBUPROFENE VIATRIS CONSEIL",
+            "IBUPROFENE VIATRIS E N s/s",
+            "IBUPROFENE VIATRIS SANTE",
+            "IBUPROFENE ZENTIVA",
+            "IBUPROFENE ZENTIVA CONSEIL",
+            "IBUPROFENE ZENTIVA LAB",
+            "IBUPROFENE ZF",
+            "IBUPROFENE ZYDUS FRANCE",
+            "NUREFLEX",
+            "NUROFEN",
+            "NUROFENCAPS",
+            "NUROFENFEM",
+            "NUROFENFLASH",
+            "NUROFENPRO Enf Nour s/s",
+            "NUROFENTABS",
+            "SPEDIFEN",
+            "SPIFEN"
+        ]
+    },
+    "VOLTARENE - Diclofénac sodique": {
+        "Retirer": false,
+        "Prix": "2,36 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Diclofénac",
+        "PRINCIPE_ACTIF": "Diclofénac sodique",
+        "EFFETS_INDESIRABLES": [
+            "Thrombocytopénie",
+            "Purpura",
+            "Leucopénie",
+            "Anémie",
+            "Anémie hémolytique",
+            "Anémie aplasique",
+            "Agranulocytose"
+        ],
+        "PRECAUTIONS": [
+            "Asthme",
+            "Rhinite allergique saisonnière",
+            "Oedème de la muqueuse nasale",
+            "Bronchopneumopathie chronique obstructive",
+            "Infection des voies respiratoires",
+            "Terrain allergique",
+            "Sujet âgé"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Antécédent de réaction allergique déclenchée par la prise d'AINS",
+            "Antécédent de réaction d'hypersensibilité à l'acide acétylsalicylique",
+            "Antécédent d'asthme déclenché par la prise de diclofénac",
+            "Antécédent d'asthme déclenché par la prise d'AINS",
+            "Antécédent d'asthme déclenché par la prise d'aspirine",
+            "Grossesse au-delà de 24 semaines d'aménorrhée",
+            "Hémorragie gastro-intestinale"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DICLOFENAC ARROW",
+            "DICLOFENAC BIOGARAN LP",
+            "DICLOFENAC  EG",
+            "DICLOFENAC SANDOZ",
+            "DICLOFENAC TEVA",
+            "DICLOFENAC VIATRIS LP",
+            "VOLTARENE",
+            "VOLTARENE LP"
+        ]
+    },
+    "ELUDRIL - Chlorhexidine digluconate": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Divers antiseptiques pour la gorge",
+        "PRINCIPE_ACTIF": "Chlorhexidine digluconate",
+        "EFFETS_INDESIRABLES": [
+            "Choc anaphylactique",
+            "Réaction anaphylactique",
+            "Hypersensibilité",
+            "Coloration jaune-brune de la langue",
+            "Coloration des dents",
+            "Anesthésie de la langue",
+            "Anesthésie du pharynx"
+        ],
+        "PRECAUTIONS": [
+            "Réaction allergique",
+            "Antécédent d'épilepsie",
+            "Antécédent de convulsion"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité anesthésiques locaux",
+            "Patient de moins de 12 ans",
+            "Allaitement",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "AMYL/ALC DICHL/LIDO BGR CONS",
+            "DRILL Maux de gorge",
+            "ELUDRIL",
+            "HUMEX MAL DE GORGE",
+            "STREPSILSPRAY à la LIDOCAINE"
+        ]
+    },
+    "IXPRIM - Tramadol chlorhydrate": {
+        "Retirer": false,
+        "Prix": "2,13 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Tramadol + paracetamol",
+        "PRINCIPE_ACTIF": "Tramadol chlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Palpitation",
+            "Tachycardie",
+            "Arythmie",
+            "Vision floue",
+            "Myosis",
+            "Mydriase",
+            "Acouphène"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance rénale",
+            "Maladie alcoolique non-cirrhotique du foie",
+            "Insuffisance hépatique légère à modérée",
+            "Insuffisance respiratoire sévère",
+            "Dépendance aux opioïdes",
+            "Epileptique",
+            "Prédisposition aux convulsions"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Intoxication aiguë avec des dépresseurs du SNC",
+            "Insuffisance hépatique sévère",
+            "Epilepsie non contrôlée",
+            "Grossesse",
+            "Allaitement",
+            "Consommation d'alcool",
+            "Patient de moins de 12 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "IXPRIM",
+            "TRAMADOL/PARAC EVOLUGEN PHARMA",
+            "TRAMADOL/PARACET SUN",
+            "TRAMADOL/PARACETAMOL ARROW GEN",
+            "TRAMADOL/PARACETAMOL ARROW LAB",
+            "TRAMADOL/PARACETAMOL BGR",
+            "TRAMADOL/PARACETAMOL CRISTERS",
+            "TRAMADOL/PARACETAMOL EG LABO",
+            "TRAMADOL/PARACETAMOL EVOLUGEN",
+            "TRAMADOL/PARACETAMOL KRKA",
+            "TRAMADOL/PARACETAMOL MYLAN GEN",
+            "TRAMADOL/PARACETAMOL SANDOZ",
+            "TRAMADOL/PARACETAMOL TEVA",
+            "TRAMADOL/PARACETAMOL VIATRIS",
+            "TRAMADOL/PARACETAMOL ZENTIVA",
+            "TRAMADOL/PARACETAMOL ZYDUS",
+            "ZALDIAR"
+        ]
+    },
+    "PARACETAMOL BIOGARAN - Paracétamol": {
+        "Retirer": false,
+        "Prix": "1,16 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Choc anaphylactique",
+            "Oedème de Quincke",
+            "Erythème cutané",
+            "Urticaire",
+            "Rash cutané",
+            "Réaction cutanée sévère"
+        ],
+        "PRECAUTIONS": [
+            "Adulte de moins de 50 kg",
+            "Insuffisance hépatocellulaire légère à modérée",
+            "Insuffisance rénale sévère (Clcr < 30 ml/mn)",
+            "Alcoolisme chronique",
+            "Déshydratation",
+            "Malnutrition chronique",
+            "Jeûne"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatocellulaire sévère",
+            "Enfant de moins de 50 kg",
+            "Intolérance au fructose",
+            "Intolérance au lactose",
+            "Consommation d'alcool"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGODOL",
+            "CLARADOL",
+            "DAFALGAN",
+            "DAFALGANCAPS",
+            "DAFALGANHOP",
+            "DAFALGANTABS",
+            "DOLIPRANE",
+            "DOLIPRANE ADULTES",
+            "DOLIPRANECAPS",
+            "DOLIPRANELIQUIZ",
+            "DOLIPRANELIQUIZ S/S",
+            "DOLIPRANEORODOZ",
+            "DOLIPRANETABS",
+            "DOLKO",
+            "EFFERALGAN",
+            "EFFERALGAN 1 000 mg",
+            "EFFERALGAN 1000 mg",
+            "EFFERALGAN FRAISE",
+            "EFFERALGAN FRAMBOISE",
+            "EFFERALGANMED",
+            "EFFERALGANMED PEDIATRIQUE",
+            "PARACETAMOL ACCORD",
+            "PARACETAMOL AHCL",
+            "PARACETAMOL ALMUS",
+            "PARACETAMOL ALTER",
+            "PARACETAMOL ARROW",
+            "PARACETAMOL ARROW CONSEIL",
+            "PARACETAMOL ARROW LAB",
+            "PARACETAMOL B BRAUN",
+            "PARACETAMOL BENTA",
+            "PARACETAMOL BIOGARAN",
+            "PARACETAMOL BIOGARAN CONSEIL",
+            "PARACETAMOL CRISTERS",
+            "PARACETAMOL CRISTERS PHARMA",
+            "PARACETAMOL EG",
+            "PARACETAMOL EG LABO CONSEIL",
+            "PARACETAMOL EVOLUGEN",
+            "PARACETAMOL KABI",
+            "PARACETAMOL KRKA",
+            "PARACETAMOL MACOPHARMA",
+            "PARACETAMOL MYLAN",
+            "PARACETAMOL MYLAN CONSEIL",
+            "PARACETAMOL MYLAN PHARMA",
+            "PARACETAMOL PANPHARMA",
+            "PARACETAMOL RANBAXY MO",
+            "PARACETAMOL SANDOZ",
+            "PARACETAMOL SANDOZ CONSEIL",
+            "PARACETAMOL SUN",
+            "PARACETAMOL TEVA",
+            "PARACETAMOL TEVA CONSEIL",
+            "PARACETAMOL TEVA SANTE",
+            "PARACETAMOL VIATRIS",
+            "PARACETAMOL VJ-PHARM",
+            "PARACETAMOL ZENTIVA",
+            "PARACETAMOL ZENTIVA CONSEIL",
+            "PARACETAMOL ZENTIVA LAB",
+            "PARACETAMOL ZYDUS",
+            "PARALYOC",
+            "PERFALGAN"
+        ]
+    },
+    "FORLAX - Macrogol 4000": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Macrogol",
+        "PRINCIPE_ACTIF": "Macrogol 4000",
+        "EFFETS_INDESIRABLES": [
+            "Douleur abdominale",
+            "Distension abdominale",
+            "Diarrhée",
+            "Douleur péri-anale",
+            "Nausée",
+            "Vomissement",
+            "Défécation impérieuse"
+        ],
+        "PRECAUTIONS": [
+            "Diarrhée",
+            "Déséquilibre hydro-électrolytique",
+            "Insuffisant hépatique",
+            "Insuffisant rénal",
+            "Sujet âgé",
+            "Altération du réflexe nauséeux",
+            "Tendance à la régurgitation"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Rectocolite hémorragique",
+            "Maladie de Crohn",
+            "Mégacôlon toxique",
+            "Perforation digestive",
+            "Risque de perforation digestive",
+            "Iléus",
+            "Occlusion intestinale"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "CASENLAX",
+            "FORLAX",
+            "FORLAXLIB",
+            "MACROGOL 4 000 ARROW",
+            "MACROGOL 4 000 BIOGARAN",
+            "MACROGOL 4 000 EG",
+            "MACROGOL 4 000 SANDOZ",
+            "MACROGOL 4 000 VIATRIS",
+            "MACROGOL 4 000 ZENTIVA",
+            "MACROGOL 4 000 ZYDUS",
+            "MACROGOL BIOGARAN"
+        ]
+    },
+    "MAGNE B6 - Lactate de magnésium dihydraté": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Magnésium (différents sels en association)",
+        "PRINCIPE_ACTIF": "Lactate de magnésium dihydraté",
+        "EFFETS_INDESIRABLES": [
+            "Hypersensibilité",
+            "Diarrhée",
+            "Douleur abdominale",
+            "Réaction cutanée",
+            "Urticaire",
+            "Prurit cutané",
+            "Eczéma"
+        ],
+        "PRECAUTIONS": [
+            "Malabsorption",
+            "Carence calcique",
+            "Insuffisance rénale modérée (30 < Clcr < 59 ml/mn)",
+            "Allaitement"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance rénale sévère (Clcr < 30 ml/mn)",
+            "Patient de moins de 6 ans",
+            "Malabsorption du glucose-galactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "MAGNE B6",
+            "MAGNESIUM/VITAMINE B6 BGR CONS",
+            "MAGNESIUM/VITAMINE B6 VTS CONS",
+            "MAGNEVIE B6",
+            "UVIMAG B6"
+        ]
+    },
+    "CLAMOXYL - Amoxicilline": {
+        "Retirer": false,
+        "Prix": "1,53 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Amoxicilline",
+        "PRINCIPE_ACTIF": "Amoxicilline",
+        "EFFETS_INDESIRABLES": [
+            "Candidose cutanéomuqueuse",
+            "Leucopénie",
+            "Agranulocytose",
+            "Neutropénie",
+            "Anémie hémolytique",
+            "Thrombocytopénie",
+            "Augmentation du temps de saignement"
+        ],
+        "PRECAUTIONS": [
+            "Terrain atopique",
+            "Manifestation allergique",
+            "Facteur prédisposant aux convulsions",
+            "Insuffisance rénale",
+            "Pustulose exanthématique aiguë généralisée",
+            "Mononucléose infectieuse",
+            "Diarrhée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "AMOXICILLINE ALMUS",
+            "AMOXICILLINE ARROW",
+            "AMOXICILLINE ARROW LAB",
+            "AMOXICILLINE BGR",
+            "AMOXICILLINE BIOGARAN",
+            "AMOXICILLINE CRISTERS",
+            "AMOXICILLINE EG",
+            "AMOXICILLINE EG LABO",
+            "AMOXICILLINE EVOLUGEN",
+            "AMOXICILLINE KRKA",
+            "AMOXICILLINE MICRO LABS",
+            "AMOXICILLINE MYLAN PHARMA",
+            "AMOXICILLINE PANPHARMA",
+            "AMOXICILLINE SANDOZ",
+            "AMOXICILLINE SUN",
+            "AMOXICILLINE TEVA",
+            "AMOXICILLINE TEVA SANTE",
+            "AMOXICILLINE VIATRIS",
+            "AMOXICILLINE ZENTIVA LAB",
+            "AMOXICILLINE ZYDUS",
+            "AMOXICILLINE ZYDUS FRANCE",
+            "CLAMOXYL",
+            "XYLLOMAC"
+        ]
+    },
+    "PIASCLEDINE - Extrait total d'insaponifiable avocat-soja": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Huiles d'avocat et de soja, insaponifiables",
+        "PRINCIPE_ACTIF": "Extrait total d'insaponifiable avocat-soja",
+        "EFFETS_INDESIRABLES": [
+            "Thrombocytopénie",
+            "Hypersensibilité",
+            "Céphalée",
+            "Diarrhée",
+            "Dyspepsie",
+            "Dysgueusie",
+            "Nausée"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent hépatique",
+            "Antécédent d'atteinte biliaire",
+            "Trouble hépatique",
+            "Troubles biliaires",
+            "Cholélithiase",
+            "Réaction d'hypersensibilité",
+            "Réaction cutanée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Patient de moins de 15 ans",
+            "Patient de 15 à 18 ans",
+            "Grossesse",
+            "Absence de contraception féminine efficace"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ATEPADENE",
+            "PIASCLEDINE",
+            "RILONACEPT RGR",
+            "UTEPLEX"
+        ]
+    },
+    "LAMALINE - Paracétamol": {
+        "Retirer": false,
+        "Prix": "2,27 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol en association sauf aux psycholeptiques",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Choc anaphylactique",
+            "Oedème de Quincke",
+            "Erythème cutané",
+            "Urticaire allergique",
+            "Rash cutané",
+            "Réaction cutanée sévère"
+        ],
+        "PRECAUTIONS": [
+            "Patient de moins de 50 kg",
+            "Insuffisance rénale (Clcr < 10 ml/mn)",
+            "Alcoolique chronique",
+            "Dénutrition",
+            "Jeûne prolongé",
+            "Sujet âgé",
+            "Encéphalopathie hépatique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 15 ans",
+            "Insuffisance hépatocellulaire sévère",
+            "Asthme",
+            "Insuffisance respiratoire",
+            "Allaitement",
+            "Grossesse",
+            "Insuffisance hépatocellulaire légère à modérée"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "IZALGI",
+            "LAMALINE",
+            "NOVACETOL ASPIRINE PARACETAMOL",
+            "OXSYNIA LP",
+            "OXYPRONAL LP"
+        ]
+    },
+    "GAVISCON - Alginate de sodium": {
+        "Retirer": false,
+        "Prix": "3,21 €",
+        "TAUX_REMBOURSEMENT": "15 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Autres médicaments pour le traitement de l'ulcère peptique",
+        "PRINCIPE_ACTIF": "Alginate de sodium",
+        "EFFETS_INDESIRABLES": [
+            "Réaction anaphylactique",
+            "Réaction anaphylactoïde",
+            "Réaction d'hypersensibilité",
+            "Urticaire allergique",
+            "Symptôme respiratoire",
+            "Bronchospasme",
+            "Réaction allergique"
+        ],
+        "PRECAUTIONS": [
+            "Régime hyposodé",
+            "Régime désodé",
+            "Insuffisance cardiaque congestive",
+            "Insuffisance rénale",
+            "Hypercalcémie",
+            "Néphrocalcinose",
+            "Calcul rénal"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 12 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGINATE/BIC SODIUM VTS CO S/S",
+            "ALGINATE/BICA SOD EG LABO CONS",
+            "ALGINATE/BICAR SODIUM BGR",
+            "ALGINATE/BICAR SODIUM BGR CONS",
+            "ALGINATE/BICAR SODIUM CRISTERS",
+            "ALGINATE/BICAR SODIUM SDZ CONS",
+            "ALGINATE/BICARB SOD ARROW LAB",
+            "ALGINATE/BICARB SODIUM ARROW",
+            "ALGINATE/BICARB SODIUM BGR",
+            "ALGINATE/BICARB SODIUM EG",
+            "ALGINATE/BICARB SODIUM SANDOZ",
+            "ALGINATE/BICARB SODIUM SDZ",
+            "ALGINATE/BICARB SODIUM VIATRIS",
+            "ALGINATE/BICARB SODIUM ZENTIVA",
+            "GAVISCON",
+            "GAVISCON Nourrisson",
+            "GAVISCONELL MENTHE s/s",
+            "MAALOX REFLUX MENTHE S/S"
+        ]
+    },
+    "DAFLON - Fraction flavonoïque purifiée, micronisée": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Diosmine en association",
+        "PRINCIPE_ACTIF": "Fraction flavonoïque purifiée, micronisée",
+        "EFFETS_INDESIRABLES": [
+            "Sensation vertigineuse",
+            "Céphalée",
+            "Malaise",
+            "Diarrhée",
+            "Dyspepsie",
+            "Nausée",
+            "Vomissement"
+        ],
+        "PRECAUTIONS": [],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 18 ans",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "CYCLO 3 FORT",
+            "DAFLON",
+            "ESBERIVEN FORT",
+            "FLAVONOÏDES VIATRIS CONSEIL",
+            "FLAVONOIDES ZENTIVA CONSEIL",
+            "FRACT FLAVONOIQUE PUR MYLAN PH",
+            "VEINOBIASE",
+            "VELITEN"
+        ]
+    },
+    "ANTARENE - Ibuprofène": {
+        "Retirer": false,
+        "Prix": "1,86 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Ibuprofène",
+        "PRINCIPE_ACTIF": "Ibuprofène",
+        "EFFETS_INDESIRABLES": [
+            "Réaction cutanée d'hypersensibilité",
+            "Prurit cutané",
+            "Erythème cutané",
+            "Réaction d'hypersensibilité générale",
+            "Réaction anaphylactique",
+            "Réaction respiratoire allergique",
+            "Crise d'asthme"
+        ],
+        "PRECAUTIONS": [
+            "Réaction cutanée",
+            "Grossesse 5 premiers mois",
+            "Sous occlusion"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allergie AINS",
+            "Peau lésée",
+            "Dermatose suintante",
+            "Eczéma",
+            "Lésion infectée de la peau",
+            "Brûlure",
+            "Plaie de la peau"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ADVILMED",
+            "ANTARENE",
+            "IBUFETUM",
+            "IBUPROFENE CHEMINEAU",
+            "IBUPROFENE URGO",
+            "NUROFENPLAST"
+        ]
+    },
+    "RHINOFLUIMUCIL - Acétylcystéine": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Tuaminoheptane",
+        "PRINCIPE_ACTIF": "Acétylcystéine",
+        "EFFETS_INDESIRABLES": [
+            "Palpitation",
+            "Tachycardie",
+            "Infarctus du myocarde",
+            "Crise de glaucome aigu par fermeture de l'angle",
+            "Sécheresse buccale",
+            "Nausée",
+            "Vomissement"
+        ],
+        "PRECAUTIONS": [
+            "Hypertension artérielle légère ou modérée",
+            "Palpitation",
+            "Trouble du rythme",
+            "Nausée",
+            "Trouble neurologique",
+            "Céphalée",
+            "Affection cardiaque"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 15 ans",
+            "Antécédent d'accident vasculaire cérébral",
+            "Risque d'accident vasculaire cérébral",
+            "Hypertension artérielle sévère",
+            "Hypertension artérielle mal équilibrée",
+            "Insuffisance coronarienne sévère",
+            "Risque de glaucome à angle fermé"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "RHINO-SULFURYL",
+            "RHINOFLUIMUCIL"
+        ]
+    },
+    "PLAVIX - Clopidogrel": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Clopidogrel",
+        "PRINCIPE_ACTIF": "Clopidogrel",
+        "EFFETS_INDESIRABLES": [
+            "Thrombocytopénie",
+            "Leucopénie",
+            "Eosinophilie",
+            "Neutropénie",
+            "Purpura thrombopénique thrombotique",
+            "Aplasie médullaire",
+            "Pancytopénie"
+        ],
+        "PRECAUTIONS": [
+            "Risque de saignement lié à un traumatisme",
+            "Risque de saignement lié à une intervention chirurgicale",
+            "Intervention chirurgicale",
+            "Intervention dentaire",
+            "Lésion susceptible de saigner",
+            "Purpura thrombopénique thrombotique",
+            "Allongement du TCA"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatique sévère",
+            "Lésion hémorragique évolutive",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 15 ans",
+            "Intolérance au lactose",
+            "Grossesse",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "CLOPIDOGREL ABBOTT",
+            "CLOPIDOGREL ACCORD",
+            "CLOPIDOGREL ALMUS PHARMA",
+            "CLOPIDOGREL ALTER",
+            "CLOPIDOGREL ARROW",
+            "CLOPIDOGREL BGR",
+            "CLOPIDOGREL BIOGARAN",
+            "CLOPIDOGREL BOUCHARA",
+            "CLOPIDOGREL CRISTERS",
+            "CLOPIDOGREL EG LABO",
+            "CLOPIDOGREL EVOLUGEN",
+            "CLOPIDOGREL KRKA",
+            "CLOPIDOGREL MYLAN PHARMA",
+            "CLOPIDOGREL SANDOZ",
+            "CLOPIDOGREL SUN",
+            "CLOPIDOGREL TAW PHARMA",
+            "CLOPIDOGREL TEVA",
+            "CLOPIDOGREL VIATRIS",
+            "CLOPIDOGREL ZENTIVA",
+            "CLOPIDOGREL ZF",
+            "PLAVIX"
+        ]
+    },
+    "MOPRAL - Oméprazole": {
+        "Retirer": false,
+        "Prix": "5,43 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Oméprazole",
+        "PRINCIPE_ACTIF": "Oméprazole",
+        "EFFETS_INDESIRABLES": [
+            "Leucopénie",
+            "Thrombopénie",
+            "Agranulocytose",
+            "Pancytopénie",
+            "Réaction d'hypersensibilité",
+            "Fièvre",
+            "Angio-oedème"
+        ],
+        "PRECAUTIONS": [
+            "Importante perte de poids involontaire",
+            "Vomissements à répétition",
+            "Dysphagie",
+            "Hématémèse",
+            "Méléna",
+            "Réserve réduite de vitamine B12",
+            "Risque de diminution de l'absorption de la vitamine B12"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 12 mois",
+            "Patient de moins de 10 kg",
+            "Intolérance au lactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "MOPRAL",
+            "MOPRALPRO",
+            "OMEPRAZOLE ALMUS",
+            "OMEPRAZOLE ALTER",
+            "OMEPRAZOLE ARROW",
+            "OMEPRAZOLE ARROW LAB",
+            "OMEPRAZOLE BIOGARAN",
+            "OMEPRAZOLE BIOGARAN CONSEIL",
+            "OMEPRAZOLE BOUCHARA RECORDATI",
+            "OMEPRAZOLE CRISTERS LAB",
+            "OMEPRAZOLE CRISTERS PHARMA",
+            "OMEPRAZOLE EG",
+            "OMEPRAZOLE EVOLUGEN PHARMA",
+            "OMEPRAZOLE GERDA",
+            "OMEPRAZOLE KRKA",
+            "OMEPRAZOLE MYLAN",
+            "OMEPRAZOLE NEPENTHES",
+            "OMEPRAZOLE SANDOZ",
+            "OMEPRAZOLE SANDOZ CONSEIL",
+            "OMEPRAZOLE SUBSTIPHARM",
+            "OMEPRAZOLE TEVA CONSEIL",
+            "OMEPRAZOLE TEVA PHARMA",
+            "OMEPRAZOLE TEVA SANTE",
+            "OMEPRAZOLE VIATRIS",
+            "OMEPRAZOLE VIATRIS CONSEIL",
+            "OMEPRAZOLE ZENTIVA LAB",
+            "OMEPRAZOLE ZYDUS FRANCE",
+            "ZOLTUM"
+        ]
+    },
+    "SUBUTEX - Buprénorphine": {
+        "Retirer": false,
+        "Prix": "4,36 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Buprénorphine",
+        "PRINCIPE_ACTIF": "Buprénorphine",
+        "EFFETS_INDESIRABLES": [
+            "Infection",
+            "Pharyngite",
+            "Insomnie",
+            "Agitation",
+            "Anxiété",
+            "Nervosité",
+            "Hallucination"
+        ],
+        "PRECAUTIONS": [
+            "Patient de 15 à 18 ans",
+            "Apnée centrale du sommeil",
+            "Asthmatique",
+            "Insuffisance respiratoire légère  à moderée",
+            "Hypoxie",
+            "Hypercapnie",
+            "Cyphoscoliose"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 15 ans",
+            "Insuffisance respiratoire sévère",
+            "Insuffisance hépatique sévère",
+            "Intoxication alcoolique aiguë",
+            "Delirium tremens",
+            "Sujet âgé",
+            "Consommation d'alcool"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BUPENSAN",
+            "BUPENSAN Gé",
+            "BUPRENORPHINE ARROW",
+            "BUPRENORPHINE BIOGARAN",
+            "BUPRENORPHINE CRISTERS",
+            "BUPRENORPHINE EG",
+            "BUPRENORPHINE MYLAN",
+            "BUPRENORPHINE SANDOZ",
+            "BUPRENORPHINE TEVA",
+            "BUPRENORPHINE VIATRIS",
+            "OROBUPRÉ Gé",
+            "SUBUTEX"
+        ]
+    },
+    "AERIUS - Desloratadine": {
+        "Retirer": false,
+        "Prix": "3,46 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Desloratadine",
+        "PRINCIPE_ACTIF": "Desloratadine",
+        "EFFETS_INDESIRABLES": [
+            "Augmentation de l'appétit",
+            "Hallucinations",
+            "Anomalie du comportement",
+            "Agressivité",
+            "Humeur dépressive",
+            "Céphalée",
+            "Vertige"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance rénale sévère",
+            "Antécédent familial de convulsion",
+            "Crise convulsive",
+            "Consommation d'alcool",
+            "Patient de 12 à 18 ans"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 12 ans",
+            "Grossesse",
+            "Intolérance au lactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "AERIUS",
+            "DASSELTA",
+            "DESLORATADINE ALMUS",
+            "DESLORATADINE ARROW",
+            "DESLORATADINE ARROW LAB",
+            "DESLORATADINE BIOGARAN",
+            "DESLORATADINE CRISTERS",
+            "DESLORATADINE EG",
+            "DESLORATADINE EVOLUGEN",
+            "DESLORATADINE GNR",
+            "DESLORATADINE KRKA",
+            "DESLORATADINE SANDOZ",
+            "DESLORATADINE SUN",
+            "DESLORATADINE TEVA SANTE",
+            "DESLORATADINE VIATRIS",
+            "DESLORATADINE ZENTIVA",
+            "DESLORATADINE ZYDUS"
+        ]
+    },
+    "ORELOX - Cefpodoxime": {
+        "Retirer": false,
+        "Prix": "5,75 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Cefpodoxime",
+        "PRINCIPE_ACTIF": "Cefpodoxime",
+        "EFFETS_INDESIRABLES": [
+            "Neutropénie",
+            "Thrombocytose",
+            "Leucopénie",
+            "Agranulocytose",
+            "Eosinophilie",
+            "Thrombocytopénie",
+            "Anémie hémolytique"
+        ],
+        "PRECAUTIONS": [
+            "Manifestation allergique",
+            "Allergie pénicillines",
+            "Diarrhée d'un traitement antibiotique",
+            "Colite pseudomembraneuse",
+            "Neutropénie",
+            "Agranulocytose",
+            "Réaction cutanéomuqueuse (sevère)"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité céphalosporines",
+            "Patient de moins de 6 ans",
+            "Intolérance au lactose",
+            "Patient de 6 à 15 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "CEFPODOXIME ARROW E N",
+            "CEFPODOXIME ARROW LAB",
+            "CEFPODOXIME BIOGARAN",
+            "CEFPODOXIME BIOGARAN E N",
+            "CEFPODOXIME CRISTERS",
+            "CEFPODOXIME EG",
+            "CEFPODOXIME EG E N",
+            "CEFPODOXIME SANDOZ",
+            "CEFPODOXIME SANDOZ E N",
+            "CEFPODOXIME SUN",
+            "CEFPODOXIME TEVA",
+            "CEFPODOXIME TEVA E N",
+            "CEFPODOXIME VIATRIS",
+            "CEFPODOXIME VIATRIS E N",
+            "CEFPODOXIME ZENTIVA",
+            "CEFPODOXIME ZENTIVA E N",
+            "CEFPODOXIME ZYDUS",
+            "ORELOX",
+            "ORELOX Enfant Nourrisson"
+        ]
+    },
+    "INEXIUM - Esoméprazole": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Esoméprazole",
+        "PRINCIPE_ACTIF": "Esoméprazole",
+        "EFFETS_INDESIRABLES": [
+            "Leucopénie",
+            "Thrombocytopénie",
+            "Agranulocytose",
+            "Pancytopénie",
+            "Réaction d'hypersensibilité",
+            "Fièvre d'hypersensibilité",
+            "Angio-oedème"
+        ],
+        "PRECAUTIONS": [
+            "Réservé à l'adulte et à l'enfant de plus de 12 ans",
+            "Importante perte de poids involontaire",
+            "Vomissements à répétition",
+            "Dysphagie",
+            "Hématémèse",
+            "Méléna",
+            "Réserve réduite de vitamine B12"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Intolérance au fructose",
+            "Syndrome de malabsorption du glucose",
+            "Syndrome de malabsorption du galactose",
+            "Déficit en sucrase-isomaltase"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ESOMEPRAZOLE ACCORD",
+            "ESOMEPRAZOLE ALMUS",
+            "ESOMEPRAZOLE ALTER",
+            "ESOMEPRAZOLE ARROW",
+            "ESOMEPRAZOLE BIOGARAN",
+            "ESOMEPRAZOLE BIOGARAN CONSEIL",
+            "ESOMEPRAZOLE CIPLA",
+            "ESOMEPRAZOLE CRISTERS",
+            "ESOMEPRAZOLE CRISTERS PHARMA",
+            "ESOMEPRAZOLE EG",
+            "ESOMEPRAZOLE EG LABO",
+            "ESOMEPRAZOLE EVOLUGEN",
+            "ESOMEPRAZOLE EVOLUGEN PHARMA",
+            "ESOMEPRAZOLE HCS",
+            "ESOMEPRAZOLE SANDOZ",
+            "ESOMEPRAZOLE SUN",
+            "ESOMEPRAZOLE SUN PHARMA",
+            "ESOMEPRAZOLE TEVA",
+            "ESOMEPRAZOLE VIATRIS",
+            "ESOMEPRAZOLE VIATRIS CONSEIL",
+            "ESOMEPRAZOLE ZENTIVA",
+            "ESOMEPRAZOLE ZYDUS",
+            "INEXIUM",
+            "NEXIUM CONTROL"
+        ]
+    },
+    "METEOSPASMYL - Alvérine citrate": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Alvérine en association",
+        "PRINCIPE_ACTIF": "Alvérine citrate",
+        "EFFETS_INDESIRABLES": [
+            "Atteinte hépatique cytolytique",
+            "Augmentation des transaminases",
+            "Augmentation des phosphatases alcalines",
+            "Augmentation de la bilirubine",
+            "Angioedème",
+            "Eruption cutanée",
+            "Urticaire"
+        ],
+        "PRECAUTIONS": [
+            "ALAT ou ASAT > 3 LSN",
+            "Ictère"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans",
+            "Grossesse",
+            "Patient de 6 à 15 ans",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DOLOSPASMYL",
+            "METEOSPASMYL"
+        ]
+    },
+    "AUGMENTIN - Amoxicilline": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "Prise en charge selon modalités hospitalières",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Amoxicilline et inhibiteur de bêta-lactamase",
+        "PRINCIPE_ACTIF": "Amoxicilline",
+        "EFFETS_INDESIRABLES": [
+            "Candidose cutanéomuqueuse",
+            "Résistance bactérienne",
+            "Leucopénie",
+            "Neutropénie",
+            "Thrombocytopénie",
+            "Agranulocytose",
+            "Anémie hémolytique"
+        ],
+        "PRECAUTIONS": [
+            "Terrain atopique",
+            "Manifestation allergique",
+            "Insuffisance rénale",
+            "Pustulose exanthématique aiguë généralisée",
+            "Insuffisance hépatique",
+            "Diarrhée survenant au cours d'un traitement antibiotique",
+            "Colite liée aux antibiotiques"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité pénicillines",
+            "Allergie bêtalactamines",
+            "Antécédent d'atteinte hépatique liée à l'association amoxicilline/acide clavulanique",
+            "Mononucléose infectieuse",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "AMOXICILI/AC CLAV ZENTIVA KS E",
+            "AMOXICILL/AC CLAV ZENTIVA KS N",
+            "AMOXICILLINE/AC CLA ZTV LAB Ad",
+            "AMOXICILLINE/AC CLAV ALMUS Ad",
+            "AMOXICILLINE/AC CLAV ALMUS E",
+            "AMOXICILLINE/AC CLAV ALMUS N",
+            "AMOXICILLINE/AC CLAV ARROW Ad",
+            "AMOXICILLINE/AC CLAV ARROW E",
+            "AMOXICILLINE/AC CLAV ARROW N",
+            "AMOXICILLINE/AC CLAV BGR",
+            "AMOXICILLINE/AC CLAV BGR Ad",
+            "AMOXICILLINE/AC CLAV BGR ENF",
+            "AMOXICILLINE/AC CLAV BGR N",
+            "AMOXICILLINE/AC CLAV BIOGAR En",
+            "AMOXICILLINE/AC CLAV BIOGAR N",
+            "AMOXICILLINE/AC CLAV BIOGARAN",
+            "AMOXICILLINE/AC CLAV CRIST Ad",
+            "AMOXICILLINE/AC CLAV CRISTER E",
+            "AMOXICILLINE/AC CLAV CRISTER N",
+            "AMOXICILLINE/AC CLAV CRTS Ad",
+            "AMOXICILLINE/AC CLAV EG Ad",
+            "AMOXICILLINE/AC CLAV EG LAB En",
+            "AMOXICILLINE/AC CLAV EG N",
+            "AMOXICILLINE/AC CLAV MYLAN",
+            "AMOXICILLINE/AC CLAV MYLAN Ad",
+            "AMOXICILLINE/AC CLAV PANPH Ad",
+            "AMOXICILLINE/AC CLAV PANPH N E",
+            "AMOXICILLINE/AC CLAV SANDOZ",
+            "AMOXICILLINE/AC CLAV SANDOZ Ad",
+            "AMOXICILLINE/AC CLAV SANDOZ E",
+            "AMOXICILLINE/AC CLAV SANDOZ N",
+            "AMOXICILLINE/AC CLAV SANDZ N E",
+            "AMOXICILLINE/AC CLAV SUN Ad",
+            "AMOXICILLINE/AC CLAV SUN ENF",
+            "AMOXICILLINE/AC CLAV TEVA Ad",
+            "AMOXICILLINE/AC CLAV TEVA Enf",
+            "AMOXICILLINE/AC CLAV TEVA N",
+            "AMOXICILLINE/AC CLAV VIATRIS N",
+            "AMOXICILLINE/AC CLAV VTS Ad",
+            "AMOXICILLINE/AC CLAV VTS ENF",
+            "AMOXICILLINE/AC CLAV ZTV LAB E",
+            "AMOXICILLINE/AC CLAV ZTV LAB N",
+            "AMOXICILLINE/AC CLAV ZYD FR Ad",
+            "AMOXICILLINE/AC CLAV ZYD FR En",
+            "AMOXICILLINE/AC CLAV ZYDUS Ad",
+            "AMOXICILLINE/AC CLAV ZYDUS  N",
+            "AUGMENTIN",
+            "AUGMENTIN Adulte",
+            "AUGMENTIN Enfants",
+            "AUGMENTIN Nourrissons",
+            "LEVMENTIN"
+        ]
+    },
+    "TOPLEXIL - Oxomémazine": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Oxomémazine",
+        "PRINCIPE_ACTIF": "Oxomémazine",
+        "EFFETS_INDESIRABLES": [
+            "Sédation",
+            "Somnolence",
+            "Sécheresse des muqueuses",
+            "Constipation",
+            "Trouble de l'accommodation",
+            "Mydriase",
+            "Palpitation"
+        ],
+        "PRECAUTIONS": [
+            "Diabète",
+            "Epileptique",
+            "Sujet âgé",
+            "Affection cardiovasculaire",
+            "Insuffisance hépatique sévère",
+            "Insuffisance rénale sévère",
+            "Patient de 2 à 15 ans"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 2 ans",
+            "Antécédent d'agranulocytose",
+            "Troubles urétroprostatiques à risque de rétention urinaire",
+            "Risque de glaucome à angle fermé",
+            "Patient de moins de 13 kg",
+            "Malabsorption du glucose-galactose",
+            "Consommation d'alcool"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "HUMEX TOUX SECHE OXOMEMAZINE",
+            "HUMEX TX SECHE OXOMEMAZINE SS",
+            "OXOMEMAZINE ARROW",
+            "OXOMEMAZINE ARROW SANS SUCRE",
+            "OXOMEMAZINE BIOGARAN",
+            "OXOMEMAZINE BIOGARAN CONS. SS",
+            "OXOMEMAZINE BIOGARAN S/S",
+            "OXOMEMAZINE CLARIX",
+            "OXOMEMAZINE CRISTERS S/S",
+            "OXOMEMAZINE EG",
+            "OXOMEMAZINE EG S/S",
+            "OXOMEMAZINE SANDOZ",
+            "OXOMEMAZINE SANDOZ CONSEIL s/s",
+            "OXOMEMAZINE SANDOZ SANS SUCRE",
+            "OXOMEMAZINE TEVA",
+            "OXOMEMAZINE TEVA SANS SUCRE",
+            "OXOMEMAZINE UPSA SANS SUCRE",
+            "OXOMEMAZINE VIATRIS",
+            "OXOMEMAZINE VIATRIS S/S",
+            "OXOMEMAZINE ZENTIVA",
+            "OXOMEMAZINE ZENTIVA SANS SUCRE",
+            "OXOMEMAZINE ZTV LAB SANS SUCRE",
+            "TOPLEXIL",
+            "TOPLEXIL s/s",
+            "TUSSONYL"
+        ]
+    },
+    "PIVALONE - Tixocortol pivalate": {
+        "Retirer": false,
+        "Prix": "1,79 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Tixocortol",
+        "PRINCIPE_ACTIF": "Tixocortol pivalate",
+        "EFFETS_INDESIRABLES": [
+            "Cataracte",
+            "Glaucome",
+            "Vision floue",
+            "Hypersensibilité",
+            "Sécheresse nasale",
+            "Rhinalgie",
+            "Epistaxis"
+        ],
+        "PRECAUTIONS": [
+            "Symptômes visuels",
+            "Infection bactérienne"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Epistaxis",
+            "Infection ORL virale",
+            "Infection ORL fongique",
+            "Intervention du nez",
+            "Traumatisme du nez",
+            "Grossesse",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "PIVALONE",
+            "TIXOCORTOL ARROW",
+            "TIXOCORTOL BIOGARAN",
+            "TIXOCORTOL EG",
+            "TIXOCORTOL TEVA",
+            "TIXOCORTOL VIATRIS",
+            "TIXOCORTOL ZENTIVA"
+        ]
+    },
+    "VASTAREL - Trimétazidine dichlorhydrate": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Trimétazidine",
+        "PRINCIPE_ACTIF": "Trimétazidine dichlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Sensation vertigineuse",
+            "Céphalée",
+            "Syndrome Parkinsonien",
+            "Tremblement de type parkinsonien",
+            "Akinésie",
+            "Hypertonie",
+            "Instabilité posturale"
+        ],
+        "PRECAUTIONS": [
+            "Crise d'angor",
+            "Trouble du mouvement",
+            "Instabilité posturale",
+            "Hypotension artérielle",
+            "Insuffisance rénale modérée (30 < Clcr < 59 ml/mn)",
+            "Sujet âgé"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Maladie de Parkinson",
+            "Syndrome Parkinsonien",
+            "Tremblement",
+            "Syndrome des jambes sans repos",
+            "Insuffisance rénale sévère (Clcr < = 30 ml/mn)",
+            "Patient de moins de 6 ans",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "TRIMETAZIDINE BIOGARAN",
+            "TRIMETAZIDINE EG",
+            "VASTAREL",
+            "VASTAREL LM"
+        ]
+    },
+    "ADVIL - Ibuprofène": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Ibuprofène",
+        "PRINCIPE_ACTIF": "Ibuprofène",
+        "EFFETS_INDESIRABLES": [
+            "Infarctus du myocarde",
+            "AVC",
+            "Ulcère peptique",
+            "Perforation gastro-intestinale",
+            "Hémorragie gastro-intestinale",
+            "Nausée",
+            "Vomissement"
+        ],
+        "PRECAUTIONS": [
+            "Asthme associé à une rhinite chronique",
+            "Asthme associé à une sinusite chronique",
+            "Asthme associé à une polypose nasale",
+            "Allergie AINS",
+            "Patient de moins de 18 ans déshydraté",
+            "Sujet âgé",
+            "Antécédent digestif"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Antécédent d'asthme déclenché par la prise d'ibuprofène",
+            "Antécédent d'asthme déclenché par la prise d'AINS",
+            "Antécédent d'asthme déclenché par la prise d'aspirine",
+            "Antécédent d'hémorragie ou de perforation digestive par AINS",
+            "Hémorragie gastro-intestinale",
+            "Hémorragie cérébrovasculaire",
+            "Saignement évolutif cliniquement significatif"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ADVIL",
+            "ADVILCAPS",
+            "ADVILMED Enfant Nourrisson",
+            "ANTARENE Gé",
+            "ANTARENE Gé Enf Nour s/s",
+            "HEMAGENE TAILLEUR",
+            "IBUPRADOLL",
+            "IBUPRADOLL Gé",
+            "IBUPROFENE ALMUS",
+            "IBUPROFENE ARROW",
+            "IBUPROFENE ARROW CONSEIL",
+            "IBUPROFENE ARROW LAB",
+            "IBUPROFENE BIOGARAN",
+            "IBUPROFENE BIOGARAN CONSEIL",
+            "IBUPROFENE CRISTERS",
+            "IBUPROFENE CRISTERS CONSEIL",
+            "IBUPROFENE EG",
+            "IBUPROFENE EG LABO CONSEIL",
+            "IBUPROFENE EVOLUGEN",
+            "IBUPROFENE EVOLUGEN PHARMA",
+            "IBUPROFENE NEPENTHES",
+            "IBUPROFENE PRODILAB",
+            "IBUPROFENE SANDOZ",
+            "IBUPROFENE SANDOZ CONSEIL",
+            "IBUPROFENE SET",
+            "IBUPROFENE TEVA",
+            "IBUPROFENE TEVA CONSEIL",
+            "IBUPROFENE VIATRIS",
+            "IBUPROFENE VIATRIS CONSEIL",
+            "IBUPROFENE VIATRIS E N s/s",
+            "IBUPROFENE VIATRIS SANTE",
+            "IBUPROFENE ZENTIVA",
+            "IBUPROFENE ZENTIVA CONSEIL",
+            "IBUPROFENE ZENTIVA LAB",
+            "IBUPROFENE ZF",
+            "IBUPROFENE ZYDUS FRANCE",
+            "NUREFLEX",
+            "NUROFEN",
+            "NUROFENCAPS",
+            "NUROFENFEM",
+            "NUROFENFLASH",
+            "NUROFENPRO Enf Nour s/s",
+            "NUROFENTABS",
+            "SPEDIFEN",
+            "SPIFEN"
+        ]
+    },
+    "EUPANTOL - Pantoprazole": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Pantoprazole",
+        "PRINCIPE_ACTIF": "Pantoprazole",
+        "EFFETS_INDESIRABLES": [
+            "Agranulocytose",
+            "Thrombopénie",
+            "Leucopénie",
+            "Pancytopénie",
+            "Hypersensibilité",
+            "Réaction anaphylactique",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance hépatique modérée à sévère",
+            "Augmentation des enzymes hépatiques",
+            "Importante perte de poids involontaire",
+            "Vomissements à répétition",
+            "Dysphagie",
+            "Hématémèse",
+            "Anémie"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Enfant de moins de 6 ans",
+            "Allaitement",
+            "Enfant de 6 à 12 ans",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "EUPANTOL",
+            "INIPOMP",
+            "IPRAALOX Gé",
+            "PANTOPRAZOLE ACCORD",
+            "PANTOPRAZOLE ALMUS",
+            "PANTOPRAZOLE ALTER",
+            "PANTOPRAZOLE ARROW",
+            "PANTOPRAZOLE ARROW CONSEIL",
+            "PANTOPRAZOLE ARROW GENERIQUES",
+            "PANTOPRAZOLE ARROW LAB",
+            "PANTOPRAZOLE BIOGARAN",
+            "PANTOPRAZOLE BOUCHARA RECORDAT",
+            "PANTOPRAZOLE CRISTERS PHARMA",
+            "PANTOPRAZOLE EG",
+            "PANTOPRAZOLE EG LABO CONSEIL",
+            "PANTOPRAZOLE EVOLUGEN",
+            "PANTOPRAZOLE KRKA",
+            "PANTOPRAZOLE MYLAN PHARMA",
+            "PANTOPRAZOLE RATIOPHARM CONS",
+            "PANTOPRAZOLE REIG JOFRE",
+            "PANTOPRAZOLE SANDOZ",
+            "PANTOPRAZOLE SANDOZ CONSEIL",
+            "PANTOPRAZOLE SUN",
+            "PANTOPRAZOLE SUN PHARMA",
+            "PANTOPRAZOLE SUN PHARMA CONS",
+            "PANTOPRAZOLE TEVA CONSEIL",
+            "PANTOPRAZOLE TEVA SANTE",
+            "PANTOPRAZOLE VIATRIS",
+            "PANTOPRAZOLE VIATRIS CONSEIL",
+            "PANTOPRAZOLE ZENTIVA",
+            "PANTOPRAZOLE ZF",
+            "PANTOPRAZOLE ZYDUS FRANCE"
+        ]
+    },
+    "XANAX - Alprazolam": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Alprazolam",
+        "PRINCIPE_ACTIF": "Alprazolam",
+        "EFFETS_INDESIRABLES": [
+            "Hyperprolactinémie",
+            "Diminution de l'appétit",
+            "Dépression",
+            "Confusion",
+            "Modification de la libido",
+            "Anxiété",
+            "Insomnie"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent de dépendance alcoolique",
+            "Antécédent de dépendance",
+            "Comportement anormal",
+            "Comportement agressif",
+            "Comportement d'auto-agression",
+            "Conduite automatique avec amnésie post-événementielle",
+            "Dépression"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité alprazolam",
+            "Insuffisance respiratoire sévère",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Insuffisance hépatique sévère",
+            "Myasthénie",
+            "Enfant de moins de 6 ans",
+            "Enfant de 6 à 18 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALPRAZOLAM ALTER",
+            "ALPRAZOLAM ARROW",
+            "ALPRAZOLAM BIOGARAN",
+            "ALPRAZOLAM CRISTERS",
+            "ALPRAZOLAM EG",
+            "ALPRAZOLAM EVOLUGEN",
+            "ALPRAZOLAM EVOLUGEN PHARMA",
+            "ALPRAZOLAM HCS",
+            "ALPRAZOLAM MYLAN",
+            "ALPRAZOLAM SANDOZ",
+            "ALPRAZOLAM TEVA",
+            "ALPRAZOLAM VIATRIS",
+            "ALPRAZOLAM ZENTIVA",
+            "ALPRAZOLAM ZYDUS FRANCE",
+            "XANAX"
+        ]
+    },
+    "EMLAPATCH - Lidocaïne": {
+        "Retirer": false,
+        "Prix": "2,13 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Lidocaïne en association",
+        "PRINCIPE_ACTIF": "Lidocaïne",
+        "EFFETS_INDESIRABLES": [
+            "Méthémoglobinémie",
+            "Hypersensibilité",
+            "Irritation de la cornée",
+            "Purpura au site d'application",
+            "Pétéchie au site d'application",
+            "Erythème au site d'application",
+            "Oedème au site d'application"
+        ],
+        "PRECAUTIONS": [
+            "Blessure ouverte",
+            "Dermatite atopique",
+            "Yeux",
+            "Grossesse"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Prématuré de moins de 37 semaines",
+            "Déficit en G6PD",
+            "Méthémoglobinémie"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ANESDERM Gé",
+            "EMLA",
+            "EMLAPATCH",
+            "LIDOCAINE/PRILOCAINE AGUETTANT",
+            "LIDOCAINE PRILOCAINE BIOGARAN",
+            "LIDOCAINE/PRILOCAINE BIOGARAN",
+            "LIDOCAINE/PRILOCAINE TEVA",
+            "LIDOCAINE/PRILOCAINE ZENTIVA"
+        ]
+    },
+    "LASILIX - Furosémide": {
+        "Retirer": false,
+        "Prix": "9,70 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Furosémide",
+        "PRINCIPE_ACTIF": "Furosémide",
+        "EFFETS_INDESIRABLES": [
+            "Trouble auditif",
+            "Surdité",
+            "Acouphènes",
+            "Réaction cutanée allergique",
+            "Réaction cutanée",
+            "Prurit cutané",
+            "Urticaire"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisant hépatocellulaire",
+            "Réaction de photosensibilité",
+            "Hypotension",
+            "Prédisposition à une ischémie cérébrale",
+            "Prédisposition à une ischémie myocardique",
+            "Insuffisance circulatoire",
+            "Hypoprotéinémie"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance rénale aiguë fonctionnelle",
+            "Encéphalopathie hépatique",
+            "Obstruction sur les voies urinaires",
+            "Hypovolémie",
+            "Déshydratation",
+            "Hypokaliémie sévère",
+            "Hyponatrémie sévère"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "FUROSEMIDE ACCORD",
+            "FUROSEMIDE ARROW",
+            "FUROSEMIDE BIOGARAN",
+            "FUROSEMIDE EG",
+            "FUROSEMIDE EVOLUGEN",
+            "FUROSEMIDE LAVOISIER",
+            "FUROSEMIDE RATIOPHARM",
+            "FUROSEMIDE RENAUDIN",
+            "FUROSEMIDE SANDOZ",
+            "FUROSEMIDE TEVA",
+            "FUROSEMIDE VIATRIS",
+            "FUROSEMIDE ZENTIVA",
+            "FUROSEMIDE ZYDUS",
+            "LASILIX",
+            "LASILIX FAIBLE",
+            "LASILIX RETARD",
+            "LASILIX SPECIAL"
+        ]
+    },
+    "ENDOTELON - Raisin": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Autres médicaments agissant sur les capillaires",
+        "PRINCIPE_ACTIF": "Raisin",
+        "EFFETS_INDESIRABLES": [
+            "Céphalée",
+            "Gastralgie",
+            "Nausée",
+            "Diarrhée",
+            "Manifestation allergique",
+            "Urticaire allergique",
+            "Eruption cutanée allergique"
+        ],
+        "PRECAUTIONS": [
+            "Maladie vasculaire"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans",
+            "Malabsorption du glucose-galactose",
+            "Allaitement",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ANTISTAX",
+            "ARKOGELULES MARRONNIER D'INDE",
+            "CLIMAXOL",
+            "ELUSANES FRAGON",
+            "ELUSANES MARRONNIER D'INDE",
+            "ELUSANES VIGNE ROUGE",
+            "ENDOTELON",
+            "HISTOFLUINE P",
+            "JOUVENCE DE L'ABBE SOURY",
+            "PHYTOMELIS"
+        ]
+    },
+    "DEROXAT - Paroxétine": {
+        "Retirer": false,
+        "Prix": "2,40 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paroxétine",
+        "PRINCIPE_ACTIF": "Paroxétine",
+        "EFFETS_INDESIRABLES": [
+            "Saignement anormal",
+            "Saignement cutanéomuqueux",
+            "Ecchymose",
+            "Hémorragie gynécologique",
+            "Thrombocytopénie",
+            "Réaction allergique",
+            "Réaction anaphylactoïde"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent de tentative de suicide",
+            "Idée suicidaire",
+            "Patient de 18 à 25 ans",
+            "Akathisie",
+            "Syndrome sérotoninergique",
+            "Syndrome malin des neuroleptiques",
+            "Antécédent d'épisode maniaque"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 18 ans",
+            "Consommation d'alcool",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DEROXAT",
+            "DIVARIUS",
+            "PAROXETIN SUN",
+            "PAROXETINE ALMUS",
+            "PAROXETINE ALTER",
+            "PAROXETINE ARROW",
+            "PAROXETINE BIOGARAN",
+            "PAROXETINE CRISTERS",
+            "PAROXETINE EG",
+            "PAROXETINE EVOLUGEN",
+            "PAROXETINE SANDOZ",
+            "PAROXETINE TEVA",
+            "PAROXETINE VIATRIS",
+            "PAROXETINE ZENTIVA",
+            "PAROXETINE ZYDUS"
+        ]
+    },
+    "TEMESTA - Lorazépam": {
+        "Retirer": false,
+        "Prix": "1,03 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Lorazépam",
+        "PRINCIPE_ACTIF": "Lorazépam",
+        "EFFETS_INDESIRABLES": [
+            "Eruption cutanée",
+            "Eruption prurigineuse",
+            "Réaction d'hypersensibilité",
+            "Réaction anaphylactique",
+            "Réaction anaphylactoïde",
+            "Baisse de vigilance",
+            "Somnolence"
+        ],
+        "PRECAUTIONS": [
+            "Comportement anormal",
+            "Comportement agressif",
+            "Conduite automatique avec amnésie post-événementielle",
+            "Antécédent de dépendance alcoolique",
+            "Antécédent de dépendance",
+            "Dépression",
+            "Sujet âgé"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance respiratoire sévère",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Insuffisance hépatique sévère",
+            "Insuffisance hépatique aiguë",
+            "Insuffisance hépatique chronique",
+            "Myasthénie",
+            "Patient de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ATIVAN",
+            "LORAZEPAM VIATRIS",
+            "LORAZEPAM WEST-WARD PHARMA",
+            "TEMESTA"
+        ]
+    },
+    "PARACETAMOL SANDOZ - Paracétamol": {
+        "Retirer": false,
+        "Prix": "1,16 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Thrombopénie",
+            "Leucopénie",
+            "Neutropénie",
+            "Réaction d'hypersensibilité",
+            "Réaction anaphylactique",
+            "Hypotension",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Hépatite virale aiguë",
+            "Adulte de moins de 50 kg",
+            "Insuffisance hépatique légère à modérée",
+            "Alcoolisme chronique",
+            "Sevrage alcoolique",
+            "Insuffisance rénale",
+            "Syndrome de Gilbert"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatique sévère",
+            "Patient de moins de 6 ans",
+            "Patient de moins de 27 kg"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGODOL",
+            "CLARADOL",
+            "DAFALGAN",
+            "DAFALGANCAPS",
+            "DAFALGANHOP",
+            "DAFALGANTABS",
+            "DOLIPRANE",
+            "DOLIPRANE ADULTES",
+            "DOLIPRANECAPS",
+            "DOLIPRANELIQUIZ",
+            "DOLIPRANELIQUIZ S/S",
+            "DOLIPRANEORODOZ",
+            "DOLIPRANETABS",
+            "DOLKO",
+            "EFFERALGAN",
+            "EFFERALGAN 1 000 mg",
+            "EFFERALGAN 1000 mg",
+            "EFFERALGAN FRAISE",
+            "EFFERALGAN FRAMBOISE",
+            "EFFERALGANMED",
+            "EFFERALGANMED PEDIATRIQUE",
+            "PARACETAMOL ACCORD",
+            "PARACETAMOL AHCL",
+            "PARACETAMOL ALMUS",
+            "PARACETAMOL ALTER",
+            "PARACETAMOL ARROW",
+            "PARACETAMOL ARROW CONSEIL",
+            "PARACETAMOL ARROW LAB",
+            "PARACETAMOL B BRAUN",
+            "PARACETAMOL BENTA",
+            "PARACETAMOL BIOGARAN",
+            "PARACETAMOL BIOGARAN CONSEIL",
+            "PARACETAMOL CRISTERS",
+            "PARACETAMOL CRISTERS PHARMA",
+            "PARACETAMOL EG",
+            "PARACETAMOL EG LABO CONSEIL",
+            "PARACETAMOL EVOLUGEN",
+            "PARACETAMOL KABI",
+            "PARACETAMOL KRKA",
+            "PARACETAMOL MACOPHARMA",
+            "PARACETAMOL MYLAN",
+            "PARACETAMOL MYLAN CONSEIL",
+            "PARACETAMOL MYLAN PHARMA",
+            "PARACETAMOL PANPHARMA",
+            "PARACETAMOL RANBAXY MO",
+            "PARACETAMOL SANDOZ",
+            "PARACETAMOL SANDOZ CONSEIL",
+            "PARACETAMOL SUN",
+            "PARACETAMOL TEVA",
+            "PARACETAMOL TEVA CONSEIL",
+            "PARACETAMOL TEVA SANTE",
+            "PARACETAMOL VIATRIS",
+            "PARACETAMOL VJ-PHARM",
+            "PARACETAMOL ZENTIVA",
+            "PARACETAMOL ZENTIVA CONSEIL",
+            "PARACETAMOL ZENTIVA LAB",
+            "PARACETAMOL ZYDUS",
+            "PARALYOC",
+            "PERFALGAN"
+        ]
+    },
+    "VENTOLINE - Salbutamol": {
+        "Retirer": false,
+        "Prix": "1,58 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Salbutamol",
+        "PRINCIPE_ACTIF": "Salbutamol",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Oedème angioneurotique",
+            "Urticaire",
+            "Bronchospasme",
+            "Hypotension",
+            "Collapsus",
+            "Hypokaliémie"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance cardiaque sévère",
+            "Douleur thoracique",
+            "Dyspnée",
+            "Hyperthyroïdie",
+            "Troubles coronariens",
+            "Cardiomyopathie obstructive",
+            "Trouble du rythme"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 15 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "SALBUMOL FORT",
+            "SALBUTAMOL MYLAN",
+            "SALBUTAMOL RENAUDIN",
+            "VENTOLIN",
+            "VENTOLINE"
+        ]
+    },
+    "SOLUPRED - Prednisolone": {
+        "Retirer": false,
+        "Prix": "2,37 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Prednisolone",
+        "PRINCIPE_ACTIF": "Prednisolone",
+        "EFFETS_INDESIRABLES": [
+            "Augmentation du risque d'infection",
+            "Crise liée à un phéochromocytome",
+            "Syndrome de lyse tumorale",
+            "Hypersensibilité",
+            "Syndrome de Cushing",
+            "Inertie de la sécrétion d'ACTH",
+            "Insuffisance surrénale"
+        ],
+        "PRECAUTIONS": [
+            "Ulcère gastroduodénal",
+            "Antécédent ulcéreux gastroduodénal",
+            "Syndrome de sevrage des stéroïdes",
+            "Tuberculose ancienne",
+            "Sujet âgé",
+            "Anastomose intestinale récente",
+            "Insuffisance rénale"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Etat infectieux à l'exclusion des indications spécifiées",
+            "Hépatite virale aiguë",
+            "Herpès (simplex)",
+            "Varicelle",
+            "Zona",
+            "Etat psychotique non contrôlé",
+            "Phénylcétonurie"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "HYDROCORTANCYL",
+            "PREDNISOLONE ACCORD",
+            "PREDNISOLONE APOTEX",
+            "PREDNISOLONE ARROW",
+            "PREDNISOLONE BIOGARAN",
+            "PREDNISOLONE CRISTERS",
+            "PREDNISOLONE EG",
+            "PREDNISOLONE EVOLUGEN",
+            "PREDNISOLONE SANDOZ",
+            "PREDNISOLONE TEVA",
+            "PREDNISOLONE VIATRIS",
+            "PREDNISOLONE ZENTIVA",
+            "PREDNISOLONE ZENTIVA LAB",
+            "SOLUPRED"
+        ]
+    },
+    "INIPOMP - Pantoprazole": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Pantoprazole",
+        "PRINCIPE_ACTIF": "Pantoprazole",
+        "EFFETS_INDESIRABLES": [
+            "Agranulocytose",
+            "Thrombopénie",
+            "Leucopénie",
+            "Pancytopénie",
+            "Hypersensibilité",
+            "Réaction anaphylactique",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisant hépatique sévère",
+            "Importante perte de poids involontaire",
+            "Vomissements à répétition",
+            "Dysphagie",
+            "Hématémèse",
+            "Anémie",
+            "Méléna"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Enfant de moins de 6 ans",
+            "Enfant de 6 à 12 ans",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "EUPANTOL",
+            "INIPOMP",
+            "IPRAALOX Gé",
+            "PANTOPRAZOLE ACCORD",
+            "PANTOPRAZOLE ALMUS",
+            "PANTOPRAZOLE ALTER",
+            "PANTOPRAZOLE ARROW",
+            "PANTOPRAZOLE ARROW CONSEIL",
+            "PANTOPRAZOLE ARROW GENERIQUES",
+            "PANTOPRAZOLE ARROW LAB",
+            "PANTOPRAZOLE BIOGARAN",
+            "PANTOPRAZOLE BOUCHARA RECORDAT",
+            "PANTOPRAZOLE CRISTERS PHARMA",
+            "PANTOPRAZOLE EG",
+            "PANTOPRAZOLE EG LABO CONSEIL",
+            "PANTOPRAZOLE EVOLUGEN",
+            "PANTOPRAZOLE KRKA",
+            "PANTOPRAZOLE MYLAN PHARMA",
+            "PANTOPRAZOLE RATIOPHARM CONS",
+            "PANTOPRAZOLE REIG JOFRE",
+            "PANTOPRAZOLE SANDOZ",
+            "PANTOPRAZOLE SANDOZ CONSEIL",
+            "PANTOPRAZOLE SUN",
+            "PANTOPRAZOLE SUN PHARMA",
+            "PANTOPRAZOLE SUN PHARMA CONS",
+            "PANTOPRAZOLE TEVA CONSEIL",
+            "PANTOPRAZOLE TEVA SANTE",
+            "PANTOPRAZOLE VIATRIS",
+            "PANTOPRAZOLE VIATRIS CONSEIL",
+            "PANTOPRAZOLE ZENTIVA",
+            "PANTOPRAZOLE ZF",
+            "PANTOPRAZOLE ZYDUS FRANCE"
+        ]
+    },
+    "PREVISCAN - Fluindione": {
+        "Retirer": false,
+        "Prix": "2,43 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Fluindione",
+        "PRINCIPE_ACTIF": "Fluindione",
+        "EFFETS_INDESIRABLES": [
+            "Hémorragie",
+            "Hémorragie intracérébrale",
+            "Hématome intracérébral",
+            "Hématome du psoas",
+            "Hémorragie intra-abdominale",
+            "Hémorragie intra-articulaire",
+            "Hématome"
+        ],
+        "PRECAUTIONS": [
+            "Saignement",
+            "Sujet âgé",
+            "Insuffisance rénale (20 < Clcr < 80 ml/mn)",
+            "Calciphylaxie",
+            "Déficit congénital en protéine C",
+            "Déficit congénital en protéine S",
+            "Hyperphosphatémie"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatique sévère",
+            "Grossesse sauf chez la femme enceinte porteuse d'une valve cardiaque mécanique",
+            "Allaitement",
+            "Nouveau-né",
+            "Absence de contraception féminine efficace",
+            "Intolérance au lactose",
+            "Risque hémorragique"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "PREVISCAN"
+        ]
+    },
+    "ASPEGIC - Acétylsalicylique acide": {
+        "Retirer": false,
+        "Prix": "1,58 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Acétylsalicylique acide",
+        "PRINCIPE_ACTIF": "Acétylsalicylique acide",
+        "EFFETS_INDESIRABLES": [
+            "Syndrome hémorragique",
+            "Epistaxis",
+            "Gingivorragie",
+            "Purpura",
+            "Augmentation du temps de saignement",
+            "Hémorragie intracrânienne",
+            "Thrombopénie"
+        ],
+        "PRECAUTIONS": [
+            "Enfant avec des signes d'infections virales",
+            "Vomissements à répétition",
+            "Troubles de la conscience",
+            "Comportement anormal",
+            "Déficit en G6PD",
+            "Antécédent d'ulcère gastroduodénal",
+            "Antécédent d'hémorragie digestive"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Grossesse au-delà de 24 semaines d'aménorrhée",
+            "Asthme",
+            "Antécédent d'asthme déclenché par la prise de salicylés",
+            "Antécédent d'asthme avec les AINS",
+            "Ulcère gastroduodénal en évolution",
+            "Antécédent d'hémorragie ou de perforation digestive par AINS",
+            "Maladie hémorragique"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "AC ACETYLSALICY EG LAB CONSEIL",
+            "ACIDE ACETYLSALICYLIQUE PANPH",
+            "ALKA SELTZER",
+            "ASPEGIC",
+            "ASPEGIC ADULTES",
+            "ASPEGIC Enfant",
+            "ASPEGIC NOURRISSONS",
+            "ASPIRINE DU RHONE",
+            "ASPIRINE UPSA",
+            "ASPIRINE UPSA TAMPONNEE",
+            "ASPRO"
+        ]
+    },
+    "CRESTOR - Rosuvastatine": {
+        "Retirer": false,
+        "Prix": "6,34 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Rosuvastatine",
+        "PRINCIPE_ACTIF": "Rosuvastatine",
+        "EFFETS_INDESIRABLES": [
+            "Thrombocytopénie",
+            "Réaction d'hypersensibilité",
+            "Angio-oedème",
+            "Diabète de type II",
+            "Dépression",
+            "Céphalée",
+            "Sensation vertigineuse"
+        ],
+        "PRECAUTIONS": [
+            "CPK musculaire > 5 N",
+            "Risque de myopathie",
+            "Risque de rhabdomyolyse",
+            "Insuffisance rénale légère à modérée",
+            "Consommation excessive d'alcool",
+            "Patient de plus de 70 ans",
+            "Douleur musculaire inexpliquée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Affection hépatique évolutive",
+            "Elévation inexpliquée et prolongée des transaminases",
+            "Transaminases > 3 N",
+            "Insuffisance rénale sévère (Clcr < 30 ml/mn)",
+            "Myopathie",
+            "Grossesse",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "CRESTOR",
+            "ROSUVASTATINE ACCORD",
+            "ROSUVASTATINE ALMUS",
+            "ROSUVASTATINE ALTER",
+            "ROSUVASTATINE ARROW",
+            "ROSUVASTATINE BGR",
+            "ROSUVASTATINE BIOGARAN",
+            "ROSUVASTATINE CRISTERS",
+            "ROSUVASTATINE EG",
+            "ROSUVASTATINE EVOLUGEN",
+            "ROSUVASTATINE KRKA",
+            "ROSUVASTATINE SANDOZ",
+            "ROSUVASTATINE SUN",
+            "ROSUVASTATINE TEVA",
+            "ROSUVASTATINE VIATRIS",
+            "ROSUVASTATINE ZENTIVA",
+            "ROSUVASTATINE ZYDUS FRANCE",
+            "ZELFUSOR"
+        ]
+    },
+    "SERESTA - Oxazépam": {
+        "Retirer": false,
+        "Prix": "1,89 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Oxazépam",
+        "PRINCIPE_ACTIF": "Oxazépam",
+        "EFFETS_INDESIRABLES": [
+            "Amnésie antérograde",
+            "Troubles du comportement",
+            "Modification de la conscience",
+            "Irritabilité",
+            "Agressivité",
+            "Agitation",
+            "Dépendance physique"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent de dépendance",
+            "Antécédent de dépendance alcoolique",
+            "Comportement anormal",
+            "Comportement agressif",
+            "Conduite automatique avec amnésie post-événementielle",
+            "Sujet âgé",
+            "Insuffisance hépatique légère à modérée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance respiratoire sévère",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Insuffisance hépatique sévère",
+            "Myasthénie",
+            "Patient de moins de 15 ans",
+            "Intolérance au galactose",
+            "Syndrome de malabsorption du glucose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "SERESTA"
+        ]
+    },
+    "CELESTENE - Bétaméthasone": {
+        "Retirer": false,
+        "Prix": "2,66 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Bétaméthasone",
+        "PRINCIPE_ACTIF": "Bétaméthasone",
+        "EFFETS_INDESIRABLES": [
+            "Hypokaliémie",
+            "Alcalose métabolique",
+            "Rétention hydrosodée",
+            "Hypertension artérielle",
+            "Insuffisance cardiaque congestive",
+            "Syndrome de Cushing iatrogène",
+            "Inertie de la sécrétion d'ACTH"
+        ],
+        "PRECAUTIONS": [
+            "Phéochromocytome",
+            "Ulcère gastroduodénal",
+            "Risque parasitose intestinale",
+            "Foyer viscéral infectieux",
+            "Tuberculose ancienne",
+            "Sujet âgé",
+            "Anastomose intestinale récente"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Etat infectieux à l'exclusion des indications spécifiées",
+            "Hépatite virale aiguë",
+            "Herpès (simplex)",
+            "Varicelle",
+            "Zona",
+            "Etat psychotique non contrôlé",
+            "Phénylcétonurie"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BETAMETHASONE ARROW",
+            "BETAMETHASONE BIOGARAN",
+            "BETAMETHASONE EG",
+            "BETAMETHASONE ZENTIVA",
+            "BETNESOL",
+            "CELESTENE",
+            "CELESTENE CHRONODOSE",
+            "DIPROSTENE"
+        ]
+    },
+    "AMLOR - Amlodipine": {
+        "Retirer": false,
+        "Prix": "3,69 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Amlodipine",
+        "PRINCIPE_ACTIF": "Amlodipine",
+        "EFFETS_INDESIRABLES": [
+            "Leucocytopénie",
+            "Thrombocytopénie",
+            "Réaction allergique",
+            "Hyperglycémie",
+            "Dépression",
+            "Changement de l'humeur",
+            "Anxiété"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance cardiaque",
+            "Insuffisance hépatique",
+            "Sujet âgé"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypotension sévère",
+            "Choc",
+            "Obstruction à l'éjection du ventricule gauche",
+            "Insuffisance cardiaque hémodynamiquement instable après infarctus du myocarde en phase aiguë",
+            "Patient de moins de 6 ans",
+            "Allaitement",
+            "Patient de 6 à 18 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "AMLODIPINE ALMUS",
+            "AMLODIPINE ALTER",
+            "AMLODIPINE ARROW",
+            "AMLODIPINE ARROW GENERIQUES",
+            "AMLODIPINE BIOGARAN",
+            "AMLODIPINE CRISTERS",
+            "AMLODIPINE EG",
+            "AMLODIPINE EVOLUGEN PHARMA",
+            "AMLODIPINE KRKA D.D",
+            "AMLODIPINE PFIZER",
+            "AMLODIPINE SANDOZ",
+            "AMLODIPINE SUN",
+            "AMLODIPINE TEVA",
+            "AMLODIPINE VIATRIS",
+            "AMLODIPINE ZENTIVA",
+            "AMLODIPINE ZYDUS",
+            "AMLOR"
+        ]
+    },
+    "DIAMICRON - Gliclazide": {
+        "Retirer": false,
+        "Prix": "2,92 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Gliclazide",
+        "PRINCIPE_ACTIF": "Gliclazide",
+        "EFFETS_INDESIRABLES": [
+            "Hypoglycémie",
+            "Céphalée",
+            "Faim intense",
+            "Nausée",
+            "Vomissement",
+            "Fatigue",
+            "Trouble du sommeil"
+        ],
+        "PRECAUTIONS": [
+            "Hypoglycémie",
+            "Malnutrition",
+            "Régime hypocalorique",
+            "Jeûne",
+            "Modification des habitudes alimentaires",
+            "Exercice physique intense",
+            "Insuffisance rénale légère à modérée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Diabète de type 1",
+            "Précoma diabétique",
+            "Coma diabétique",
+            "Acidocétose diabétique",
+            "Insuffisance rénale sévère",
+            "Insuffisance hépatique sévère",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DIAMICRON",
+            "GLICLAZIDE ARROW",
+            "GLICLAZIDE ARROW LAB",
+            "GLICLAZIDE BGR",
+            "GLICLAZIDE BIOGARAN",
+            "GLICLAZIDE CRISTERS",
+            "GLICLAZIDE EG",
+            "GLICLAZIDE EG LABO EUROGENERIC",
+            "GLICLAZIDE EVOLUGEN",
+            "GLICLAZIDE KRKA",
+            "GLICLAZIDE MYLAN PHARMA",
+            "GLICLAZIDE SANDOZ",
+            "GLICLAZIDE SERVIER",
+            "GLICLAZIDE SUN",
+            "GLICLAZIDE TEVA",
+            "GLICLAZIDE VIATRIS",
+            "GLICLAZIDE ZENTIVA",
+            "GLICLAZIDE ZYDUS",
+            "GLICLAZIDE ZYDUS FRANCE"
+        ]
+    },
+    "TANAKAN - Ginkgo": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "Prise en charge selon modalités hospitalières",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Ginkgo biloba",
+        "PRINCIPE_ACTIF": "Ginkgo",
+        "EFFETS_INDESIRABLES": [
+            "Hypersensibilité",
+            "Dyspnée",
+            "Urticaire",
+            "Angioedème",
+            "Vertige",
+            "Céphalée",
+            "Syncope"
+        ],
+        "PRECAUTIONS": [
+            "Indications limitées à l'adulte",
+            "Tendance à l'hémorragie",
+            "Intervention chirurgicale",
+            "Epileptique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité ginkgo biloba",
+            "Grossesse",
+            "Intolérance au galactose",
+            "Syndrome de malabsorption du glucose",
+            "Syndrome de malabsorption du galactose",
+            "Déficit en lactase",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "GINKGO ARROW CONSEIL",
+            "GINKGO BIOGARAN",
+            "GINKGO EG LABO CONSEIL",
+            "GINKGO ZENTIVA",
+            "GINKOGINK",
+            "GINKOPLANT",
+            "TANAKAN",
+            "VITALOGINK"
+        ]
+    },
+    "ATARAX - Hydroxyzine dichlorhydrate": {
+        "Retirer": false,
+        "Prix": "1,80 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Hydroxyzine",
+        "PRINCIPE_ACTIF": "Hydroxyzine dichlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Somnolence",
+            "Céphalée",
+            "Fatigue",
+            "Sécheresse buccale",
+            "Erythème cutané",
+            "Prurit cutané",
+            "Eruption maculopapuleuse"
+        ],
+        "PRECAUTIONS": [
+            "Arythmie cardiaque",
+            "Sujet âgé",
+            "Trouble de la vigilance",
+            "Insuffisance hépatique",
+            "Insuffisance rénale (15 < Clcr < 60 ml/mn)",
+            "Trouble cognitif",
+            "Syndrome confusionnel"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Risque de glaucome à angle fermé",
+            "Troubles urétroprostatiques à risque de rétention urinaire",
+            "Porphyrie",
+            "Allongement de l'intervalle QT",
+            "Risque d'allongement de l'intervalle QT",
+            "Antécédent familial de mort subite",
+            "Insuffisance rénale terminale (Clcr < 15 ml/mn)"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ATARAX",
+            "HYDROXYZINE ARROW",
+            "HYDROXYZINE BIOGARAN",
+            "HYDROXYZINE BLUEFISH",
+            "HYDROXYZINE CRISTERS",
+            "HYDROXYZINE EG",
+            "HYDROXYZINE MYLAN",
+            "HYDROXYZINE SANDOZ",
+            "HYDROXYZINE TEVA",
+            "HYDROXYZINE VIATRIS",
+            "HYDROXYZINE ZENTIVA"
+        ]
+    },
+    "DERINOX - Prednisolone": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Prednisolone en association",
+        "PRINCIPE_ACTIF": "Prednisolone",
+        "EFFETS_INDESIRABLES": [
+            "Palpitation",
+            "Tachycardie",
+            "Infarctus du myocarde",
+            "Crise de glaucome aigu par fermeture de l'angle",
+            "Sécheresse buccale",
+            "Nausée",
+            "Vomissement"
+        ],
+        "PRECAUTIONS": [
+            "Hypertension artérielle légère ou modérée",
+            "Tachycardie",
+            "Palpitation",
+            "Troubles du rythme",
+            "Nausée",
+            "Réaction neurologique",
+            "Céphalée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 15 ans",
+            "Antécédent d'accident vasculaire cérébral",
+            "Risque d'accident vasculaire cérébral",
+            "Hypertension artérielle sévère",
+            "Hypertension artérielle mal équilibrée",
+            "Insuffisance coronarienne sévère",
+            "Risque de glaucome à angle fermé"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DERINOX",
+            "DETURGYLONE"
+        ]
+    },
+    "XYZALL - Lévocétirizine dichlorhydrate": {
+        "Retirer": false,
+        "Prix": "4,21 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Lévocétirizine",
+        "PRINCIPE_ACTIF": "Lévocétirizine dichlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Céphalée",
+            "Somnolence",
+            "Sécheresse de la bouche",
+            "Fatigue",
+            "Asthénie",
+            "Douleur abdominale",
+            "Diarrhée"
+        ],
+        "PRECAUTIONS": [
+            "Consommation d'alcool",
+            "Risque de rétention urinaire",
+            "Epilepsie",
+            "Risque de convulsion",
+            "Diagnostic cutané de l'allergie",
+            "Prurit",
+            "Insuffisance rénale (15 < Clcr < 60 ml/mn)"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance rénale terminale (Clcr < 15 ml/mn)",
+            "Patient de moins de 6 ans",
+            "Intolérance au lactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "LEVOCETIRIZINE ARROW",
+            "LEVOCETIRIZINE BIOGARAN",
+            "LEVOCETIRIZINE CRISTERS",
+            "LEVOCETIRIZINE EG",
+            "LEVOCETIRIZINE KRKA",
+            "LEVOCETIRIZINE RANBAXY",
+            "LEVOCETIRIZINE SANDOZ",
+            "LEVOCETIRIZINE TEVA",
+            "LEVOCETIRIZINE VIATRIS",
+            "LEVOCETIRIZINE ZENTIVA",
+            "LEVOCETIRIZINE ZYDUS",
+            "XYZALL"
+        ]
+    },
+    "SERETIDE - Salmétérol": {
+        "Retirer": false,
+        "Prix": "24,93 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Salmétérol et autres anti-asthmatiques",
+        "PRINCIPE_ACTIF": "Salmétérol",
+        "EFFETS_INDESIRABLES": [
+            "Candidose buccale",
+            "Candidose pharyngée",
+            "Pneumonie",
+            "Bronchite",
+            "Candidose oesophagienne",
+            "Réaction cutanée d'hypersensibilité",
+            "Angioedème"
+        ],
+        "PRECAUTIONS": [
+            "Tuberculose pulmonaire",
+            "Infection respiratoire",
+            "Pathologie cardiovasculaire sévère",
+            "Troubles du rythme",
+            "Diabète",
+            "Hyperthyroïdie",
+            "Hypokaliémie non corrigée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Patient de moins de 4 ans",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "PROPI FLUTICAS/SALMET ARROW",
+            "PROPI FLUTICAS/SALMET BGR",
+            "PROPI FLUTICAS/SALMET BIOGARAN",
+            "PROPI FLUTICAS/SALMET EG",
+            "PROPI FLUTICAS/SALMET SANDOZ",
+            "PROPI FLUTICAS/SALMET TEVA",
+            "PROPI FLUTICAS/SALMET VIATRIS",
+            "PROPI FLUTICAS/SALMET ZENTIVA",
+            "SALFLUAIR EASYHALER",
+            "SERETIDE",
+            "SERETIDE DISKUS"
+        ]
+    },
+    "COVERSYL - Périndopril arginine": {
+        "Retirer": false,
+        "Prix": "10,53 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Périndopril",
+        "PRINCIPE_ACTIF": "Périndopril arginine",
+        "EFFETS_INDESIRABLES": [
+            "Eosinophilie",
+            "Agranulocytose",
+            "Pancytopénie",
+            "Diminution de l'hémoglobine",
+            "Diminution de l'hématocrite",
+            "Leucopénie",
+            "Neutropénie"
+        ],
+        "PRECAUTIONS": [
+            "Angor instable",
+            "Déplétion volémique après traitement par diurétique",
+            "Régime hyposodé",
+            "Dialyse",
+            "Diarrhée",
+            "Vomissement",
+            "Hypertension rénine-dépendante"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Antécédent d'angio-oedème lié à la prise d'un IEC",
+            "Angio-oedème héréditaire",
+            "Angio-oedème idiopathique",
+            "Grossesse second trimestre",
+            "Grossesse troisième trimestre",
+            "Traitement extracorporel entraînant un contact entre le sang et des surfaces chargées négativement",
+            "Sténose bilatérale de l'artère rénale"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "COVERSYL",
+            "PERINDOPRIL ARGININE BIOGARAN",
+            "PERINDOPRIL ARGININE EG",
+            "PERINDOPRIL ARGININE HCS",
+            "PERINDOPRIL ARGININE SERVIER",
+            "PERINDOPRIL ARGININE VIATRIS",
+            "PERINDOPRIL ARGININE ZENTIVA",
+            "PERINDOPRIL ARROW",
+            "PERINDOPRIL ARROW LAB",
+            "PERINDOPRIL EG",
+            "PERINDOPRIL EVOLUGEN",
+            "PERINDOPRIL KRKA",
+            "PERINDOPRIL MYLAN",
+            "PERINDOPRIL SANDOZ",
+            "PERINDOPRIL TOSILATE CRISTERS",
+            "PERINDOPRIL TOSILATE TEVA",
+            "PERINDOPRIL VIATRIS"
+        ]
+    },
+    "HEXAQUINE - Benzoate de quinine": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Quinine et dérivés",
+        "PRINCIPE_ACTIF": "Benzoate de quinine",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Prurit cutané",
+            "Eruption érythémateuse",
+            "Purpura allergique",
+            "Eczéma",
+            "Photosensibilisation",
+            "Réaction anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Thrombopénie auto-immune",
+            "Hépatite auto-immune",
+            "Allergie",
+            "Risque d'allongement de l'intervalle QT",
+            "Bloc auriculoventriculaire",
+            "Sujet âgé",
+            "Cinchonisme"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans",
+            "Myasthénie",
+            "Trouble de la conduction intraventriculaire",
+            "Grossesse",
+            "Patient de 6 à 15 ans",
+            "Allaitement",
+            "Malabsorption du glucose-galactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "HEXAQUINE"
+        ]
+    },
+    "DIFFU-K - Potassium chlorure": {
+        "Retirer": false,
+        "Prix": "1,98 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Potassium chlorure",
+        "PRINCIPE_ACTIF": "Potassium chlorure",
+        "EFFETS_INDESIRABLES": [
+            "Hyperkaliémie",
+            "Mort subite",
+            "Ulcération gastroduodénale",
+            "Ulcération du grêle"
+        ],
+        "PRECAUTIONS": [
+            "Sujet âgé",
+            "Patient de 6 à 15 ans"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hyperkaliémie",
+            "Situation pouvant entraîner une hyperkaliémie",
+            "Insuffisance rénale",
+            "Syndrome addisonien",
+            "Diabète non contrôlé",
+            "Myotonie congénitale",
+            "Patient de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DIFFU-K",
+            "KALEORID LP"
+        ]
+    },
+    "APROVEL - Irbésartan": {
+        "Retirer": false,
+        "Prix": "5,29 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Irbésartan",
+        "PRINCIPE_ACTIF": "Irbésartan",
+        "EFFETS_INDESIRABLES": [
+            "Anémie",
+            "Thrombocytopénie",
+            "Réaction d'hypersensibilité",
+            "Angio-oedème",
+            "Rash",
+            "Urticaire allergique",
+            "Réaction anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Déplétion sodée",
+            "Hypovolémie secondaire à un traitement diurétique",
+            "Régime hyposodé",
+            "Diarrhée",
+            "Vomissement",
+            "Sténose bilatérale de l'artère rénale",
+            "Sténose artérielle rénale sur rein fonctionnel unique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Grossesse 2ème trimestre",
+            "Grossesse 3ème trimestre",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 18 ans",
+            "Intolérance au lactose",
+            "Allaitement",
+            "Grossesse 1er trimestre"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "APROVEL",
+            "IFIRMASTA Gé",
+            "IRBESARTAN ACCORD",
+            "IRBESARTAN ARROW",
+            "IRBESARTAN BGR",
+            "IRBESARTAN CRISTERS",
+            "IRBESARTAN CRISTERS PHARMA",
+            "IRBESARTAN EG",
+            "IRBESARTAN EVOLUGEN",
+            "IRBESARTAN SANDOZ",
+            "IRBESARTAN TEVA",
+            "IRBESARTAN VIATRIS",
+            "IRBESARTAN ZENTIVA",
+            "IRBESARTAN ZYDUS"
+        ]
+    },
+    "PARIET - Rabéprazole sodique": {
+        "Retirer": false,
+        "Prix": "3,27 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Rabéprazole",
+        "PRINCIPE_ACTIF": "Rabéprazole sodique",
+        "EFFETS_INDESIRABLES": [
+            "Infection",
+            "Neutropénie",
+            "Leucopénie",
+            "Thrombopénie",
+            "Leucocytose",
+            "Hypersensibilité",
+            "Anorexie"
+        ],
+        "PRECAUTIONS": [
+            "Cancer de l'estomac",
+            "Cancer de l'oesophage",
+            "Insuffisance hépatique sévère",
+            "Facteurs de risque d'ostéoporose",
+            "Sujet âgé",
+            "Hypomagnésémie",
+            "Réserve réduite de vitamine B12"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Grossesse",
+            "Allaitement",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 15 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "PARIET",
+            "RABEPRAZOLE ALTER",
+            "RABEPRAZOLE ARROW GENERIQUES",
+            "RABEPRAZOLE BGR",
+            "RABEPRAZOLE BIOGARAN",
+            "RABEPRAZOLE CRISTERS",
+            "RABEPRAZOLE CRISTERS PHARMA",
+            "RABEPRAZOLE EG LABO",
+            "RABEPRAZOLE EVOLUGEN",
+            "RABEPRAZOLE KRKA",
+            "RABEPRAZOLE SANDOZ",
+            "RABEPRAZOLE TEVA",
+            "RABEPRAZOLE VIATRIS",
+            "RABEPRAZOLE ZENTIVA",
+            "RABEPRAZOLE ZYDUS"
+        ]
+    },
+    "ZALDIAR - Tramadol chlorhydrate": {
+        "Retirer": false,
+        "Prix": "3,04 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Tramadol + paracetamol",
+        "PRINCIPE_ACTIF": "Tramadol chlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Palpitation",
+            "Tachycardie",
+            "Arythmie",
+            "Vision trouble",
+            "Myosis",
+            "Mydriase",
+            "Acouphène"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance rénale",
+            "Maladie alcoolique non-cirrhotique du foie",
+            "Insuffisance hépatique légère à modérée",
+            "Insuffisance respiratoire sévère",
+            "Dépendance aux opioïdes",
+            "Epileptique",
+            "Prédisposition aux convulsions"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Intoxication aiguë avec des dépresseurs du SNC",
+            "Insuffisance hépatique sévère",
+            "Epilepsie non contrôlée",
+            "Patient de moins de 6 ans",
+            "Grossesse",
+            "Allaitement",
+            "Intolérance au lactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "IXPRIM",
+            "TRAMADOL/PARAC EVOLUGEN PHARMA",
+            "TRAMADOL/PARACET SUN",
+            "TRAMADOL/PARACETAMOL ARROW GEN",
+            "TRAMADOL/PARACETAMOL ARROW LAB",
+            "TRAMADOL/PARACETAMOL BGR",
+            "TRAMADOL/PARACETAMOL CRISTERS",
+            "TRAMADOL/PARACETAMOL EG LABO",
+            "TRAMADOL/PARACETAMOL EVOLUGEN",
+            "TRAMADOL/PARACETAMOL KRKA",
+            "TRAMADOL/PARACETAMOL MYLAN GEN",
+            "TRAMADOL/PARACETAMOL SANDOZ",
+            "TRAMADOL/PARACETAMOL TEVA",
+            "TRAMADOL/PARACETAMOL VIATRIS",
+            "TRAMADOL/PARACETAMOL ZENTIVA",
+            "TRAMADOL/PARACETAMOL ZYDUS",
+            "ZALDIAR"
+        ]
+    },
+    "DIPROSONE - Bétaméthasone": {
+        "Retirer": false,
+        "Prix": "1,98 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Bétaméthasone",
+        "PRINCIPE_ACTIF": "Bétaméthasone",
+        "EFFETS_INDESIRABLES": [
+            "Atrophie cutanée",
+            "Télangiectasie",
+            "Vergeture",
+            "Purpura ecchymotique",
+            "Fragilité cutanée",
+            "Dermatite péri-orale",
+            "Aggravation d'une rosacée"
+        ],
+        "PRECAUTIONS": [
+            "Visage",
+            "Grande surface",
+            "Sous occlusion",
+            "Patient de 30 mois à 6 ans",
+            "Syndrome cushingoïde",
+            "Ralentissement de la croissance",
+            "Usage ophtalmique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Infection cutanée primitive bactérienne",
+            "Infection cutanée primitive virale",
+            "Infection cutanée primitive fongique",
+            "Infection cutanée primitive parasitaire",
+            "Lésion cutanée ulcérée",
+            "Acné",
+            "Rosacée"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BETESIL",
+            "BETNEVAL",
+            "BETNEVAL LOTION",
+            "DIPROSONE"
+        ]
+    },
+    "PARACETAMOL TEVA - Paracétamol": {
+        "Retirer": false,
+        "Prix": "1,16 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Paracétamol",
+        "PRINCIPE_ACTIF": "Paracétamol",
+        "EFFETS_INDESIRABLES": [
+            "Thrombopénie",
+            "Leucopénie",
+            "Neutropénie",
+            "Réaction d'hypersensibilité",
+            "Réaction anaphylactique",
+            "Hypotension",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Hépatite virale aiguë",
+            "Adulte de moins de 50 kg",
+            "Insuffisance hépatique légère à modérée",
+            "Alcoolisme chronique",
+            "Sevrage alcoolique",
+            "Insuffisance rénale",
+            "Syndrome de Gilbert"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance hépatique sévère",
+            "Patient de moins de 6 ans",
+            "Patient de moins de 27 kg"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALGODOL",
+            "CLARADOL",
+            "DAFALGAN",
+            "DAFALGANCAPS",
+            "DAFALGANHOP",
+            "DAFALGANTABS",
+            "DOLIPRANE",
+            "DOLIPRANE ADULTES",
+            "DOLIPRANECAPS",
+            "DOLIPRANELIQUIZ",
+            "DOLIPRANELIQUIZ S/S",
+            "DOLIPRANEORODOZ",
+            "DOLIPRANETABS",
+            "DOLKO",
+            "EFFERALGAN",
+            "EFFERALGAN 1 000 mg",
+            "EFFERALGAN 1000 mg",
+            "EFFERALGAN FRAISE",
+            "EFFERALGAN FRAMBOISE",
+            "EFFERALGANMED",
+            "EFFERALGANMED PEDIATRIQUE",
+            "PARACETAMOL ACCORD",
+            "PARACETAMOL AHCL",
+            "PARACETAMOL ALMUS",
+            "PARACETAMOL ALTER",
+            "PARACETAMOL ARROW",
+            "PARACETAMOL ARROW CONSEIL",
+            "PARACETAMOL ARROW LAB",
+            "PARACETAMOL B BRAUN",
+            "PARACETAMOL BENTA",
+            "PARACETAMOL BIOGARAN",
+            "PARACETAMOL BIOGARAN CONSEIL",
+            "PARACETAMOL CRISTERS",
+            "PARACETAMOL CRISTERS PHARMA",
+            "PARACETAMOL EG",
+            "PARACETAMOL EG LABO CONSEIL",
+            "PARACETAMOL EVOLUGEN",
+            "PARACETAMOL KABI",
+            "PARACETAMOL KRKA",
+            "PARACETAMOL MACOPHARMA",
+            "PARACETAMOL MYLAN",
+            "PARACETAMOL MYLAN CONSEIL",
+            "PARACETAMOL MYLAN PHARMA",
+            "PARACETAMOL PANPHARMA",
+            "PARACETAMOL RANBAXY MO",
+            "PARACETAMOL SANDOZ",
+            "PARACETAMOL SANDOZ CONSEIL",
+            "PARACETAMOL SUN",
+            "PARACETAMOL TEVA",
+            "PARACETAMOL TEVA CONSEIL",
+            "PARACETAMOL TEVA SANTE",
+            "PARACETAMOL VIATRIS",
+            "PARACETAMOL VJ-PHARM",
+            "PARACETAMOL ZENTIVA",
+            "PARACETAMOL ZENTIVA CONSEIL",
+            "PARACETAMOL ZENTIVA LAB",
+            "PARACETAMOL ZYDUS",
+            "PARALYOC",
+            "PERFALGAN"
+        ]
+    },
+    "BETADINE - Povidone iodée": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Divers autres médicaments pour traitement oral local",
+        "PRINCIPE_ACTIF": "Povidone iodée",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Urticaire allergique",
+            "Oedème de Quincke",
+            "Choc anaphylactique",
+            "Réaction anaphylactoïde",
+            "Hyperthyroïdie",
+            "Hypothyroïdie"
+        ],
+        "PRECAUTIONS": [
+            "Fièvre",
+            "Antécédent d'épilepsie",
+            "Voie inhalée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Grossesse à partir du 2ème trimestre",
+            "Allaitement",
+            "Patient de moins de 6 ans",
+            "Hyperthyroïdie",
+            "Maladie aiguë de la thyroïde",
+            "Grossesse 1er trimestre"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BETADINE"
+        ]
+    },
+    "LYSANXIA - Prazépam": {
+        "Retirer": false,
+        "Prix": "2,17 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Prazépam",
+        "PRINCIPE_ACTIF": "Prazépam",
+        "EFFETS_INDESIRABLES": [
+            "Amnésie antérograde",
+            "Trouble du comportement",
+            "Altération de l'état de conscience",
+            "Irritabilité",
+            "Agressivité",
+            "Agitation",
+            "Dépendance physique"
+        ],
+        "PRECAUTIONS": [
+            "Pharmacodépendance",
+            "Amnésie antérograde",
+            "Altération de l'état de conscience",
+            "Comportement anormal",
+            "Comportement agressif",
+            "Conduite automatique avec amnésie post-événementielle",
+            "Patient âgé"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance respiratoire sévère",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Insuffisance hépatique sévère",
+            "Myasthénie",
+            "Enfant de moins de 6 ans",
+            "Enfant de 6 à 15 ans",
+            "Intolérance au lactose"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "LYSANXIA",
+            "PRAZEPAM ARROW",
+            "PRAZEPAM BIOGARAN",
+            "PRAZEPAM EG"
+        ]
+    },
+    "ALODONT - Chlorure de cétylpyridinium": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Divers anti-infectieux pour traitement oral local",
+        "PRINCIPE_ACTIF": "Chlorure de cétylpyridinium",
+        "EFFETS_INDESIRABLES": [
+            "Convulsion chez l'enfant",
+            "Agitation chez le sujet âgé",
+            "Confusion chez le sujet âgé",
+            "Irritation de la bouche",
+            "Réaction allergique généralisée",
+            "Réaction cutanée",
+            "Eczéma"
+        ],
+        "PRECAUTIONS": [
+            "Enfant de 7 à 15 ans",
+            "Fièvre",
+            "Antécédent d'épilepsie"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 7 ans",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ALODONT"
+        ]
+    },
+    "LEXOMIL - Bromazépam": {
+        "Retirer": false,
+        "Prix": "1,69 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Bromazépam",
+        "PRINCIPE_ACTIF": "Bromazépam",
+        "EFFETS_INDESIRABLES": [
+            "Hypersensibilité",
+            "Choc anaphylactique",
+            "Oedème de Quincke",
+            "Etat confusionnel",
+            "Désorientation",
+            "Altération de l'humeur",
+            "Perturbation émotionnelle"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent de dépendance alcoolique",
+            "Antécédent de dépendance",
+            "Trouble du comportement",
+            "Comportement agressif",
+            "Conduite automatique avec amnésie post-événementielle",
+            "Sujet âgé",
+            "Insuffisant rénal"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance respiratoire sévère",
+            "Insuffisance hépatique sévère",
+            "Insuffisance hépatique aiguë",
+            "Insuffisance hépatique chronique",
+            "Myasthénie",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Patient de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BROMAZEPAM ARROW",
+            "BROMAZEPAM BIOGARAN",
+            "BROMAZEPAM CRISTERS",
+            "BROMAZEPAM EG",
+            "BROMAZEPAM SANDOZ",
+            "BROMAZEPAM TEVA",
+            "BROMAZEPAM VIATRIS",
+            "BROMAZEPAM ZENTIVA",
+            "BROMAZEPAM ZYDUS",
+            "LEXOMIL",
+            "QUIETILINE Gé"
+        ]
+    },
+    "DACRYOSERUM - Borax": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Sodium borate",
+        "PRINCIPE_ACTIF": "Borax",
+        "EFFETS_INDESIRABLES": [
+            "Irritation oculaire"
+        ],
+        "PRECAUTIONS": [
+            "Port de lentilles de contact",
+            "Grossesse",
+            "Allaitement",
+            "Patient de moins de 15 ans"
+        ],
+        "CONTRE_INDICATIONS": [],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BORAX/ACIDE BORIQUE ARROW",
+            "BORAX/ACIDE BORIQUE BIOG CONS",
+            "BORAX/ACIDE BORIQUE BIOGARAN",
+            "BORAX/ACIDE BORIQUE EG",
+            "BORAX/ACIDE BORIQUE VIATRIS",
+            "BORAX/ACIDE BORIQUE ZENTIVA",
+            "DACRYOSERUM",
+            "DACRYUM",
+            "DACUDOSES",
+            "STERIDOSE"
+        ]
+    },
+    "FUCIDINE - Fusidate de sodium": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Fusidique acide",
+        "PRINCIPE_ACTIF": "Fusidate de sodium",
+        "EFFETS_INDESIRABLES": [
+            "Hypersensibilité",
+            "Conjonctivite",
+            "Dermatite",
+            "Dermatite de contact",
+            "Eczéma",
+            "Rash",
+            "Rash érythémateux"
+        ],
+        "PRECAUTIONS": [],
+        "CONTRE_INDICATIONS": [
+            "Lésion suintante",
+            "Lésion macérée de la peau",
+            "Plis",
+            "Ulcère de jambe",
+            "Application périoculaire",
+            "Application sur les seins en cas d'allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ACIDE FUSIDIQUE ARROW",
+            "ACIDE FUSIDIQUE BGR",
+            "ACIDE FUSIDIQUE EG",
+            "ACIDE FUSIDIQUE SANDOZ",
+            "ACIDE FUSIDIQUE VIATRIS",
+            "ACIDE FUSIDIQUE ZENTIVA",
+            "FUCIDINE",
+            "FUSIDATE SODIUM PIERRE FABRE"
+        ]
+    },
+    "STILNOX - Zolpidem tartrate": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "15 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Zolpidem",
+        "PRINCIPE_ACTIF": "Zolpidem tartrate",
+        "EFFETS_INDESIRABLES": [
+            "Angioedème",
+            "Hallucination",
+            "Agitation",
+            "Cauchemars",
+            "Confusion",
+            "Irritabilité",
+            "Trouble du comportement"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent de dépendance alcoolique",
+            "Antécédent de dépendance",
+            "Comportement anormal",
+            "Comportement d'auto-agression",
+            "Comportement agressif",
+            "Conduite automatique avec amnésie post-événementielle",
+            "Somnambulisme"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité zolpidem",
+            "Insuffisance respiratoire sévère",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Insuffisance hépatique sévère",
+            "Myasthénie",
+            "Enfant de moins de 6 ans",
+            "Enfant de 6 à 18 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "STILNOX",
+            "ZOLPIDEM ALMUS",
+            "ZOLPIDEM ALTER",
+            "ZOLPIDEM ARROW",
+            "ZOLPIDEM BIOGARAN",
+            "ZOLPIDEM CRISTERS",
+            "ZOLPIDEM EG",
+            "ZOLPIDEM MYLAN",
+            "ZOLPIDEM SANDOZ",
+            "ZOLPIDEM SUN",
+            "ZOLPIDEM TEVA SANTE",
+            "ZOLPIDEM VIATRIS",
+            "ZOLPIDEM ZENTIVA",
+            "ZOLPIDEM ZYDUS"
+        ]
+    },
+    "KETUM - Kétoprofène": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Ketoprofène",
+        "PRINCIPE_ACTIF": "Kétoprofène",
+        "EFFETS_INDESIRABLES": [
+            "Réaction anaphylactique",
+            "Choc anaphylactique",
+            "Réaction d'hypersensibilité",
+            "Ulcère peptique",
+            "Saignement gastro-intestinal",
+            "Diarrhée",
+            "Réaction cutanée localisée"
+        ],
+        "PRECAUTIONS": [
+            "Insuffisance cardiaque",
+            "Insuffisance hépatique",
+            "Insuffisance rénale",
+            "Réaction cutanée",
+            "Sous occlusion",
+            "Asthme associé à une rhinite chronique",
+            "Asthme associé à une sinusite chronique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Grossesse à partir du 6ème mois",
+            "Antécédent de réaction de photosensibilité",
+            "Antécédent de réaction d'hypersensibilité à un AINS",
+            "Antécédent d'asthme ou de rhinite lié au fénofibrate",
+            "Antécédent d'allergie cutanée aux écrans anti-UV",
+            "Peau lésée",
+            "Dermatose suintante"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "KETOPROFENE BIOGARAN",
+            "KETUM"
+        ]
+    },
+    "STABLON - Tianeptine": {
+        "Retirer": false,
+        "Prix": "6,25 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Tianeptine",
+        "PRINCIPE_ACTIF": "Tianeptine",
+        "EFFETS_INDESIRABLES": [
+            "Anorexie",
+            "Hyponatrémie",
+            "Cauchemars",
+            "Abus médicamenteux",
+            "Dépendance médicamenteuse",
+            "Idée suicidaire",
+            "Comportement suicidaire"
+        ],
+        "PRECAUTIONS": [
+            "Antécédent de comportement suicidaire",
+            "Idée suicidaire",
+            "Adulte de 18 à 25 ans",
+            "Comportement suicidaire",
+            "Anomalie du comportement",
+            "Anesthésie générale",
+            "Consommation d'alcool"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 15 ans",
+            "Patient de 15 à 18 ans",
+            "Malabsorption du glucose-galactose",
+            "Grossesse",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "STABLON",
+            "TIANEPTINE BIOGARAN",
+            "TIANEPTINE MYLAN PHARMA"
+        ]
+    },
+    "ART - Diacerhéine": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Diacérhéine",
+        "PRINCIPE_ACTIF": "Diacerhéine",
+        "EFFETS_INDESIRABLES": [
+            "Diarrhée",
+            "Douleur abdominale",
+            "Augmentation de la fréquence des selles",
+            "Flatulence",
+            "Déshydratation",
+            "Trouble de l'équilibre électrolytique",
+            "Mélanose colique"
+        ],
+        "PRECAUTIONS": [
+            "Diarrhée",
+            "Consommation d'alcool",
+            "Surveillance fonction hépatique",
+            "Augmentation des enzymes hépatiques",
+            "Insuffisance rénale (Clcr < 30 ml/mn)"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Colopathie organique inflammatoire",
+            "Syndrome occlusif intestinal",
+            "Syndrome subocclusif",
+            "Syndrome douloureux abdominal de cause indéterminée",
+            "Pathologie hépatique",
+            "Antécédent de pathologie hépatique",
+            "Patient de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ART",
+            "DIACEREINE BIOGARAN",
+            "DIACEREINE CRISTERS",
+            "DIACEREINE EG",
+            "DIACEREINE MYLAN",
+            "DIACEREINE RANBAXY",
+            "DIACEREINE ZENTIVA",
+            "ZONDAR"
+        ]
+    },
+    "BIOCALYPTOL - Pholcodine": {
+        "Retirer": true,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Pholcodine",
+        "PRINCIPE_ACTIF": "Pholcodine",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Prurit allergique",
+            "Urticaire allergique",
+            "Angioedème",
+            "Choc anaphylactique",
+            "Somnolence",
+            "Vertige"
+        ],
+        "PRECAUTIONS": [
+            "Toux productive",
+            "Antécédent de toxicomanie",
+            "Manifestations de réaction cutanée sévère",
+            "Diabète",
+            "Sujet âgé",
+            "Insuffisance hépatique",
+            "Anesthésie générale"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance respiratoire",
+            "Asthmatique",
+            "Enfant de moins de 30 mois",
+            "Allaitement",
+            "Antécédent de convulsion",
+            "Antécédent d'épilepsie",
+            "Patient de moins de 15 kg"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BIOCALYPTOL",
+            "BIOCALYPTOL 6,55 mg/5 ml s/s",
+            "DIMETANE s/s",
+            "PHOLCODINE BIOGARAN"
+        ]
+    },
+    "THIOVALONE - Tixocortol": {
+        "Retirer": true,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Chlorhexidine",
+        "PRINCIPE_ACTIF": "Tixocortol",
+        "EFFETS_INDESIRABLES": [
+            "Picotement",
+            "Oedème cutanéomuqueux de la face",
+            "Oedème de Quincke",
+            "Vision floue",
+            "Irritation de la muqueuse buccale"
+        ],
+        "PRECAUTIONS": [
+            "Vision floue",
+            "Symptômes visuels",
+            "Grossesse"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Infection buccale virale",
+            "Infection à Herpes simplex",
+            "Infection fongique buccale",
+            "Candidose buccale",
+            "Intervention chirurgicale récente",
+            "Lésion buccale",
+            "Enfant de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "RHINADVIL MAUX DE GORGE",
+            "THIOVALONE"
+        ]
+    },
+    "DEBRIDAT - Trimébutine maléate": {
+        "Retirer": false,
+        "Prix": "3,50 €",
+        "TAUX_REMBOURSEMENT": "15 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Trimébutine",
+        "PRINCIPE_ACTIF": "Trimébutine maléate",
+        "EFFETS_INDESIRABLES": [
+            "Réaction d'hypersensibilité",
+            "Prurit cutané",
+            "Urticaire allergique",
+            "Oedème de Quincke",
+            "Choc anaphylactique",
+            "Rash cutané",
+            "Eruption maculopapuleuse"
+        ],
+        "PRECAUTIONS": [],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 15 ans",
+            "Intolérance au lactose",
+            "Grossesse",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DEBRICALM Gé",
+            "DEBRIDAT",
+            "DEBRIDAT ENFANT",
+            "TRANSACALM Gé",
+            "TRIMEBUTINE ALMUS",
+            "TRIMEBUTINE ARROW",
+            "TRIMEBUTINE ARROW GENERIQUES",
+            "TRIMEBUTINE BIOGARAN",
+            "TRIMEBUTINE BIOGARAN CONSEIL",
+            "TRIMEBUTINE CRISTERS",
+            "TRIMEBUTINE EG",
+            "TRIMEBUTINE EVOLUGEN",
+            "TRIMEBUTINE MEDISOL",
+            "TRIMEBUTINE PFIZER",
+            "TRIMEBUTINE SANDOZ",
+            "TRIMEBUTINE SUN",
+            "TRIMEBUTINE TEVA SANTE",
+            "TRIMEBUTINE VIATRIS",
+            "TRIMEBUTINE VIATRIS CONSEIL",
+            "TRIMEBUTINE ZENTIVA",
+            "TRIMEBUTINE ZYDUS"
+        ]
+    },
+    "PYOSTACINE - Pristinamycine": {
+        "Retirer": false,
+        "Prix": "",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Pristinamycine",
+        "PRINCIPE_ACTIF": "Pristinamycine",
+        "EFFETS_INDESIRABLES": [
+            "Vomissement",
+            "Diarrhée",
+            "Pesanteur gastrique",
+            "Colite pseudomembraneuse",
+            "Infection à Clostridium difficile",
+            "Colite aiguë hémorragique",
+            "Pustulose exanthématique aiguë généralisée"
+        ],
+        "PRECAUTIONS": [
+            "Réaction d'hypersensibilité",
+            "Oedème de Quincke",
+            "Choc anaphylactique",
+            "Pustulose exanthématique aiguë généralisée",
+            "Vascularite",
+            "Purpura vasculaire",
+            "Syndrome de Stevens-Johnson"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Hypersensibilité pristinamycine",
+            "Hypersensibilité virginiamycine",
+            "Allergie blé",
+            "Antécédent d'éruption grave sous pristinamycine",
+            "Allaitement"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "PRISTAM",
+            "PYOSTACINE"
+        ]
+    },
+    "TIORFAN - Racécadotril": {
+        "Retirer": false,
+        "Prix": "6,17 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Racécadotril",
+        "PRINCIPE_ACTIF": "Racécadotril",
+        "EFFETS_INDESIRABLES": [
+            "Céphalée",
+            "Rash cutané",
+            "Erythème cutané",
+            "Erythème polymorphe",
+            "Oedème de la langue",
+            "Oedème de la face",
+            "Oedème des lèvres"
+        ],
+        "PRECAUTIONS": [
+            "Vomissements à répétition",
+            "Insuffisance hépatique",
+            "Insuffisance rénale",
+            "Réaction cutanée sévère",
+            "Angioedème",
+            "Manifestations du syndrome d'hypersensibilité médicamenteuse"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Patient de moins de 6 ans",
+            "Patient de 6 à 15 ans",
+            "Grossesse",
+            "Intolérance au lactose",
+            "Manifestations d'un syndrome dysentérique",
+            "Diarrhée d'un traitement antibiotique"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "DIARFIX",
+            "RACECADOTRIL ARROW",
+            "RACECADOTRIL BGR",
+            "RACECADOTRIL BIOGARAN CONSEIL",
+            "RACECADOTRIL VIATRIS",
+            "RACECADOTRIL ZENTIVA",
+            "TIORFAN",
+            "TIORFAN ENFANTS",
+            "TIORFAN NOURRISSONS",
+            "TIORFAN Nourrissons et Enfants",
+            "TIORFANOR",
+            "TIORFAST"
+        ]
+    },
+    "SPECIAFOLDINE - Acide folique": {
+        "Retirer": false,
+        "Prix": "1,43 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Folique acide",
+        "PRINCIPE_ACTIF": "Acide folique",
+        "EFFETS_INDESIRABLES": [
+            "Réaction anaphylactique",
+            "Urticaire allergique",
+            "Angioedème",
+            "Réaction allergique cutanée",
+            "Trouble gastro-intestinal"
+        ],
+        "PRECAUTIONS": [
+            "Affection maligne",
+            "Patient atteint de tumeurs folate-dépendantes"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Patient de moins de 6 ans"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "ACIDE FOLIQUE",
+            "ACIDE FOLIQUE ARROW",
+            "ACIDE FOLIQUE BIOGARAN",
+            "ACIDE FOLIQUE CCD",
+            "ACIDE FOLIQUE MYLAN",
+            "ACIDE FOLIQUE VIATRIS",
+            "FERTIFOL",
+            "SPECIAFOLDINE",
+            "SPINAFOL"
+        ]
+    },
+    "OGAST - Lansoprazole": {
+        "Retirer": false,
+        "Prix": "5,07 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Lansoprazole",
+        "PRINCIPE_ACTIF": "Lansoprazole",
+        "EFFETS_INDESIRABLES": [
+            "Thrombopénie",
+            "Eosinophilie",
+            "Leucopénie",
+            "Anémie",
+            "Agranulocytose",
+            "Pancytopénie",
+            "Choc anaphylactique"
+        ],
+        "PRECAUTIONS": [
+            "Tumeur gastrique maligne",
+            "Hypomagnésémie",
+            "Réserve réduite de vitamine B12",
+            "Risque de diminution de l'absorption de la vitamine B12",
+            "Insuffisance hépatique sévère ou modérée",
+            "Diarrhée",
+            "Facteurs de risque d'ostéoporose"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Allaitement",
+            "Malabsorption du glucose-galactose",
+            "Patient de moins de 15 ans",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "LANSOPRAZOLE ABBOTT",
+            "LANSOPRAZOLE ALMUS PHARMA",
+            "LANSOPRAZOLE ARROW",
+            "LANSOPRAZOLE ARROW LAB",
+            "LANSOPRAZOLE BGR",
+            "LANSOPRAZOLE BIOGARAN",
+            "LANSOPRAZOLE CRISTERS",
+            "LANSOPRAZOLE EG",
+            "LANSOPRAZOLE EVOLUGEN",
+            "LANSOPRAZOLE KRKA",
+            "LANSOPRAZOLE SANDOZ",
+            "LANSOPRAZOLE TEVA SANTE",
+            "LANSOPRAZOLE VIATRIS",
+            "LANSOPRAZOLE ZENTIVA",
+            "LANSOPRAZOLE ZYDUS FRANCE",
+            "LANZOR",
+            "OGAST",
+            "OGASTORO"
+        ]
+    },
+    "RIVOTRIL - Clonazépam": {
+        "Retirer": false,
+        "Prix": "3,64 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Clonazépam",
+        "PRINCIPE_ACTIF": "Clonazépam",
+        "EFFETS_INDESIRABLES": [
+            "Réaction allergique",
+            "Anaphylaxie",
+            "Oedème de Quincke",
+            "Trouble de l'humeur",
+            "Trouble émotionnel",
+            "Confusion",
+            "Désorientation"
+        ],
+        "PRECAUTIONS": [
+            "Idée suicidaire",
+            "Comportement suicidaire",
+            "Antécédent dépressif",
+            "Antécédent de tentative de suicide",
+            "Porphyrie",
+            "Patient de 1 à 15 ans",
+            "Alcoolique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance respiratoire sévère",
+            "Syndrome d'apnée du sommeil (SAOS)",
+            "Insuffisance hépatique sévère",
+            "Myasthénie",
+            "Prématuré",
+            "Nouveau-né",
+            "Nourrisson de moins de 1 an"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "RIVOTRIL"
+        ]
+    },
+    "TOPALGIC - Tramadol chlorhydrate": {
+        "Retirer": false,
+        "Prix": "4,60 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Tramadol",
+        "PRINCIPE_ACTIF": "Tramadol chlorhydrate",
+        "EFFETS_INDESIRABLES": [
+            "Réaction allergique",
+            "Dyspnée",
+            "Hoquet",
+            "Bronchospasme",
+            "Sifflement bronchique",
+            "Oedème de Quincke",
+            "Anaphylaxie"
+        ],
+        "PRECAUTIONS": [
+            "Etat de dépendance",
+            "Traumatisme crânien",
+            "Etat de choc",
+            "Altération de la conscience",
+            "Trouble de la fonction respiratoire",
+            "Augmentation de la pression intracrânienne",
+            "Antécédent d'abus aux opioïdes"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Intoxication aiguë avec des dépresseurs du SNC",
+            "Insuffisance respiratoire sévère",
+            "Patient de moins de 3 ans",
+            "Epilepsie non contrôlée",
+            "Sevrage des toxicomanes",
+            "Allaitement",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "BIODALGIC Gé",
+            "CONTRAMAL",
+            "CONTRAMAL LP",
+            "MONOCRIXO LP (UNE PRISE QUOT)",
+            "OROZAMUDOL Gé",
+            "TAKADOL",
+            "TOPALGIC",
+            "TOPALGIC LP",
+            "TRAMADOL ALMUS",
+            "TRAMADOL ARROW",
+            "TRAMADOL ARROW LP",
+            "TRAMADOL BGR L.P.",
+            "TRAMADOL BGR LP",
+            "TRAMADOL BIOGARAN",
+            "TRAMADOL EG",
+            "TRAMADOL EG LP",
+            "TRAMADOL EVOLUGEN",
+            "TRAMADOL EVOLUGEN LP",
+            "TRAMADOL HCS",
+            "TRAMADOL KRKA LP",
+            "TRAMADOL LAVOISIER 50MG/ML",
+            "TRAMADOL LP CRISTERS",
+            "TRAMADOL LP MYLAN GENERIQUES",
+            "TRAMADOL LP SANDOZ",
+            "TRAMADOL MYLAN",
+            "TRAMADOL SANDOZ",
+            "TRAMADOL SANDOZ LP",
+            "TRAMADOL TEVA",
+            "TRAMADOL TEVA LP",
+            "TRAMADOL TEVA SANTE",
+            "TRAMADOL VIATRIS",
+            "TRAMADOL VIATRIS  LP",
+            "TRAMADOL VIATRIS LP",
+            "TRAMADOL ZENTIVA LP",
+            "TRAMADOL ZYDUS",
+            "TRAMADOL ZYDUS  LP",
+            "TRAMADOL ZYDUS LP",
+            "ZAMUDOL LP",
+            "ZUMALGIC",
+            "ZUMALGIC Gé"
+        ]
+    },
+    "NASONEX - Mométasone furoate": {
+        "Retirer": false,
+        "Prix": "4,46 €",
+        "TAUX_REMBOURSEMENT": "30 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Mométasone",
+        "PRINCIPE_ACTIF": "Mométasone furoate",
+        "EFFETS_INDESIRABLES": [
+            "Pharyngite",
+            "Infection des voies respiratoires supérieures",
+            "Réaction d'hypersensibilité",
+            "Réaction anaphylactique",
+            "Oedème de Quincke",
+            "Bronchospasme",
+            "Dyspnée"
+        ],
+        "PRECAUTIONS": [
+            "Tuberculose pulmonaire évolutive ou latente non traitée",
+            "Infection systémique non traitée",
+            "Contact avec un sujet atteint de varicelle",
+            "Contact avec un sujet atteint de rougeole",
+            "Mycose nasale",
+            "Infection fongique de l'oropharynx",
+            "Irritation rhinopharyngée"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Infection nasale non traitée",
+            "Antécédent récent de chirurgie nasale",
+            "Traumatisme du nez",
+            "Allaitement",
+            "Patient de moins de 3 ans",
+            "Grossesse"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "MOMETASONE ALTER",
+            "MOMETASONE ARROW",
+            "MOMETASONE BIOGARAN",
+            "MOMETASONE CRISTERS",
+            "MOMETASONE EG",
+            "MOMETASONE GERDA",
+            "MOMETASONE SANDOZ",
+            "MOMETASONE TEVA",
+            "MOMETASONE VIATRIS",
+            "MOMETASONE ZENTIVA",
+            "NASONEX"
+        ]
+    },
+    "COAPROVEL - Irbésartan": {
+        "Retirer": false,
+        "Prix": "15,76 €",
+        "TAUX_REMBOURSEMENT": "65 %",
+        "CLASSE_PHARMACOTHERAPEUTIQUE": "Irbesartan et diurétiques",
+        "PRINCIPE_ACTIF": "Irbésartan",
+        "EFFETS_INDESIRABLES": [
+            "Augmentation des taux sanguins de l'azote uréique",
+            "Augmentation des taux sanguins de la créatinine",
+            "Augmentation des taux sanguins de la créatine kinase",
+            "Baisse du potassium",
+            "Baisse du sodium",
+            "Syncope",
+            "Hypotension"
+        ],
+        "PRECAUTIONS": [
+            "Déplétion sodée",
+            "Hypovolémie secondaire à un traitement diurétique",
+            "Régime hyposodé",
+            "Diarrhée",
+            "Vomissement",
+            "Sténose bilatérale de l'artère rénale",
+            "Sténose artérielle rénale sur rein fonctionnel unique"
+        ],
+        "CONTRE_INDICATIONS": [
+            "Insuffisance rénale sévère (Clcr < 30 ml/mn)",
+            "Hypokaliémie réfractaire",
+            "Hypercalcémie",
+            "Insuffisance hépatique sévère",
+            "Cirrhose biliaire",
+            "Cholestase",
+            "Grossesse 2ème trimestre"
+        ],
+        "MEDICAMENTS_SIMILAIRES": [
+            "COAPROVEL",
+            "IFIRMACOMBI Gé",
+            "IRBESARTAN/HYDROCHLOR ARROW",
+            "IRBESARTAN/HYDROCHLOR BIOGARAN",
+            "IRBESARTAN/HYDROCHLOR CRISTERS",
+            "IRBESARTAN/HYDROCHLOR EVOLU PH",
+            "IRBESARTAN/HYDROCHLOR SANDOZ",
+            "IRBESARTAN/HYDROCHLOR VIATRIS",
+            "IRBESARTAN HYDROCHLORO ZENTIVA",
+            "IRBESARTAN/HYDROCHLOROTH EG",
+            "IRBESARTAN HYDROCHLOROTH MYLAN",
+            "IRBESARTAN/HYDROCHLOROTH ZYDUS",
+            "IRBESARTAN HYDROCHLOROTHI TEVA"
+        ]
+    }
+}
