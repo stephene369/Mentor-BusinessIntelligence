@@ -1,0 +1,122 @@
+Voici le code LaTeX pour ton analyse :
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\title{Analyse BI: Churn des Clients d'une Banque Européenne}
+\author{Analyste BI}
+
+\begin{document}
+
+\maketitle
+
+\section{Contexte et Problématiques}
+
+L’une des préoccupations majeures d’une banque européenne est la fidélité de ses clients. Une hausse du taux de churn (attrition ou départ des clients) affecte directement la rentabilité. Le département des services clients de la banque a observé un nombre croissant de départs parmi les 10,000 clients dont ils détiennent des informations détaillées, notamment les scores de crédit, les soldes des comptes, les produits utilisés, ainsi que l'indication de si le client a déjà quitté la banque ou non.
+
+La banque souhaite réaliser une analyse approfondie pour identifier les raisons du churn, comprendre les segments clients existants et adapter sa stratégie pour retenir les clients.
+
+Les objectifs d’analyse sont les suivants :
+\begin{enumerate}
+    \item \textbf{Identifier les attributs communs aux clients churners} : Quelles sont les caractéristiques qui rendent certains clients plus susceptibles de quitter la banque ?
+    \item \textbf{Étudier la possibilité de prédire le churn} à partir des variables disponibles.
+    \item \textbf{Analyser les différences démographiques} au sein des clients de la banque.
+    \item \textbf{Étudier le comportement des clients par nationalité} (allemands, français, espagnols).
+    \item \textbf{Segmenter la clientèle} afin de mieux comprendre les groupes de clients et adapter les services en conséquence.
+\end{enumerate}
+
+Les variables disponibles dans la base de données incluent : 
+\begin{itemize}
+    \item Le score de crédit (\texttt{credit\_score}),
+    \item Le solde des comptes (\texttt{balance}),
+    \item Les produits bancaires détenus (\texttt{products\_held}),
+    \item Les informations sur la nationalité des clients (\texttt{nationality}),
+    \item L'indicateur de churn (\texttt{churn}).
+\end{itemize}
+
+\section{Méthodologie d'Analyse}
+
+\subsection{Analyse des attributs des clients churners}
+
+\textbf{Problème :} Identifier les caractéristiques qui rendent certains clients plus susceptibles de quitter la banque.
+
+\textbf{Méthodologie :}
+\begin{itemize}
+    \item Étudier les distributions des variables clés (comme le score de crédit, le solde, et les produits détenus) parmi les clients qui ont churné et ceux qui ne l’ont pas fait.
+    \item Effectuer une analyse des corrélations entre ces variables et l’indicateur de churn.
+    \item Utiliser des visualisations comme des diagrammes de densité et des boxplots pour comparer les groupes.
+\end{itemize}
+
+\textbf{Variables :}
+\begin{itemize}
+    \item \texttt{credit\_score}, \texttt{balance}, \texttt{products\_held}, \texttt{churn}.
+\end{itemize}
+
+\subsection{Prédiction du churn}
+
+\textbf{Problème :} Prédire les clients à risque de départ afin d'anticiper et d’agir en conséquence.
+
+\textbf{Méthodologie :}
+\begin{itemize}
+    \item Créer un modèle prédictif à l’aide d’algorithmes comme la régression logistique ou les forêts aléatoires.
+    \item Diviser les données en ensembles d’entraînement et de test.
+    \item Tester des métriques de performance comme l’accuracy et le F1-score.
+\end{itemize}
+
+\textbf{Variables :}
+\begin{itemize}
+    \item \texttt{credit\_score}, \texttt{balance}, \texttt{age}, \texttt{products\_held}, \texttt{churn}.
+\end{itemize}
+
+\subsection{Analyse des segments démographiques}
+
+\textbf{Problème :} Comprendre les caractéristiques démographiques des clients pour mieux cerner les différents types de consommateurs.
+
+\textbf{Méthodologie :}
+\begin{itemize}
+    \item Analyse des distributions des âges, des scores de crédit et des soldes des comptes.
+    \item Identification de tendances spécifiques dans les groupes démographiques (âge, sexe, localisation).
+\end{itemize}
+
+\textbf{Variables :}
+\begin{itemize}
+    \item \texttt{age}, \texttt{credit\_score}, \texttt{balance}, \texttt{gender}.
+\end{itemize}
+
+\subsection{Analyse par nationalité}
+
+\textbf{Problème :} Analyser les différences de comportement selon les nationalités (allemands, français, espagnols).
+
+\textbf{Méthodologie :}
+\begin{itemize}
+    \item Comparer les taux de churn entre les nationalités.
+    \item Analyser les écarts dans les scores de crédit, les soldes et les produits détenus.
+\end{itemize}
+
+\textbf{Variables :}
+\begin{itemize}
+    \item \texttt{nationality}, \texttt{churn}, \texttt{credit\_score}, \texttt{balance}.
+\end{itemize}
+
+\subsection{Segmentation des clients}
+
+\textbf{Problème :} Mieux comprendre les segments clients pour personnaliser les offres et services.
+
+\textbf{Méthodologie :}
+\begin{itemize}
+    \item Effectuer un clustering pour regrouper les clients en segments homogènes.
+    \item Analyser les caractéristiques de chaque segment et adapter les stratégies marketing.
+\end{itemize}
+
+\textbf{Variables :}
+\begin{itemize}
+    \item \texttt{age}, \texttt{credit\_score}, \texttt{balance}, \texttt{products\_held}.
+\end{itemize}
+
+\end{document}
+```
+
+Tu peux copier ce code dans un éditeur LaTeX pour générer ton document.

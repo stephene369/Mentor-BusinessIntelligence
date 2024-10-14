@@ -1,0 +1,263 @@
+
+Manufacturing Downtime
+
+Manufacturing Downtime
+Productivity & downtime data for a soda bottling production line, 
+including information on the operator, product, start & end times, 
+and dowtime factors for each batch.
+
+
+Recommended Analysis
+What's the current line efficiency? (total time / min time)
+Are any operators underperforming?
+What are the leading factors for downtime?
+Do any operators struggle with particular types of operator error?
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc.) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+#################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+US Candy Distributor
+
+US Candy Distributor
+Sales and geospatial factory to customer 
+shipment data for a US national candy distributor, 
+inlcuding information around customer & factory 
+locations, sales orders & goals, and product details.
+
+Recommended Analysis
+What are the most efficient factory to customer shipping routes?
+
+What about the least efficient?
+
+Which product lines have the best product margin?
+
+Which product lines should be moved to a different factory to optimize shipping routes?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc.) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+Bank Customer Churn
+
+Bank Customer Churn
+Account information for 10,000 customers at a European bank, including details on their credit score, balance, products, and whether they have churned.
+
+(the Bank_Churn_Messy.xslx file is included for those completing the Bank Customer Data Prep guided project)
+
+Recommended Analysis
+What attributes are more common among churners than non-churners? Can churn be predicted using the variables in the data?
+
+What do the overall demographics of the bank's customers look like?
+
+Is there a difference between German, French, and Spanish customers in terms of account behavior?
+
+What types of segments exist within the bank's customers?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc.) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+
+Cafe Rewards Offers
+
+Cafe Rewards Offers
+Data that simulates the behavior of Cafe Rewards members over a 30-day period, including their transactions and responses to promotional offers.
+
+Customers receive offers once every few days and have a limited time to redeem them. These can be informational offers (simple advertisement of a product), discount offers, or "buy one, get one" (BOGO) offers. Each customer receives a different mix of offers, attempting to maximize their probability of making a purchase.
+
+Every customer purchase during the period is marked as a transaction. For a transaction to be attributed to an offer, it must occur at the same time as when the offer was "completed" by the customer.
+
+Recommended Analysis
+How many reward offers were completed? Which offers had the highest completion rate?
+
+How many informational offers were followed by transactions?
+
+How are customer demographics distributed?
+
+Are there any demographic patterns in offer completion?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc.) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+Video Game Sales
+
+Video Game Sales
+Video game sales from North America, Japan, the EU, Africa, and the rest of the world for 64,016 titles released from 1971-2024, including information like critic's score, genre, console, and more.
+
+Recommended Analysis
+Which titles sold the most worldwide?
+
+Which year had the highest sales? Has the industry grown over time?
+
+Do any consoles seem to specialize in a particular genre?
+
+What titles are popular in one region but flop in another?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+
+Restaurant Orders
+
+Restaurant Orders
+A quarter's worth of orders from a fictitious restaurant serving international cuisine, including the date and time of each order, the items ordered, and additional details on the type, name and price of the items.
+
+Recommended Analysis
+What were the least and most ordered items? What categories were they in?
+
+What do the highest spend orders look like? Which items did they buy and how much did they spend?
+
+Were there certain times that had more or less orders?
+
+Which cuisines should we focus on developing more menu items for based on the data?
+
+Want feedback on your solutions?
+Share your work on LinkedIn and tag @Maven Analytics for a chance to get your work reviewed and featured by the Maven team!
+
+
+
+
+
+
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+Restaurant Ratings
+
+Restaurant Ratings
+Restaurant ratings in Mexico by real consumers from 2012, including additional information about each restaurant and their cuisines, and each consumer and their preferences.
+
+Recommended Analysis
+What can you learn from the highest rated restaurants? Do consumer preferences have an effect on ratings?
+
+What are the consumer demographics? Does this indicate a bias in the data sample?
+
+Are there any demand & supply gaps that you can exploit in the market?
+
+If you were to invest in a restaurant, which characteristics would you be looking for?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+Marketing Campaign Results
+
+Marketing Campaign Results
+Marketing campaign data of 2,240 customers of Maven Marketing, including customer profiles, product preferences, campaign successes/failures, and channel performance.
+
+Recommended Analysis
+Are there any null values or outliers? How will you handle them?
+
+What factors are significantly related to the number of web purchases?
+
+Which marketing campaign was the most successful?
+
+What does the average customer look like?
+
+Which products are performing best?
+
+Which channels are underperforming?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+
+Kickstarter Projects
+
+Kickstarter Projects
+Data for 375,000+ Kickstarter projects from 2009-2017, including project name, category, launch date, deadline, goal, amount pledged, number of backers, state, and country.
+
+Recommended Analysis
+Which category has the highest success percentage? How many projects have been successful?
+
+What project with a goal over $1,000 USD, had the biggest Goal Completion % (Pledged / Goal)? How much money was pledged?
+
+Can you identify any trends in project success rates over the years?
+
+As an investor, what types of projects should you be looking at to guarantee future success?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!
+
+
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+
+UK Train Rides
+
+UK Train Rides
+Mock train ticket data for National Rail in the UK, from Jan to Apr 2024, including details on the type of ticket, the date & time for each journey, the departure & arrival stations, the ticket price, and more.
+
+Recommended Analysis
+What are the most popular routes?
+
+What are the peak travel times?
+
+How does revenue vary by ticket types and classes?
+
+What is the on-time performance? What are the main contributing factors?
+
+Want feedback on your solutions?
+Share visualizations (and any applicable pivot tables, code, etc) on LinkedIn and mention @Maven Analytics. We would love to see your work and give our thoughts!

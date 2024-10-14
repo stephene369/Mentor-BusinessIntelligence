@@ -1,0 +1,302 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Analyse BI pour \textbf{US Candy Distributor} et \textbf{Churn des Clients d'une Banque Européenne} }
+\author{Expert BI : \\ Spero TESSY \\ Stephene WANTCHEKON}
+
+\begin{document}
+
+\maketitle
+
+
+
+
+
+
+
+
+
+\section{Introduction}
+
+Cet exercice est conçu pour simuler un contexte d'entreprise, permettant d'appliquer des compétences en analyse de données et en Business Intelligence (BI) sur des ensembles de données réels. Les données utilisées proviennent de Maven Analytics, une plateforme reconnue pour fournir des ensembles de données à des fins d'apprentissage et d'analyse. Les ensembles de données, y compris ceux concernant le churn des clients d'une banque européenne et les ventes d'un distributeur de bonbons américain, sont disponibles pour une utilisation gratuite, tant que les utilisateurs respectent les conditions d'utilisation énoncées par Maven.
+
+Vous pouvez utiliser les données fournies par Maven Analytics sans crainte de poursuites tant que vous respectez leurs conditions d'utilisation. Assurez-vous que votre utilisation ne viole pas les droits d'auteur ou les droits d'autres personnes, et évitez de partager des informations sensibles. Si vous envisagez de publier vos résultats ou analyses, assurez-vous également d'avoir les droits nécessaires pour le faire.
+
+Il est impératif de noter que toutes les utilisations de ces données doivent se conformer aux lois et règlements applicables, y compris le respect de la vie privée et des droits d'auteur. Les utilisateurs doivent avoir le droit de publier tout contenu qu'ils soumettent et ne doivent pas publier d'informations qui appartiennent à d'autres sans autorisation. En respectant ces directives, les utilisateurs peuvent explorer les ensembles de données fournis par Maven Analytics sans crainte de poursuites, tout en appliquant des techniques d'analyse pertinentes pour répondre aux problématiques d'entreprise.
+
+
+
+De plus, Maven encourage les utilisateurs à partager leurs visualisations (et toute table croisée ou code applicable) sur LinkedIn en mentionnant @Maven Analytics. Cela permet non seulement de montrer votre travail, mais aussi de recevoir des retours constructifs de la part de la communauté. En respectant ces directives, les utilisateurs peuvent explorer les ensembles de données fournis par Maven Analytics sans crainte de poursuites, tout en appliquant des techniques d'analyse pertinentes pour répondre aux problématiques d'entreprise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Contexte et Problématiques : US Candy Distributor}
+
+L’entreprise \textit{US Candy Distributor}, un distributeur national de bonbons aux États-Unis, rencontre plusieurs défis à surmonter. Malgré des ventes stables, le chiffre d’affaires stagne, et les coûts de transport élevés affectent la rentabilité. Face à ces défis, l’entreprise a décidé d’engager un expert en BI pour analyser les données de ventes et d'expédition afin d'identifier des leviers d'optimisation.
+
+Les principaux objectifs de l'analyse sont :
+\begin{itemize}
+    \item Optimiser les routes d’expédition entre les usines et les clients.
+    \item Identifier les produits les plus rentables.
+    \item Redistribuer certains produits entre différentes usines pour minimiser les coûts de transport.
+\end{itemize}
+
+Les données disponibles couvrent les informations suivantes : commandes, objectifs de vente, clients, produits, ainsi que les localisations géospatiales des usines et des clients.
+
+\subsection{Problématique 1: Optimisation des Routes d’Expédition}
+
+\textbf{Problème :} Les coûts logistiques sont un point sensible pour l’entreprise. Il est crucial d'identifier les routes d’expédition les plus et les moins efficaces entre les usines et les clients.
+
+\textbf{Objectif :} Trouver des moyens d'optimiser les trajets de livraison pour réduire les coûts et améliorer la rapidité des livraisons.
+
+\textbf{Variables impliquées :}
+\begin{itemize}
+    \item Localisation des clients (\texttt{customer\_location}).
+    \item Localisation des usines (\texttt{factory\_location}).
+    \item Distance usine-client (\texttt{shipping\_distance}).
+    \item Temps de livraison (\texttt{delivery\_time}).
+    \item Coût d’expédition (\texttt{shipping\_cost}).
+\end{itemize}
+
+\subsection{Problématique 2: Analyse des Marges par Produit}
+
+\textbf{Problème :} Certains produits ont une marge bénéficiaire inférieure, ce qui impacte la rentabilité globale.
+
+\textbf{Objectif :} Identifier les produits les plus profitables et ajuster la stratégie pour les produits moins rentables.
+
+\textbf{Variables impliquées :}
+\begin{itemize}
+    \item Produit (\texttt{product\_name}).
+    \item Coût de production (\texttt{production\_cost}).
+    \item Prix de vente (\texttt{sales\_price}).
+    \item Quantité vendue (\texttt{quantity\_sold}).
+\end{itemize}
+
+\subsection{Problématique 3: Relocalisation des Produits pour Optimiser les Routes}
+
+\textbf{Problème :} Certaines lignes de produits sont produites dans des usines éloignées des clients, entraînant des coûts de transport élevés.
+
+\textbf{Objectif :} Minimiser les coûts en redistribuant les produits entre les usines pour rapprocher la production des clients.
+
+\textbf{Variables impliquées :}
+\begin{itemize}
+    \item Produit (\texttt{product\_name}).
+    \item Usine actuelle (\texttt{current\_factory}).
+    \item Coût d’expédition (\texttt{shipping\_cost}).
+    \item Distance usine-client (\texttt{shipping\_distance}).
+\end{itemize}
+
+
+
+
+
+
+% \section{Méthodologie d'Analyse : US Candy Distributor}
+
+% \subsection{Méthodologie pour l’Optimisation des Routes d’Expédition}
+
+% \textbf{Étapes :}
+% \begin{enumerate}
+%     \item Calculer les distances entre les usines et les clients à partir des coordonnées géospatiales.
+%     \item Analyser le ratio coût/distance pour identifier les routes optimales et celles à améliorer.
+%     \item Comparer les coûts par mile et identifier les routes efficaces et inefficaces.
+% \end{enumerate}
+
+% \textbf{Variables Clés :}
+% \begin{itemize}
+%     \item \texttt{customer\_location}, \texttt{factory\_location}, \texttt{shipping\_cost}.
+% \end{itemize}
+
+% \subsection{Méthodologie pour l’Analyse des Marges par Produit}
+
+% \textbf{Étapes :}
+% \begin{enumerate}
+%     \item Calculer les marges de profit pour chaque produit avec la formule :
+%     \[
+%     \text{Marge Bénéficiaire} = \frac{\text{Prix de Vente} - \text{Coût de Production}}{\text{Prix de Vente}} \times 100
+%     \]
+%     \item Classer les produits en fonction de leur rentabilité.
+%     \item Identifier les lignes de produits à fort et faible potentiel de marge.
+% \end{enumerate}
+
+% \textbf{Variables Clés :}
+% \begin{itemize}
+%     \item \texttt{product\_name}, \texttt{production\_cost}, \texttt{sales\_price}, \texttt{quantity\_sold}.
+% \end{itemize}
+
+% \subsection{Méthodologie pour la Relocalisation des Produits}
+
+% \textbf{Étapes :}
+% \begin{enumerate}
+%     \item Identifier les usines proches des principaux clients pour chaque produit.
+%     \item Simuler les coûts d’expédition pour différentes usines.
+%     \item Comparer les scénarios actuels avec les coûts simulés pour recommander une meilleure allocation des produits.
+% \end{enumerate}
+
+% \textbf{Variables Clés :}
+% \begin{itemize}
+%     \item \texttt{product\_name}, \texttt{current\_factory}, \texttt{shipping\_distance}, \texttt{shipping\_cost}.
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Contexte et Problématiques : Churn des Clients d'une Banque Européenne}
+
+L’une des préoccupations majeures d’une banque européenne est la fidélité de ses clients. Une hausse du taux de churn (attrition ou départ des clients) affecte directement la rentabilité et la croissance de la banque. En effet, chaque départ de client signifie une perte de revenus récurrents, mais également des coûts supplémentaires liés à l’acquisition de nouveaux clients. Le département des services clients a observé un nombre croissant de départs parmi les 10,000 clients dont ils détiennent des informations détaillées, notamment les scores de crédit, les soldes des comptes, les produits utilisés, ainsi que l'indication de si le client a déjà quitté la banque ou non.
+
+Afin de contrer cette tendance, la banque cherche à mieux comprendre les raisons du churn et à utiliser ces informations pour retenir ses clients avant qu'ils ne partent. De plus, la banque souhaite adapter sa stratégie marketing et ses services en fonction des différents segments de clients identifiés.
+
+Les objectifs d’analyse sont les suivants :
+
+\begin{enumerate}
+    \item \textbf{Identifier les attributs communs aux clients churners} : Quelles sont les caractéristiques qui rendent certains clients plus susceptibles de quitter la banque ? En comprenant ces facteurs, la banque peut développer des stratégies personnalisées pour fidéliser les clients à risque. Par exemple, si les clients avec un faible score de crédit et un faible solde de compte sont plus enclins à partir, la banque pourrait proposer des produits de crédit plus adaptés ou des services spécifiques à ces segments.
+    
+    \item \textbf{Étudier la possibilité de prédire le churn à partir des variables disponibles} : L’objectif est ici d'anticiper le départ des clients avant qu'il ne se produise. Notre entreprise aimerait être capable de prédire si un client est sur le point de partir afin de prendre des mesures proactives pour le retenir. Grâce à un modèle prédictif basé sur des algorithmes de machine learning, la banque pourrait cibler ces clients avec des offres spéciales ou un suivi personnalisé avant qu'ils ne décident de fermer leur compte.
+    
+    \item \textbf{Analyser les différences démographiques au sein des clients de la banque} : Il est crucial pour la banque de comprendre les caractéristiques démographiques de sa clientèle, telles que l’âge, le sexe, et la localisation géographique. Cette analyse permettra de déterminer s’il existe des tendances spécifiques dans certaines catégories de clients, ce qui permettra à la banque d’ajuster son offre de produits et de services. Par exemple, si les clients plus jeunes ont un taux de churn plus élevé, la banque pourrait développer des offres plus adaptées à cette population.
+    
+    \item \textbf{Étudier le comportement des clients par nationalité (allemands, français, espagnols)} : Étant une banque européenne, il est important d’identifier s’il existe des différences dans les comportements financiers entre les nationalités. Cela permettra à la banque de personnaliser ses services en fonction des besoins spécifiques de chaque pays. Par exemple, les clients allemands pourraient avoir une plus grande aversion au risque et donc une préférence pour des produits d’épargne plus sécurisés, tandis que les clients espagnols pourraient être plus enclins à investir dans des produits à rendement élevé.
+    
+    \item \textbf{Segmenter la clientèle pour mieux comprendre les groupes de clients et adapter les services en conséquence} : En créant des segments de clientèle homogènes, la banque pourra personnaliser son marketing et ses services de manière plus efficace. Par exemple, les clients à haut revenu pourraient bénéficier de services premium, tandis que les clients ayant des besoins plus basiques pourraient se voir proposer des produits bancaires standard. Cette segmentation permettra d’optimiser les efforts de fidélisation et de maximiser la rentabilité par segment.
+\end{enumerate}
+
+\textbf{Les variables disponibles dans la base de données incluent :} 
+\begin{itemize}
+    \item Le score de crédit (\texttt{credit\_score}) : Cette variable permet d'évaluer la solvabilité du client, ce qui peut influencer à la fois son comportement vis-à-vis des produits bancaires et son risque de churn.
+    \item Le solde des comptes (\texttt{balance}) : Le montant détenu sur les comptes peut indiquer la relation financière du client avec la banque et peut être un facteur prédictif important du churn.
+    \item Les produits bancaires détenus (\texttt{products\_held}) : Le nombre et le type de produits détenus par un client peuvent refléter son engagement auprès de la banque.
+    \item Les informations sur la nationalité des clients (\texttt{nationality}) : Cette variable permettra d'explorer des différences de comportement selon les pays.
+    \item L'indicateur de churn (\texttt{churn}) : Cette variable indique si le client a quitté la banque ou non. C’est la variable cible dans les analyses de churn.
+\end{itemize}
+
+
+
+
+
+
+
+
+% \section{Méthodologie d'Analyse : Churn des Clients d'une Banque Européenne}
+
+% \subsection{Analyse des attributs des clients churners}
+
+% \textbf{Problème :} Identifier les caractéristiques qui rendent certains clients plus susceptibles de quitter la banque.
+
+% \textbf{Méthodologie :}
+% \begin{itemize}
+%     \item Étudier les distributions des variables clés (comme le score de crédit, le solde, et les produits détenus) parmi les clients qui ont churné et ceux qui ne l’ont pas fait.
+%     \item Effectuer une analyse des corrélations entre ces variables et l’indicateur de churn.
+%     \item Utiliser des visualisations comme des diagrammes de densité et des boxplots pour comparer les groupes.
+% \end{itemize}
+
+% \textbf{Variables :}
+% \begin{itemize}
+%     \item \texttt{credit\_score}, \texttt{balance}, \texttt{products\_held}, \texttt{churn}.
+% \end{itemize}
+
+% \subsection{Prédiction du churn}
+
+% \textbf{Problème :} Prédire les clients à risque de départ afin d'anticiper et d’agir en conséquence.
+
+% \textbf{Méthodologie :}
+% \begin{itemize}
+%     \item Créer un modèle prédictif à l’aide d’algorithmes comme la régression logistique ou les forêts aléatoires.
+%     \item Diviser les données en ensembles d’entraînement et de test.
+%     \item Tester des métriques de performance comme l’accuracy et le F1-score.
+% \end{itemize}
+
+% \textbf{Variables :}
+% \begin{itemize}
+%     \item \texttt{credit\_score}, \texttt{balance}, \texttt{age}, \texttt{products\_held}, \texttt{churn}.
+% \end{itemize}
+
+% \subsection{Analyse des segments démographiques}
+
+% \textbf{Problème :} Comprendre les caractéristiques démographiques des clients pour mieux cerner les différents types de consommateurs.
+
+% \textbf{Méthodologie :}
+% \begin{itemize}
+%     \item Analyse des distributions des âges, des scores de crédit et des soldes des comptes.
+%     \item Identification de tendances spécifiques dans les groupes démographiques (âge, sexe, localisation).
+% \end{itemize}
+
+% \textbf{Variables :}
+% \begin{itemize}
+%     \item \texttt{age}, \texttt{credit\_score}, \texttt{balance}, \texttt{gender}.
+% \end{itemize}
+
+% \subsection{Analyse par nationalité}
+
+% \textbf{Problème :} Analyser les différences de comportement selon les nationalités (allemands, français, espagnols).
+
+% \textbf{Méthodologie :}
+% \begin{itemize}
+%     \item Comparer les taux de churn entre les nationalités.
+%     \item Analyser les écarts dans les scores de crédit, les soldes et les produits détenus.
+% \end{itemize}
+
+% \textbf{Variables :}
+% \begin{itemize}
+%     \item \texttt{nationality}, \texttt{churn}, \texttt{credit\_score}, \texttt{balance}.
+% \end{itemize}
+
+% \subsection{Segmentation des clients}
+
+% \textbf{Problème :} Mieux comprendre les segments clients pour personnaliser les offres et services.
+
+% \textbf{Méthodologie :}
+% \begin{itemize}
+%     \item Effectuer un clustering pour regrouper les clients en segments homogènes.
+%     \item Analyser les caractéristiques de chaque segment et adapter les stratégies marketing.
+% \end{itemize}
+
+% \textbf{Variables :}
+% \begin{itemize}
+%     \item \texttt{age}, \texttt{credit\_score}, \texttt{balance}, \texttt{products\_held}.
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
