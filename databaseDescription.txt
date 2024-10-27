@@ -43,6 +43,64 @@ Share visualizations (and any applicable pivot tables, code, etc.) on LinkedIn a
 
 
 
+Voici les descriptions en français :
+
+| Table      | Champ             | Description                                                                                 |
+|------------|--------------------|---------------------------------------------------------------------------------------------|
+| Sales      | Row ID            | Identifiant unique de ligne                                                                 |
+| Sales      | Order ID          | Identifiant unique de commande                                                              |
+| Sales      | Order Date        | Date de la commande                                                                         |
+| Sales      | Ship Date         | Date d'expédition                                                                           |
+| Sales      | Ship Mode         | Méthode d'expédition de la commande                                                         |
+| Sales      | Customer ID       | Identifiant unique du client                                                                |
+| Sales      | Country/Region    | Pays ou région du client                                                                    |
+| Sales      | City              | Ville du client                                                                             |
+| Sales      | State/Province    | État/province du client                                                                     |
+| Sales      | Postal Code       | Code postal / code ZIP du client                                                            |
+| Sales      | Division          | Division du produit                                                                         |
+| Sales      | Region            | Région du client                                                                            |
+| Sales      | Product ID        | Identifiant unique du produit                                                               |
+| Sales      | Product Name      | Nom complet du produit                                                                      |
+| Sales      | Sales             | Valeur totale des ventes de la commande                                                     |
+| Sales      | Units             | Nombre total d'unités de la commande                                                        |
+| Sales      | Gross Profit      | Bénéfice brut de la commande (Ventes - Coût)                                                |
+| Sales      | Cost              | Coût de fabrication                                                                         |
+| Factories  | Factory           | Nom de l'usine                                                                              |
+| Factories  | Latitude          | Coordonnées de latitude                                                                     |
+| Factories  | Longitude         | Coordonnées de longitude                                                                    |
+| Products   | Division          | Division du produit                                                                         |
+| Products   | Product Name      | Nom descriptif du produit                                                                   |
+| Products   | Factory           | Nom de l'usine                                                                              |
+| Products   | Product ID        | Identifiant unique du produit                                                               |
+| Products   | Unit Price        | Prix de vente du produit                                                                    |
+| Products   | Unit Cost         | Coût de production du produit                                                               |
+| Targets    | Division          | Division du produit                                                                         |
+| Targets    | Target            | Objectif de ventes 2024                                                                     |
+| US Zips    | zip               | Le code postal à 5 chiffres attribué par le service postal des États-Unis                   |
+| US Zips    | lat               | Latitude du code postal (en savoir plus)                                                    |
+| US Zips    | lng               | Longitude du code postal (en savoir plus)                                                   |
+| US Zips    | city              | Nom officiel de la ville selon l'USPS                                                      |
+| US Zips    | state_id          | Abréviation officielle de l'État selon l'USPS                                               |
+| US Zips    | state_name        | Nom de l'État                                                                               |
+| US Zips    | zcta              | TRUE si le code postal est une zone de tabulation des codes postaux (en savoir plus)       |
+| US Zips    | parent_zcta       | ZCTA qui contient ce code postal. Existe uniquement si zcta est FALSE, utile pour inférer des informations d'un code postal situé dans un ZCTA. |
+| US Zips    | population        | Estimation de la population du code postal. Existe uniquement si zcta est TRUE             |
+| US Zips    | density           | Densité de population estimée par kilomètre carré. Existe uniquement si zcta est TRUE      |
+| US Zips    | county_fips       | Comté principal du code postal au format FIPS                                              |
+| US Zips    | county_name       | Nom du comté (county_fips)                                                                 |
+| US Zips    | county_weights    | Dictionnaire JSON listant tous les county_fips et leurs poids (par zone) associés au code postal |
+| US Zips    | imprecise         | TRUE si la latitude/longitude a été géolocalisée en utilisant la ville (rare)               |
+| US Zips    | military          | TRUE si le code postal est utilisé par l'armée américaine (latitude/longitude non disponible) |
+| US Zips    | timezone          | Fuseau horaire de la ville au format de la base de données tz (ex. America/Los_Angeles)    |
+
+
+
+
+
+
+
+
+
 
 
 ################################################################################################################################################################
