@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dfab18ac962df4e2224e7b8695b69962 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dfab18ac962df4e2224e7b8695b69962" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dfab18ac962df4e2224e7b8695b69962 = L.map(
+                "map_dfab18ac962df4e2224e7b8695b69962",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3486e7b37ba664819760cf5b045b329f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3486e7b37ba664819760cf5b045b329f.addTo(map_dfab18ac962df4e2224e7b8695b69962);
+        
+    
+            var feature_group_db35c37b4a18fc64ee54ce43c38a232e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_13e1108d2b7e078dd583f084ccf31a37 = L.marker(
+                [48.11914, -96.18115],
+                {
+}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var icon_2a6c5f7985e39055278c250b37285533 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "industry",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_13e1108d2b7e078dd583f084ccf31a37.setIcon(icon_2a6c5f7985e39055278c250b37285533);
+        
+    
+        var popup_1735f6dc0e84b75fb232fbab13990ac0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f6f5c572ff27da7e97d2a5de1129ae0 = $(`<div id="html_8f6f5c572ff27da7e97d2a5de1129ae0" style="width: 100.0%; height: 100.0%;">Factory - Sugar Shack</div>`)[0];
+                popup_1735f6dc0e84b75fb232fbab13990ac0.setContent(html_8f6f5c572ff27da7e97d2a5de1129ae0);
+            
+        
+
+        marker_13e1108d2b7e078dd583f084ccf31a37.bindPopup(popup_1735f6dc0e84b75fb232fbab13990ac0)
+        ;
+
+        
+    
+    
+            var poly_line_3d2702e0fd46802b9ff7873043b1b286 = L.polyline(
+                [[48.11914, -96.18115], [33.05657, -96.73286]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_82e3feb9083fbf28f2476b3ec8afbeed = L.polyline(
+                [[48.11914, -96.18115], [33.12084, -96.83778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_843bf107c5bde16c021d81139b4c1c1c = L.polyline(
+                [[48.11914, -96.18115], [40.74173, -74.00037]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_e8ab76ee0f995a39a5de60fb1d93fbc8 = L.polyline(
+                [[48.11914, -96.18115], [40.78534, -73.97138]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_d35b377ec6346f6efb5015cdb7850177 = L.polyline(
+                [[48.11914, -96.18115], [40.74173, -74.00037]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_f7a305f605544ecc0b500a3353497ad7 = L.polyline(
+                [[48.11914, -96.18115], [41.54939, -73.06738]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_09d3967f9eb449e508100381e3116d86 = L.polyline(
+                [[48.11914, -96.18115], [41.83877, -71.43926]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_d96568863f969e462e1682dca01421d3 = L.polyline(
+                [[48.11914, -96.18115], [47.68547, -122.28234]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_b3a98dfb9e59746ab0f14bd97fa905d4 = L.polyline(
+                [[48.11914, -96.18115], [37.74975, -122.41528]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_77edced196181aad4a43de4da9d65d6d = L.polyline(
+                [[48.11914, -96.18115], [39.94315, -75.22664]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_27e9813ff0ae9e63c49cfe1ddb7bc18d = L.polyline(
+                [[48.11914, -96.18115], [40.74173, -74.00037]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_c06ea868d2027933bae11b57fbd06598 = L.polyline(
+                [[48.11914, -96.18115], [35.02915, -85.153]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_3db647fa90aeb7d6ece3593de41f0260 = L.polyline(
+                [[48.11914, -96.18115], [42.25213, -84.38301]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_d6a7271b77aaf5a996dc4a8bf40adcf1 = L.polyline(
+                [[48.11914, -96.18115], [39.94315, -75.22664]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_6c306abfdbc610e015eac5d9aac9c996 = L.polyline(
+                [[48.11914, -96.18115], [40.74173, -74.00037]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_5bca12f341e38a9cec3deb821b22b36c = L.polyline(
+                [[48.11914, -96.18115], [40.01224, -75.14512]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_0b3e9f0a887aacbdd8e4fea040ba6c92 = L.polyline(
+                [[48.11914, -96.18115], [42.25213, -84.38301]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_e5d2d03c73f677829508316b4f8aa841 = L.polyline(
+                [[48.11914, -96.18115], [41.65045, -83.67255]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_02ccb7a3e545c85cf206b7cc03d3adef = L.polyline(
+                [[48.11914, -96.18115], [40.78534, -73.97138]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_ee8d65a4afd3f93ae43497030e5271a0 = L.polyline(
+                [[48.11914, -96.18115], [43.10197, -78.95282]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_041006e64af5bc08907e9079f8b44955 = L.polyline(
+                [[48.11914, -96.18115], [41.84793, -87.71753]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_54123d14a3b97a08ce41ded98d213f5f = L.polyline(
+                [[48.11914, -96.18115], [39.71379, -75.74033]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_3ef8de0c49e2f186d97ac0f5be08381a = L.polyline(
+                [[48.11914, -96.18115], [41.81924, -87.61017]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_8b1b49c5ade99bdf72e819edae398ec3 = L.polyline(
+                [[48.11914, -96.18115], [25.86583, -80.30247]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_cd1142036514b821452ccb49c6ccb1f9 = L.polyline(
+                [[48.11914, -96.18115], [43.58394, -84.33648]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_a510daf6579bf8978918efaae5026a56 = L.polyline(
+                [[48.11914, -96.18115], [29.86203, -95.58187]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_0d3cfeacfbd5b31b1b66f5f621ee579a = L.polyline(
+                [[48.11914, -96.18115], [30.27891, -81.58305]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_4a4a59689fed583b1700f8521be7eba8 = L.polyline(
+                [[48.11914, -96.18115], [30.27891, -81.58305]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_aa3b44f14e952487ace87d9b64929214 = L.polyline(
+                [[48.11914, -96.18115], [33.57215, -112.24838]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_d2d1d552c794580f603a80bf69f9e92c = L.polyline(
+                [[48.11914, -96.18115], [40.79538, -73.92965]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_293af43409b64989904a4689b105bfed = L.polyline(
+                [[48.11914, -96.18115], [41.45069, -81.63032]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_de2d643f197d1d44bad0cf4540a60d72 = L.polyline(
+                [[48.11914, -96.18115], [40.65172, -74.34328]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var poly_line_bb7cd138f9a60ce85021f1323838261b = L.polyline(
+                [[48.11914, -96.18115], [40.74173, -74.00037]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_db35c37b4a18fc64ee54ce43c38a232e);
+        
+    
+            var marker_cluster_04ee44639f6a22f039bf32d008578e39 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_8c5161b2be4420ca10e74759570dcd4c = L.marker(
+                [33.05657, -96.73286],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_1d850c89c6cacfc10bb6f4f636cef229 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8c5161b2be4420ca10e74759570dcd4c.setIcon(icon_1d850c89c6cacfc10bb6f4f636cef229);
+        
+    
+        var popup_99c22b52d3b9c568c0bdd8b76929d0f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f092df8be9c384f5fdb0d5ebf963729c = $(`<div id="html_f092df8be9c384f5fdb0d5ebf963729c" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_99c22b52d3b9c568c0bdd8b76929d0f0.setContent(html_f092df8be9c384f5fdb0d5ebf963729c);
+            
+        
+
+        marker_8c5161b2be4420ca10e74759570dcd4c.bindPopup(popup_99c22b52d3b9c568c0bdd8b76929d0f0)
+        ;
+
+        
+    
+    
+            var marker_e85ebd4b74cdfc68f90adbac37f84484 = L.marker(
+                [33.12084, -96.83778],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_075b4cf06ec627c5affc4f2b9c4dd1d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e85ebd4b74cdfc68f90adbac37f84484.setIcon(icon_075b4cf06ec627c5affc4f2b9c4dd1d2);
+        
+    
+        var popup_068b9916e4e63a2017fbb738599c6241 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52f83ed01d31b423f229d2bcbd289afd = $(`<div id="html_52f83ed01d31b423f229d2bcbd289afd" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_068b9916e4e63a2017fbb738599c6241.setContent(html_52f83ed01d31b423f229d2bcbd289afd);
+            
+        
+
+        marker_e85ebd4b74cdfc68f90adbac37f84484.bindPopup(popup_068b9916e4e63a2017fbb738599c6241)
+        ;
+
+        
+    
+    
+            var marker_ce9a974725ce0da5ed12e98fc1522284 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_7b5435f0d8cc24866b1c74f4a56b99e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ce9a974725ce0da5ed12e98fc1522284.setIcon(icon_7b5435f0d8cc24866b1c74f4a56b99e1);
+        
+    
+        var popup_beee48ee2d1dba4755073f842d735e5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4237cdb739a300de0ffe43be6d04e08 = $(`<div id="html_e4237cdb739a300de0ffe43be6d04e08" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_beee48ee2d1dba4755073f842d735e5d.setContent(html_e4237cdb739a300de0ffe43be6d04e08);
+            
+        
+
+        marker_ce9a974725ce0da5ed12e98fc1522284.bindPopup(popup_beee48ee2d1dba4755073f842d735e5d)
+        ;
+
+        
+    
+    
+            var marker_8c2bf5ea44a73c8c0bbb6c7371feb62a = L.marker(
+                [40.78534, -73.97138],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_e0b9fcbe413503bd3bd35378a2a1a5f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8c2bf5ea44a73c8c0bbb6c7371feb62a.setIcon(icon_e0b9fcbe413503bd3bd35378a2a1a5f7);
+        
+    
+        var popup_0d5bb2e737c8382728d211e7766559e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1de2a886efc8904faf4f60a97c5f6534 = $(`<div id="html_1de2a886efc8904faf4f60a97c5f6534" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_0d5bb2e737c8382728d211e7766559e6.setContent(html_1de2a886efc8904faf4f60a97c5f6534);
+            
+        
+
+        marker_8c2bf5ea44a73c8c0bbb6c7371feb62a.bindPopup(popup_0d5bb2e737c8382728d211e7766559e6)
+        ;
+
+        
+    
+    
+            var marker_e21ec1b422a7c12becca911c794ecd85 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_7243eadffdc7699d1ff44075ffbee701 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e21ec1b422a7c12becca911c794ecd85.setIcon(icon_7243eadffdc7699d1ff44075ffbee701);
+        
+    
+        var popup_3394cc736d1d6f5d12452b986f2e7b81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4d568b10321976b212e83ef074917b7 = $(`<div id="html_b4d568b10321976b212e83ef074917b7" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_3394cc736d1d6f5d12452b986f2e7b81.setContent(html_b4d568b10321976b212e83ef074917b7);
+            
+        
+
+        marker_e21ec1b422a7c12becca911c794ecd85.bindPopup(popup_3394cc736d1d6f5d12452b986f2e7b81)
+        ;
+
+        
+    
+    
+            var marker_606eba7f1d9c6c015260e83abea5b5c1 = L.marker(
+                [41.54939, -73.06738],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_c96cc99ac432d0960915bbc4c2135f3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_606eba7f1d9c6c015260e83abea5b5c1.setIcon(icon_c96cc99ac432d0960915bbc4c2135f3b);
+        
+    
+        var popup_7a37745b7f389231545328cc79059561 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e312df32fc2f8245a431341328061c14 = $(`<div id="html_e312df32fc2f8245a431341328061c14" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_7a37745b7f389231545328cc79059561.setContent(html_e312df32fc2f8245a431341328061c14);
+            
+        
+
+        marker_606eba7f1d9c6c015260e83abea5b5c1.bindPopup(popup_7a37745b7f389231545328cc79059561)
+        ;
+
+        
+    
+    
+            var marker_09b6fefa370c79a5f7a4ab0ae657e711 = L.marker(
+                [41.83877, -71.43926],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_da8937a73cfbc6d5c46cde6b6f64b6b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_09b6fefa370c79a5f7a4ab0ae657e711.setIcon(icon_da8937a73cfbc6d5c46cde6b6f64b6b3);
+        
+    
+        var popup_1c1645ac7d7f1619431ecf5e9672cdaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a0fa5d1132a17441a1f6873fba5453e = $(`<div id="html_3a0fa5d1132a17441a1f6873fba5453e" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_1c1645ac7d7f1619431ecf5e9672cdaa.setContent(html_3a0fa5d1132a17441a1f6873fba5453e);
+            
+        
+
+        marker_09b6fefa370c79a5f7a4ab0ae657e711.bindPopup(popup_1c1645ac7d7f1619431ecf5e9672cdaa)
+        ;
+
+        
+    
+    
+            var marker_79ea84f9818424a7a6c79c5d7050d501 = L.marker(
+                [47.68547, -122.28234],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_ab5d2b35305d6bce32098229882067d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_79ea84f9818424a7a6c79c5d7050d501.setIcon(icon_ab5d2b35305d6bce32098229882067d0);
+        
+    
+        var popup_3ef25f21e185d1f2bfdd9e45118fc8e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c41d1692c621a0f3d84fd312efb6b5e1 = $(`<div id="html_c41d1692c621a0f3d84fd312efb6b5e1" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_3ef25f21e185d1f2bfdd9e45118fc8e0.setContent(html_c41d1692c621a0f3d84fd312efb6b5e1);
+            
+        
+
+        marker_79ea84f9818424a7a6c79c5d7050d501.bindPopup(popup_3ef25f21e185d1f2bfdd9e45118fc8e0)
+        ;
+
+        
+    
+    
+            var marker_d78b64e00d90c368831dc3846c0d635b = L.marker(
+                [37.74975, -122.41528],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_5cfaf95f1c0d14a936055e823e51b427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d78b64e00d90c368831dc3846c0d635b.setIcon(icon_5cfaf95f1c0d14a936055e823e51b427);
+        
+    
+        var popup_60f4fa709ac70dac6e73a16cb2249cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e569975590d6848c94c869b2ab14da6c = $(`<div id="html_e569975590d6848c94c869b2ab14da6c" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_60f4fa709ac70dac6e73a16cb2249cdb.setContent(html_e569975590d6848c94c869b2ab14da6c);
+            
+        
+
+        marker_d78b64e00d90c368831dc3846c0d635b.bindPopup(popup_60f4fa709ac70dac6e73a16cb2249cdb)
+        ;
+
+        
+    
+    
+            var marker_2a8c2a536c01b663012df52c0744cce7 = L.marker(
+                [39.94315, -75.22664],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_24b944bc7125909869f787e9738ed789 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a8c2a536c01b663012df52c0744cce7.setIcon(icon_24b944bc7125909869f787e9738ed789);
+        
+    
+        var popup_33d71240bc859743c086c2dfa1ff3cc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7439d6dc8750c9c06f12caaaffdf47c0 = $(`<div id="html_7439d6dc8750c9c06f12caaaffdf47c0" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_33d71240bc859743c086c2dfa1ff3cc7.setContent(html_7439d6dc8750c9c06f12caaaffdf47c0);
+            
+        
+
+        marker_2a8c2a536c01b663012df52c0744cce7.bindPopup(popup_33d71240bc859743c086c2dfa1ff3cc7)
+        ;
+
+        
+    
+    
+            var marker_dfd6c6ec64e9c9f8006ccb02864e6bd9 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_02335b580152edaf1e537fe585492d35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dfd6c6ec64e9c9f8006ccb02864e6bd9.setIcon(icon_02335b580152edaf1e537fe585492d35);
+        
+    
+        var popup_4e11f65a4e5abf4184961cb978581434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b68013b706d2a780e3ea4709a6f1eba1 = $(`<div id="html_b68013b706d2a780e3ea4709a6f1eba1" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_4e11f65a4e5abf4184961cb978581434.setContent(html_b68013b706d2a780e3ea4709a6f1eba1);
+            
+        
+
+        marker_dfd6c6ec64e9c9f8006ccb02864e6bd9.bindPopup(popup_4e11f65a4e5abf4184961cb978581434)
+        ;
+
+        
+    
+    
+            var marker_544500320a06e1a8b3d02224511a6901 = L.marker(
+                [35.02915, -85.153],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_77bb439cb6ea6739660999c62c6fe8dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_544500320a06e1a8b3d02224511a6901.setIcon(icon_77bb439cb6ea6739660999c62c6fe8dd);
+        
+    
+        var popup_e2bbca47aa4956574941675e38579a35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84b3d3424fb3c98677832120f8e2e71e = $(`<div id="html_84b3d3424fb3c98677832120f8e2e71e" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_e2bbca47aa4956574941675e38579a35.setContent(html_84b3d3424fb3c98677832120f8e2e71e);
+            
+        
+
+        marker_544500320a06e1a8b3d02224511a6901.bindPopup(popup_e2bbca47aa4956574941675e38579a35)
+        ;
+
+        
+    
+    
+            var marker_ffc8754e0caa40b709207cef9bd6c0d9 = L.marker(
+                [42.25213, -84.38301],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_1a8b51000308e01a34cc383aca7930e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ffc8754e0caa40b709207cef9bd6c0d9.setIcon(icon_1a8b51000308e01a34cc383aca7930e6);
+        
+    
+        var popup_1992d1d7d4785c18641807979eafd047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adb81d3543c403f7365518c98e726c92 = $(`<div id="html_adb81d3543c403f7365518c98e726c92" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_1992d1d7d4785c18641807979eafd047.setContent(html_adb81d3543c403f7365518c98e726c92);
+            
+        
+
+        marker_ffc8754e0caa40b709207cef9bd6c0d9.bindPopup(popup_1992d1d7d4785c18641807979eafd047)
+        ;
+
+        
+    
+    
+            var marker_f93d1a6d9e607ccf3779b76264d22cf7 = L.marker(
+                [39.94315, -75.22664],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_c8a8b40349b92dffe5187671e76459f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f93d1a6d9e607ccf3779b76264d22cf7.setIcon(icon_c8a8b40349b92dffe5187671e76459f8);
+        
+    
+        var popup_a2b0bb71cdb8a57c4e196c9beb69a916 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a750945fecb8b9c8696a850f5d5d9858 = $(`<div id="html_a750945fecb8b9c8696a850f5d5d9858" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_a2b0bb71cdb8a57c4e196c9beb69a916.setContent(html_a750945fecb8b9c8696a850f5d5d9858);
+            
+        
+
+        marker_f93d1a6d9e607ccf3779b76264d22cf7.bindPopup(popup_a2b0bb71cdb8a57c4e196c9beb69a916)
+        ;
+
+        
+    
+    
+            var marker_d63ac8ac773fb811975ea06f0437e67a = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_b702f3e382c763889b879e68940c522a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d63ac8ac773fb811975ea06f0437e67a.setIcon(icon_b702f3e382c763889b879e68940c522a);
+        
+    
+        var popup_ea57404edd740c9978a8b0da5cdf99fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a215b11a534e065484ade4df0e61ddf = $(`<div id="html_9a215b11a534e065484ade4df0e61ddf" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_ea57404edd740c9978a8b0da5cdf99fd.setContent(html_9a215b11a534e065484ade4df0e61ddf);
+            
+        
+
+        marker_d63ac8ac773fb811975ea06f0437e67a.bindPopup(popup_ea57404edd740c9978a8b0da5cdf99fd)
+        ;
+
+        
+    
+    
+            var marker_439e160f14e681f90354dea8e0f94760 = L.marker(
+                [40.01224, -75.14512],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_826f2d727cd4b774b9a0f3431ca1f4f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_439e160f14e681f90354dea8e0f94760.setIcon(icon_826f2d727cd4b774b9a0f3431ca1f4f4);
+        
+    
+        var popup_94c7de77847ec0f776639ae6d335ae85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_959a0697ac8ab6d9d36703bcdda57a56 = $(`<div id="html_959a0697ac8ab6d9d36703bcdda57a56" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_94c7de77847ec0f776639ae6d335ae85.setContent(html_959a0697ac8ab6d9d36703bcdda57a56);
+            
+        
+
+        marker_439e160f14e681f90354dea8e0f94760.bindPopup(popup_94c7de77847ec0f776639ae6d335ae85)
+        ;
+
+        
+    
+    
+            var marker_d769494ab046419934cfa5e3545fc39c = L.marker(
+                [42.25213, -84.38301],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_882b59a8c42e31157419f20c7dc1411c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d769494ab046419934cfa5e3545fc39c.setIcon(icon_882b59a8c42e31157419f20c7dc1411c);
+        
+    
+        var popup_51622aa3f01b0035f343b9077c7e08d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bc2d22bdfe5e7088bca1b8b6a505f72 = $(`<div id="html_3bc2d22bdfe5e7088bca1b8b6a505f72" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_51622aa3f01b0035f343b9077c7e08d7.setContent(html_3bc2d22bdfe5e7088bca1b8b6a505f72);
+            
+        
+
+        marker_d769494ab046419934cfa5e3545fc39c.bindPopup(popup_51622aa3f01b0035f343b9077c7e08d7)
+        ;
+
+        
+    
+    
+            var marker_ead2a0a9a2f6c9a16d603bea22195d56 = L.marker(
+                [41.65045, -83.67255],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_b3d064b58f7502c9d1c3a78981a9b07a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ead2a0a9a2f6c9a16d603bea22195d56.setIcon(icon_b3d064b58f7502c9d1c3a78981a9b07a);
+        
+    
+        var popup_d75e2238de75ed61ce0d413c16540a17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_510b85cd937854ccf1c9248b60c41bdc = $(`<div id="html_510b85cd937854ccf1c9248b60c41bdc" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_d75e2238de75ed61ce0d413c16540a17.setContent(html_510b85cd937854ccf1c9248b60c41bdc);
+            
+        
+
+        marker_ead2a0a9a2f6c9a16d603bea22195d56.bindPopup(popup_d75e2238de75ed61ce0d413c16540a17)
+        ;
+
+        
+    
+    
+            var marker_02d5bf265d6b976fc0ca0c9e502bc2fd = L.marker(
+                [40.78534, -73.97138],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_67e753da9ffda2ca6bb4a001cc01887e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_02d5bf265d6b976fc0ca0c9e502bc2fd.setIcon(icon_67e753da9ffda2ca6bb4a001cc01887e);
+        
+    
+        var popup_763786c2462bcf4d924f4aa7ed8cfee6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f65876630b06a57b650ea157a5c580e5 = $(`<div id="html_f65876630b06a57b650ea157a5c580e5" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_763786c2462bcf4d924f4aa7ed8cfee6.setContent(html_f65876630b06a57b650ea157a5c580e5);
+            
+        
+
+        marker_02d5bf265d6b976fc0ca0c9e502bc2fd.bindPopup(popup_763786c2462bcf4d924f4aa7ed8cfee6)
+        ;
+
+        
+    
+    
+            var marker_17ec21e20bd1667088bccf6ce24bc87a = L.marker(
+                [43.10197, -78.95282],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_3972fcf5ef0157c863414a4c51803352 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17ec21e20bd1667088bccf6ce24bc87a.setIcon(icon_3972fcf5ef0157c863414a4c51803352);
+        
+    
+        var popup_7d6c45d10b25ad469a1452a7ccd2533c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea4d5d83f5b3d852bd8b3d2100811f92 = $(`<div id="html_ea4d5d83f5b3d852bd8b3d2100811f92" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_7d6c45d10b25ad469a1452a7ccd2533c.setContent(html_ea4d5d83f5b3d852bd8b3d2100811f92);
+            
+        
+
+        marker_17ec21e20bd1667088bccf6ce24bc87a.bindPopup(popup_7d6c45d10b25ad469a1452a7ccd2533c)
+        ;
+
+        
+    
+    
+            var marker_4cbd35e6b4043326d6f9f903f21c7f01 = L.marker(
+                [41.84793, -87.71753],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_53e22d8c451f08fc7b0e31b972e8c216 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4cbd35e6b4043326d6f9f903f21c7f01.setIcon(icon_53e22d8c451f08fc7b0e31b972e8c216);
+        
+    
+        var popup_42199c16c29b5c71a234e2d94d056175 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf243b422d1ea648d9fc57e21e264525 = $(`<div id="html_cf243b422d1ea648d9fc57e21e264525" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_42199c16c29b5c71a234e2d94d056175.setContent(html_cf243b422d1ea648d9fc57e21e264525);
+            
+        
+
+        marker_4cbd35e6b4043326d6f9f903f21c7f01.bindPopup(popup_42199c16c29b5c71a234e2d94d056175)
+        ;
+
+        
+    
+    
+            var marker_6de21a949192bc5e39f0478d43d31935 = L.marker(
+                [39.71379, -75.74033],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_5b82f6479e1099a0f597063ad24008c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6de21a949192bc5e39f0478d43d31935.setIcon(icon_5b82f6479e1099a0f597063ad24008c8);
+        
+    
+        var popup_a932d5a800cd18697b237cf20187d4de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8a8956dcf6e7e386125ba804b06548 = $(`<div id="html_bd8a8956dcf6e7e386125ba804b06548" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_a932d5a800cd18697b237cf20187d4de.setContent(html_bd8a8956dcf6e7e386125ba804b06548);
+            
+        
+
+        marker_6de21a949192bc5e39f0478d43d31935.bindPopup(popup_a932d5a800cd18697b237cf20187d4de)
+        ;
+
+        
+    
+    
+            var marker_84ec3179c09e45cdc698e0e0efe3cf5c = L.marker(
+                [41.81924, -87.61017],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_b93c26a0b268ba78779ce80c3196e566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_84ec3179c09e45cdc698e0e0efe3cf5c.setIcon(icon_b93c26a0b268ba78779ce80c3196e566);
+        
+    
+        var popup_57c7dd6f04576e55e441e8883320363a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35978b9429779523b4e0b240a1463e62 = $(`<div id="html_35978b9429779523b4e0b240a1463e62" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_57c7dd6f04576e55e441e8883320363a.setContent(html_35978b9429779523b4e0b240a1463e62);
+            
+        
+
+        marker_84ec3179c09e45cdc698e0e0efe3cf5c.bindPopup(popup_57c7dd6f04576e55e441e8883320363a)
+        ;
+
+        
+    
+    
+            var marker_efe65d6aef86883852e3ca09543050d0 = L.marker(
+                [25.86583, -80.30247],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_1b4769665ba514c45cbb62daa5eb5224 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_efe65d6aef86883852e3ca09543050d0.setIcon(icon_1b4769665ba514c45cbb62daa5eb5224);
+        
+    
+        var popup_0ec079bcf36b7147a0c929e7968a6c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f72dbe81db41f06b270013485134a3f0 = $(`<div id="html_f72dbe81db41f06b270013485134a3f0" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_0ec079bcf36b7147a0c929e7968a6c92.setContent(html_f72dbe81db41f06b270013485134a3f0);
+            
+        
+
+        marker_efe65d6aef86883852e3ca09543050d0.bindPopup(popup_0ec079bcf36b7147a0c929e7968a6c92)
+        ;
+
+        
+    
+    
+            var marker_9d87cccd2220cd5c31d656c13d3a36db = L.marker(
+                [43.58394, -84.33648],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_81dedc16482025a35bffd9dfc54a0bba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9d87cccd2220cd5c31d656c13d3a36db.setIcon(icon_81dedc16482025a35bffd9dfc54a0bba);
+        
+    
+        var popup_74995ab95c0331565fecfe8b72babdda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69881b2d8a67012683b4caaa9bf628f1 = $(`<div id="html_69881b2d8a67012683b4caaa9bf628f1" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_74995ab95c0331565fecfe8b72babdda.setContent(html_69881b2d8a67012683b4caaa9bf628f1);
+            
+        
+
+        marker_9d87cccd2220cd5c31d656c13d3a36db.bindPopup(popup_74995ab95c0331565fecfe8b72babdda)
+        ;
+
+        
+    
+    
+            var marker_e2d8ed36431e88594ebe3fb8e91085fa = L.marker(
+                [29.86203, -95.58187],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_429dbb3935d9c8b4b74d92bedd026561 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2d8ed36431e88594ebe3fb8e91085fa.setIcon(icon_429dbb3935d9c8b4b74d92bedd026561);
+        
+    
+        var popup_c8929343d55f41b3cc81b401b2d6ac0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2121ba75274b8535b7d526d8a97576fd = $(`<div id="html_2121ba75274b8535b7d526d8a97576fd" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_c8929343d55f41b3cc81b401b2d6ac0e.setContent(html_2121ba75274b8535b7d526d8a97576fd);
+            
+        
+
+        marker_e2d8ed36431e88594ebe3fb8e91085fa.bindPopup(popup_c8929343d55f41b3cc81b401b2d6ac0e)
+        ;
+
+        
+    
+    
+            var marker_39ef947521ec7c832ab015faf1c1e199 = L.marker(
+                [30.27891, -81.58305],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_c8385f1ca7f0412da2b8cd3b3ee4d269 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_39ef947521ec7c832ab015faf1c1e199.setIcon(icon_c8385f1ca7f0412da2b8cd3b3ee4d269);
+        
+    
+        var popup_6e3a54d61750ee00a3e3e60937a3bad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15630865a11a50a2cb48fce622363e3e = $(`<div id="html_15630865a11a50a2cb48fce622363e3e" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_6e3a54d61750ee00a3e3e60937a3bad7.setContent(html_15630865a11a50a2cb48fce622363e3e);
+            
+        
+
+        marker_39ef947521ec7c832ab015faf1c1e199.bindPopup(popup_6e3a54d61750ee00a3e3e60937a3bad7)
+        ;
+
+        
+    
+    
+            var marker_008ddc5921ee448df71fb5dee6f4461b = L.marker(
+                [30.27891, -81.58305],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_3ccdfe3913ea0bb363b90c73d455c99e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_008ddc5921ee448df71fb5dee6f4461b.setIcon(icon_3ccdfe3913ea0bb363b90c73d455c99e);
+        
+    
+        var popup_475bc3b6ebcd6a26413d55ec97b07b75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63b22318a6e5177c546bdb7fcf864274 = $(`<div id="html_63b22318a6e5177c546bdb7fcf864274" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_475bc3b6ebcd6a26413d55ec97b07b75.setContent(html_63b22318a6e5177c546bdb7fcf864274);
+            
+        
+
+        marker_008ddc5921ee448df71fb5dee6f4461b.bindPopup(popup_475bc3b6ebcd6a26413d55ec97b07b75)
+        ;
+
+        
+    
+    
+            var marker_ddad8c915948c6fd547c9e1ee90f9e19 = L.marker(
+                [33.57215, -112.24838],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_2ba9aaa4a48e0779831e92fe40911628 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ddad8c915948c6fd547c9e1ee90f9e19.setIcon(icon_2ba9aaa4a48e0779831e92fe40911628);
+        
+    
+        var popup_f82d8ca67e649af1a45e348e38bc0995 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ccf2fecf3b044a6e1ab676963ab9c2a = $(`<div id="html_8ccf2fecf3b044a6e1ab676963ab9c2a" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_f82d8ca67e649af1a45e348e38bc0995.setContent(html_8ccf2fecf3b044a6e1ab676963ab9c2a);
+            
+        
+
+        marker_ddad8c915948c6fd547c9e1ee90f9e19.bindPopup(popup_f82d8ca67e649af1a45e348e38bc0995)
+        ;
+
+        
+    
+    
+            var marker_64144851c0ad76d91f0445c64614da2b = L.marker(
+                [40.79538, -73.92965],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_565d0e89d59968afad6542c592d1f029 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64144851c0ad76d91f0445c64614da2b.setIcon(icon_565d0e89d59968afad6542c592d1f029);
+        
+    
+        var popup_a8a443707715b26e30aeff20b915cb7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_398b30a690bb23d9b85744e5f065b898 = $(`<div id="html_398b30a690bb23d9b85744e5f065b898" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_a8a443707715b26e30aeff20b915cb7e.setContent(html_398b30a690bb23d9b85744e5f065b898);
+            
+        
+
+        marker_64144851c0ad76d91f0445c64614da2b.bindPopup(popup_a8a443707715b26e30aeff20b915cb7e)
+        ;
+
+        
+    
+    
+            var marker_4f850d3fcb48c13dd840bbeb0b3ba47f = L.marker(
+                [41.45069, -81.63032],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_0813096050e7f7b0621692de7b601fa7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f850d3fcb48c13dd840bbeb0b3ba47f.setIcon(icon_0813096050e7f7b0621692de7b601fa7);
+        
+    
+        var popup_aa99f33507c075374355859242817471 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca6822173583325ec933cf317a61e19f = $(`<div id="html_ca6822173583325ec933cf317a61e19f" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_aa99f33507c075374355859242817471.setContent(html_ca6822173583325ec933cf317a61e19f);
+            
+        
+
+        marker_4f850d3fcb48c13dd840bbeb0b3ba47f.bindPopup(popup_aa99f33507c075374355859242817471)
+        ;
+
+        
+    
+    
+            var marker_63329cd2283d99af8d59514340851040 = L.marker(
+                [40.65172, -74.34328],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_ebf08ab07ffaddcc7d3c4005b6ad4e48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_63329cd2283d99af8d59514340851040.setIcon(icon_ebf08ab07ffaddcc7d3c4005b6ad4e48);
+        
+    
+        var popup_76ba5e9e966a278261e6e193fad2ee14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b50e9538f03c78317b5f795d92dc1c74 = $(`<div id="html_b50e9538f03c78317b5f795d92dc1c74" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_76ba5e9e966a278261e6e193fad2ee14.setContent(html_b50e9538f03c78317b5f795d92dc1c74);
+            
+        
+
+        marker_63329cd2283d99af8d59514340851040.bindPopup(popup_76ba5e9e966a278261e6e193fad2ee14)
+        ;
+
+        
+    
+    
+            var marker_ce492f4f6071aeeb6db56a78bd7aa81c = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_04ee44639f6a22f039bf32d008578e39);
+        
+    
+            var icon_7192514b091a265fbe98a5036e022aa4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ce492f4f6071aeeb6db56a78bd7aa81c.setIcon(icon_7192514b091a265fbe98a5036e022aa4);
+        
+    
+        var popup_9ff55a951500ee4d7277160915864154 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_146fc8394067b08e7994f46be76fef2a = $(`<div id="html_146fc8394067b08e7994f46be76fef2a" style="width: 100.0%; height: 100.0%;">Client - Sugar Shack</div>`)[0];
+                popup_9ff55a951500ee4d7277160915864154.setContent(html_146fc8394067b08e7994f46be76fef2a);
+            
+        
+
+        marker_ce492f4f6071aeeb6db56a78bd7aa81c.bindPopup(popup_9ff55a951500ee4d7277160915864154)
+        ;
+
+        
+    
+    
+            var layer_control_2dcd66e35f9c90eb5ba8e1a0a1a3aedd_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3486e7b37ba664819760cf5b045b329f,
+                },
+                overlays :  {
+                    "Sugar Shack" : feature_group_db35c37b4a18fc64ee54ce43c38a232e,
+                    "Sugar Shack - Clients" : marker_cluster_04ee44639f6a22f039bf32d008578e39,
+                },
+            };
+            let layer_control_2dcd66e35f9c90eb5ba8e1a0a1a3aedd = L.control.layers(
+                layer_control_2dcd66e35f9c90eb5ba8e1a0a1a3aedd_layers.base_layers,
+                layer_control_2dcd66e35f9c90eb5ba8e1a0a1a3aedd_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_dfab18ac962df4e2224e7b8695b69962);
+
+        
+</script>
+</html>

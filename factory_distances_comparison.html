@@ -1,0 +1,2576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b42bdb25a2e62ce00a3697c7b3e0cdc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b42bdb25a2e62ce00a3697c7b3e0cdc5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b42bdb25a2e62ce00a3697c7b3e0cdc5 = L.map(
+                "map_b42bdb25a2e62ce00a3697c7b3e0cdc5",
+                {
+                    center: [38.91469727272727, -83.6202690909091],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_da0ccecb8e06fa8621f4499fb26edeaa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_da0ccecb8e06fa8621f4499fb26edeaa.addTo(map_b42bdb25a2e62ce00a3697c7b3e0cdc5);
+        
+    
+            var marker_cluster_52eba4462d9e5c1e4841694c1e105aa9 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_dcb8332c4bb9cc556cc1c256e571899e = L.marker(
+                [33.05657, -96.73286],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_9035f9d386a45818459788d6586c8638 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dcb8332c4bb9cc556cc1c256e571899e.setIcon(icon_9035f9d386a45818459788d6586c8638);
+        
+    
+        var popup_1094147749948cbce296e2e822c97670 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_857d4755ca761e5420c37d8f8888ba3c = $(`<div id="html_857d4755ca761e5420c37d8f8888ba3c" style="width: 100.0%; height: 100.0%;">Client ID: 158708<br>Distance actuelle: 1673.29 km</div>`)[0];
+                popup_1094147749948cbce296e2e822c97670.setContent(html_857d4755ca761e5420c37d8f8888ba3c);
+            
+        
+
+        marker_dcb8332c4bb9cc556cc1c256e571899e.bindPopup(popup_1094147749948cbce296e2e822c97670)
+        ;
+
+        
+    
+    
+            var marker_4838cc1b72e948bcf5b1fdcd9ec45f17 = L.marker(
+                [33.12084, -96.83778],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_818aa8459129558bc2746136989dc721 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4838cc1b72e948bcf5b1fdcd9ec45f17.setIcon(icon_818aa8459129558bc2746136989dc721);
+        
+    
+        var popup_2fdc79f76092c9f4130c52525f92a75c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95494ebec50e43c894926f6572c718fb = $(`<div id="html_95494ebec50e43c894926f6572c718fb" style="width: 100.0%; height: 100.0%;">Client ID: 165449<br>Distance actuelle: 1666.43 km</div>`)[0];
+                popup_2fdc79f76092c9f4130c52525f92a75c.setContent(html_95494ebec50e43c894926f6572c718fb);
+            
+        
+
+        marker_4838cc1b72e948bcf5b1fdcd9ec45f17.bindPopup(popup_2fdc79f76092c9f4130c52525f92a75c)
+        ;
+
+        
+    
+    
+            var marker_f6ecc1f723cc6a139cbae2d1303fa23e = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_f4e43b36e62e19f869d4dbab51e613e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f6ecc1f723cc6a139cbae2d1303fa23e.setIcon(icon_f4e43b36e62e19f869d4dbab51e613e5);
+        
+    
+        var popup_6244ff1675e1a4c2e713823c50c77939 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6182eee300d00d8eeb1748368786fe65 = $(`<div id="html_6182eee300d00d8eeb1748368786fe65" style="width: 100.0%; height: 100.0%;">Client ID: 135279<br>Distance actuelle: 1937.86 km</div>`)[0];
+                popup_6244ff1675e1a4c2e713823c50c77939.setContent(html_6182eee300d00d8eeb1748368786fe65);
+            
+        
+
+        marker_f6ecc1f723cc6a139cbae2d1303fa23e.bindPopup(popup_6244ff1675e1a4c2e713823c50c77939)
+        ;
+
+        
+    
+    
+            var marker_30fe02d163a28a9325d82ac5c1c7a468 = L.marker(
+                [40.78534, -73.97138],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_a28cd15d189d760c21bf9baa0ae882be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_30fe02d163a28a9325d82ac5c1c7a468.setIcon(icon_a28cd15d189d760c21bf9baa0ae882be);
+        
+    
+        var popup_a8c4fce3e112629cf7217773451f0896 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ce311a192625d37be456928acf78fe5 = $(`<div id="html_7ce311a192625d37be456928acf78fe5" style="width: 100.0%; height: 100.0%;">Client ID: 146864<br>Distance actuelle: 1937.33 km</div>`)[0];
+                popup_a8c4fce3e112629cf7217773451f0896.setContent(html_7ce311a192625d37be456928acf78fe5);
+            
+        
+
+        marker_30fe02d163a28a9325d82ac5c1c7a468.bindPopup(popup_a8c4fce3e112629cf7217773451f0896)
+        ;
+
+        
+    
+    
+            var marker_7a6620adc0886477c59d7a75e30e2f24 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_bbe12a73451785641479c9fe919ff96e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7a6620adc0886477c59d7a75e30e2f24.setIcon(icon_bbe12a73451785641479c9fe919ff96e);
+        
+    
+        var popup_ae02cc952fad05f411a2ea11d84c335a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8f15eb4c078a0642363a84cc3702d6d = $(`<div id="html_b8f15eb4c078a0642363a84cc3702d6d" style="width: 100.0%; height: 100.0%;">Client ID: 113677<br>Distance actuelle: 1937.86 km</div>`)[0];
+                popup_ae02cc952fad05f411a2ea11d84c335a.setContent(html_b8f15eb4c078a0642363a84cc3702d6d);
+            
+        
+
+        marker_7a6620adc0886477c59d7a75e30e2f24.bindPopup(popup_ae02cc952fad05f411a2ea11d84c335a)
+        ;
+
+        
+    
+    
+            var marker_ad0ffb2f6e11f3fd6aebea7509fdfe49 = L.marker(
+                [41.54939, -73.06738],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_f370d4a6644e28af2d5730ab254df87f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ad0ffb2f6e11f3fd6aebea7509fdfe49.setIcon(icon_f370d4a6644e28af2d5730ab254df87f);
+        
+    
+        var popup_314224d148c02189bac3ac2e3ef97725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eabeec91efd59eeb3b4b002dbc266d12 = $(`<div id="html_eabeec91efd59eeb3b4b002dbc266d12" style="width: 100.0%; height: 100.0%;">Client ID: 139822<br>Distance actuelle: 1958.65 km</div>`)[0];
+                popup_314224d148c02189bac3ac2e3ef97725.setContent(html_eabeec91efd59eeb3b4b002dbc266d12);
+            
+        
+
+        marker_ad0ffb2f6e11f3fd6aebea7509fdfe49.bindPopup(popup_314224d148c02189bac3ac2e3ef97725)
+        ;
+
+        
+    
+    
+            var marker_c21168465e570432ac0dfdf1b0307963 = L.marker(
+                [41.83877, -71.43926],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_95c8d6d4e5c5e71d9701b8e5fd54c882 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c21168465e570432ac0dfdf1b0307963.setIcon(icon_95c8d6d4e5c5e71d9701b8e5fd54c882);
+        
+    
+        var popup_7359c6670c7dea6bd7e67b0d3a291038 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4aa2156bbef00c4e220bda81f75ad47d = $(`<div id="html_4aa2156bbef00c4e220bda81f75ad47d" style="width: 100.0%; height: 100.0%;">Client ID: 140158<br>Distance actuelle: 2061.70 km</div>`)[0];
+                popup_7359c6670c7dea6bd7e67b0d3a291038.setContent(html_4aa2156bbef00c4e220bda81f75ad47d);
+            
+        
+
+        marker_c21168465e570432ac0dfdf1b0307963.bindPopup(popup_7359c6670c7dea6bd7e67b0d3a291038)
+        ;
+
+        
+    
+    
+            var marker_cad75e8d3ce34a20ebb2398df30c7ccb = L.marker(
+                [47.68547, -122.28234],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_65b767f06942c124071f5c59745b25a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cad75e8d3ce34a20ebb2398df30c7ccb.setIcon(icon_65b767f06942c124071f5c59745b25a0);
+        
+    
+        var popup_5726f643a63a18f486108fefdff281a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55ec346b93db868d1d00e43a2e300782 = $(`<div id="html_55ec346b93db868d1d00e43a2e300782" style="width: 100.0%; height: 100.0%;">Client ID: 131954<br>Distance actuelle: 1942.70 km</div>`)[0];
+                popup_5726f643a63a18f486108fefdff281a2.setContent(html_55ec346b93db868d1d00e43a2e300782);
+            
+        
+
+        marker_cad75e8d3ce34a20ebb2398df30c7ccb.bindPopup(popup_5726f643a63a18f486108fefdff281a2)
+        ;
+
+        
+    
+    
+            var marker_b9fcabc52af7b93985116256716a5794 = L.marker(
+                [37.74975, -122.41528],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_599016c9ead5e025ac663b6ba170b4a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b9fcabc52af7b93985116256716a5794.setIcon(icon_599016c9ead5e025ac663b6ba170b4a3);
+        
+    
+        var popup_3c8beaeb8dc530417ad348d6b18f27ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b1f2cdc2f163adef603d6c883ae2579 = $(`<div id="html_1b1f2cdc2f163adef603d6c883ae2579" style="width: 100.0%; height: 100.0%;">Client ID: 106033<br>Distance actuelle: 2414.56 km</div>`)[0];
+                popup_3c8beaeb8dc530417ad348d6b18f27ac.setContent(html_1b1f2cdc2f163adef603d6c883ae2579);
+            
+        
+
+        marker_b9fcabc52af7b93985116256716a5794.bindPopup(popup_3c8beaeb8dc530417ad348d6b18f27ac)
+        ;
+
+        
+    
+    
+            var marker_a3c5d74b73b9c352bb905f88442cbde7 = L.marker(
+                [39.94315, -75.22664],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_2648efe8dbf21ade9123501c77f85d4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3c5d74b73b9c352bb905f88442cbde7.setIcon(icon_2648efe8dbf21ade9123501c77f85d4c);
+        
+    
+        var popup_0c25fa426753a1f0bbcb59c8ac50a552 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8853c7b1cfa15deb964dae3db69e754 = $(`<div id="html_d8853c7b1cfa15deb964dae3db69e754" style="width: 100.0%; height: 100.0%;">Client ID: 114867<br>Distance actuelle: 1900.92 km</div>`)[0];
+                popup_0c25fa426753a1f0bbcb59c8ac50a552.setContent(html_d8853c7b1cfa15deb964dae3db69e754);
+            
+        
+
+        marker_a3c5d74b73b9c352bb905f88442cbde7.bindPopup(popup_0c25fa426753a1f0bbcb59c8ac50a552)
+        ;
+
+        
+    
+    
+            var marker_7f8b806461754f0f353da068268fd095 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_137991209925ed0453aba3062882ddad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f8b806461754f0f353da068268fd095.setIcon(icon_137991209925ed0453aba3062882ddad);
+        
+    
+        var popup_b2c45cab66dad2e06f08a00c193005cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d2628bb6979fb52b47abf8332d72745 = $(`<div id="html_3d2628bb6979fb52b47abf8332d72745" style="width: 100.0%; height: 100.0%;">Client ID: 143980<br>Distance actuelle: 1937.86 km</div>`)[0];
+                popup_b2c45cab66dad2e06f08a00c193005cb.setContent(html_3d2628bb6979fb52b47abf8332d72745);
+            
+        
+
+        marker_7f8b806461754f0f353da068268fd095.bindPopup(popup_b2c45cab66dad2e06f08a00c193005cb)
+        ;
+
+        
+    
+    
+            var marker_1c191af936c0011b9155f58f4630029d = L.marker(
+                [35.02915, -85.153],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_39a6f15db7ebca702af33f7a0fce2555 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c191af936c0011b9155f58f4630029d.setIcon(icon_39a6f15db7ebca702af33f7a0fce2555);
+        
+    
+        var popup_f33c6e4c48984c1be63f320ca5b0a850 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e670c4e68972ba07ea82b3c5a13159e = $(`<div id="html_3e670c4e68972ba07ea82b3c5a13159e" style="width: 100.0%; height: 100.0%;">Client ID: 140977<br>Distance actuelle: 1716.41 km</div>`)[0];
+                popup_f33c6e4c48984c1be63f320ca5b0a850.setContent(html_3e670c4e68972ba07ea82b3c5a13159e);
+            
+        
+
+        marker_1c191af936c0011b9155f58f4630029d.bindPopup(popup_f33c6e4c48984c1be63f320ca5b0a850)
+        ;
+
+        
+    
+    
+            var marker_28f95eb2de7a457686d5b859a14af524 = L.marker(
+                [42.25213, -84.38301],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_f3452a54af25be40a730b5e78217f193 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_28f95eb2de7a457686d5b859a14af524.setIcon(icon_f3452a54af25be40a730b5e78217f193);
+        
+    
+        var popup_1511137b7b6ae74ff8f096d33e90a508 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b29861f0093429ce16d8bb4ffb197c9 = $(`<div id="html_9b29861f0093429ce16d8bb4ffb197c9" style="width: 100.0%; height: 100.0%;">Client ID: 110324<br>Distance actuelle: 1131.52 km</div>`)[0];
+                popup_1511137b7b6ae74ff8f096d33e90a508.setContent(html_9b29861f0093429ce16d8bb4ffb197c9);
+            
+        
+
+        marker_28f95eb2de7a457686d5b859a14af524.bindPopup(popup_1511137b7b6ae74ff8f096d33e90a508)
+        ;
+
+        
+    
+    
+            var marker_19788b2400d68d82346d8b5da4961808 = L.marker(
+                [39.94315, -75.22664],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_5c1cf685c763b0961e9326a8ae4fec97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_19788b2400d68d82346d8b5da4961808.setIcon(icon_5c1cf685c763b0961e9326a8ae4fec97);
+        
+    
+        var popup_79769786765ad97333345a5ad2885933 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dfd8e225e0464f269c44690a3d4a392 = $(`<div id="html_1dfd8e225e0464f269c44690a3d4a392" style="width: 100.0%; height: 100.0%;">Client ID: 151043<br>Distance actuelle: 1900.92 km</div>`)[0];
+                popup_79769786765ad97333345a5ad2885933.setContent(html_1dfd8e225e0464f269c44690a3d4a392);
+            
+        
+
+        marker_19788b2400d68d82346d8b5da4961808.bindPopup(popup_79769786765ad97333345a5ad2885933)
+        ;
+
+        
+    
+    
+            var marker_e34788eba5d30deb83ee3007be82a40e = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_1d7db76fb60aea3f0892fcdc4a869111 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e34788eba5d30deb83ee3007be82a40e.setIcon(icon_1d7db76fb60aea3f0892fcdc4a869111);
+        
+    
+        var popup_8fd7c73c301577c48193fca57c39c2be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a2d8cc11e3587078c8355b9eee1fe8 = $(`<div id="html_40a2d8cc11e3587078c8355b9eee1fe8" style="width: 100.0%; height: 100.0%;">Client ID: 131499<br>Distance actuelle: 1937.86 km</div>`)[0];
+                popup_8fd7c73c301577c48193fca57c39c2be.setContent(html_40a2d8cc11e3587078c8355b9eee1fe8);
+            
+        
+
+        marker_e34788eba5d30deb83ee3007be82a40e.bindPopup(popup_8fd7c73c301577c48193fca57c39c2be)
+        ;
+
+        
+    
+    
+            var marker_f7d9764a4bff161f3851b31c55c30644 = L.marker(
+                [40.01224, -75.14512],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_dab6f1ebcf473221ded81237069da64a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f7d9764a4bff161f3851b31c55c30644.setIcon(icon_dab6f1ebcf473221ded81237069da64a);
+        
+    
+        var popup_1ff885b542b1faae72e119fd6a270e34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9625aa7e6a1d90a432998debab4ef8e = $(`<div id="html_a9625aa7e6a1d90a432998debab4ef8e" style="width: 100.0%; height: 100.0%;">Client ID: 141558<br>Distance actuelle: 1902.17 km</div>`)[0];
+                popup_1ff885b542b1faae72e119fd6a270e34.setContent(html_a9625aa7e6a1d90a432998debab4ef8e);
+            
+        
+
+        marker_f7d9764a4bff161f3851b31c55c30644.bindPopup(popup_1ff885b542b1faae72e119fd6a270e34)
+        ;
+
+        
+    
+    
+            var marker_4fb5c666e6b783c5ac87fc7b2859c8ca = L.marker(
+                [42.25213, -84.38301],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_fcd69aa8ff5929d283d284174cf1c225 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4fb5c666e6b783c5ac87fc7b2859c8ca.setIcon(icon_fcd69aa8ff5929d283d284174cf1c225);
+        
+    
+        var popup_d7b20f42627bb07e26d33a6ae1aa2f7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11a415fa8cca3cad8edc06cb03b6b276 = $(`<div id="html_11a415fa8cca3cad8edc06cb03b6b276" style="width: 100.0%; height: 100.0%;">Client ID: 127026<br>Distance actuelle: 1131.52 km</div>`)[0];
+                popup_d7b20f42627bb07e26d33a6ae1aa2f7e.setContent(html_11a415fa8cca3cad8edc06cb03b6b276);
+            
+        
+
+        marker_4fb5c666e6b783c5ac87fc7b2859c8ca.bindPopup(popup_d7b20f42627bb07e26d33a6ae1aa2f7e)
+        ;
+
+        
+    
+    
+            var marker_845e9870f443c940dc7c6570e125445b = L.marker(
+                [41.65045, -83.67255],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_25ea7886a0869528febdd704ab7b5735 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_845e9870f443c940dc7c6570e125445b.setIcon(icon_25ea7886a0869528febdd704ab7b5735);
+        
+    
+        var popup_ec42300211b2c7f2a27fa9026a8a6b6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72c3f1c3f8eae64f30ae313d2003175d = $(`<div id="html_72c3f1c3f8eae64f30ae313d2003175d" style="width: 100.0%; height: 100.0%;">Client ID: 120089<br>Distance actuelle: 1219.55 km</div>`)[0];
+                popup_ec42300211b2c7f2a27fa9026a8a6b6b.setContent(html_72c3f1c3f8eae64f30ae313d2003175d);
+            
+        
+
+        marker_845e9870f443c940dc7c6570e125445b.bindPopup(popup_ec42300211b2c7f2a27fa9026a8a6b6b)
+        ;
+
+        
+    
+    
+            var marker_969ffd891b2fd4bcdf536ea41f0e2e59 = L.marker(
+                [40.78534, -73.97138],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_13097cd5c6d819eaab0ff79b53bc19f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_969ffd891b2fd4bcdf536ea41f0e2e59.setIcon(icon_13097cd5c6d819eaab0ff79b53bc19f8);
+        
+    
+        var popup_8a2706dc7737a50a71607dbc1cc2e156 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68934799cac61fa8cb9e1b9c54b778a7 = $(`<div id="html_68934799cac61fa8cb9e1b9c54b778a7" style="width: 100.0%; height: 100.0%;">Client ID: 164973<br>Distance actuelle: 1937.33 km</div>`)[0];
+                popup_8a2706dc7737a50a71607dbc1cc2e156.setContent(html_68934799cac61fa8cb9e1b9c54b778a7);
+            
+        
+
+        marker_969ffd891b2fd4bcdf536ea41f0e2e59.bindPopup(popup_8a2706dc7737a50a71607dbc1cc2e156)
+        ;
+
+        
+    
+    
+            var marker_dffc874037e09facb3c5dabddbe34260 = L.marker(
+                [43.10197, -78.95282],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_f69e491899db16917790115151e8e24c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dffc874037e09facb3c5dabddbe34260.setIcon(icon_f69e491899db16917790115151e8e24c);
+        
+    
+        var popup_ac37e73725d317a04d59e8c54b5d3099 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4d29e041a868bf24ea1fc35c64d653c = $(`<div id="html_e4d29e041a868bf24ea1fc35c64d653c" style="width: 100.0%; height: 100.0%;">Client ID: 113138<br>Distance actuelle: 1450.95 km</div>`)[0];
+                popup_ac37e73725d317a04d59e8c54b5d3099.setContent(html_e4d29e041a868bf24ea1fc35c64d653c);
+            
+        
+
+        marker_dffc874037e09facb3c5dabddbe34260.bindPopup(popup_ac37e73725d317a04d59e8c54b5d3099)
+        ;
+
+        
+    
+    
+            var marker_c93ebcdf618c0004aadb662c369897b6 = L.marker(
+                [41.84793, -87.71753],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_dd23c3c1f8680d7b37b624c79ebff6ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c93ebcdf618c0004aadb662c369897b6.setIcon(icon_dd23c3c1f8680d7b37b624c79ebff6ff);
+        
+    
+        var popup_67471d71b2f855c8eb52b460530f8a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6615d0fd034bc43b290be463dca2db45 = $(`<div id="html_6615d0fd034bc43b290be463dca2db45" style="width: 100.0%; height: 100.0%;">Client ID: 147375<br>Distance actuelle: 963.90 km</div>`)[0];
+                popup_67471d71b2f855c8eb52b460530f8a6d.setContent(html_6615d0fd034bc43b290be463dca2db45);
+            
+        
+
+        marker_c93ebcdf618c0004aadb662c369897b6.bindPopup(popup_67471d71b2f855c8eb52b460530f8a6d)
+        ;
+
+        
+    
+    
+            var marker_3a6d362a0fb36eeead601f2314d0fb5e = L.marker(
+                [39.71379, -75.74033],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_0a600d312e7b1ef4923cc0e838406a87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a6d362a0fb36eeead601f2314d0fb5e.setIcon(icon_0a600d312e7b1ef4923cc0e838406a87);
+        
+    
+        var popup_f7d6dfb0d561f176db0ba6a4551764b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_867d82f0852455b7183d623be9a5332a = $(`<div id="html_867d82f0852455b7183d623be9a5332a" style="width: 100.0%; height: 100.0%;">Client ID: 115413<br>Distance actuelle: 1880.30 km</div>`)[0];
+                popup_f7d6dfb0d561f176db0ba6a4551764b9.setContent(html_867d82f0852455b7183d623be9a5332a);
+            
+        
+
+        marker_3a6d362a0fb36eeead601f2314d0fb5e.bindPopup(popup_f7d6dfb0d561f176db0ba6a4551764b9)
+        ;
+
+        
+    
+    
+            var marker_fd920ec9897e2a2b4447d16129faaaa3 = L.marker(
+                [41.81924, -87.61017],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_b958b0d9bcb31473accd4103d1fc5d66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fd920ec9897e2a2b4447d16129faaaa3.setIcon(icon_b958b0d9bcb31473accd4103d1fc5d66);
+        
+    
+        var popup_556cf5f117d2bfb180eac6ce7968a3b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c393f5b6a3d29347abb89fd4668a073 = $(`<div id="html_8c393f5b6a3d29347abb89fd4668a073" style="width: 100.0%; height: 100.0%;">Client ID: 152618<br>Distance actuelle: 972.15 km</div>`)[0];
+                popup_556cf5f117d2bfb180eac6ce7968a3b9.setContent(html_8c393f5b6a3d29347abb89fd4668a073);
+            
+        
+
+        marker_fd920ec9897e2a2b4447d16129faaaa3.bindPopup(popup_556cf5f117d2bfb180eac6ce7968a3b9)
+        ;
+
+        
+    
+    
+            var marker_c1da50ecbdd0d25a00e6d153de319e2f = L.marker(
+                [25.86583, -80.30247],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_0956abf9d5ccd9e6d0159c8e40a1d81c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c1da50ecbdd0d25a00e6d153de319e2f.setIcon(icon_0956abf9d5ccd9e6d0159c8e40a1d81c);
+        
+    
+        var popup_006468ad3aa7d14c72c798bf28e8e295 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_718064fec0f874e07a06275daa2dc5d0 = $(`<div id="html_718064fec0f874e07a06275daa2dc5d0" style="width: 100.0%; height: 100.0%;">Client ID: 123533<br>Distance actuelle: 2832.71 km</div>`)[0];
+                popup_006468ad3aa7d14c72c798bf28e8e295.setContent(html_718064fec0f874e07a06275daa2dc5d0);
+            
+        
+
+        marker_c1da50ecbdd0d25a00e6d153de319e2f.bindPopup(popup_006468ad3aa7d14c72c798bf28e8e295)
+        ;
+
+        
+    
+    
+            var marker_aba43b27db37067f4b7a1d14a5e0f007 = L.marker(
+                [43.58394, -84.33648],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_dd8920757e1636f7e6c0ebee79aa09b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aba43b27db37067f4b7a1d14a5e0f007.setIcon(icon_dd8920757e1636f7e6c0ebee79aa09b4);
+        
+    
+        var popup_51b56ac21c0ffea88ed034ae54fa3162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cab509034801d9ef28bab68342260334 = $(`<div id="html_cab509034801d9ef28bab68342260334" style="width: 100.0%; height: 100.0%;">Client ID: 120782<br>Distance actuelle: 1047.40 km</div>`)[0];
+                popup_51b56ac21c0ffea88ed034ae54fa3162.setContent(html_cab509034801d9ef28bab68342260334);
+            
+        
+
+        marker_aba43b27db37067f4b7a1d14a5e0f007.bindPopup(popup_51b56ac21c0ffea88ed034ae54fa3162)
+        ;
+
+        
+    
+    
+            var marker_33c90b78de69bcdde5c54e20ff30d793 = L.marker(
+                [29.86203, -95.58187],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_e5676f7d89911e27d0de1e61dfff77b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_33c90b78de69bcdde5c54e20ff30d793.setIcon(icon_e5676f7d89911e27d0de1e61dfff77b6);
+        
+    
+        var popup_547c7f7dba760e10659a6063302218c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e5e8a2c11bbe4c84d28139ca9d3a487 = $(`<div id="html_4e5e8a2c11bbe4c84d28139ca9d3a487" style="width: 100.0%; height: 100.0%;">Client ID: 141698<br>Distance actuelle: 2027.50 km</div>`)[0];
+                popup_547c7f7dba760e10659a6063302218c0.setContent(html_4e5e8a2c11bbe4c84d28139ca9d3a487);
+            
+        
+
+        marker_33c90b78de69bcdde5c54e20ff30d793.bindPopup(popup_547c7f7dba760e10659a6063302218c0)
+        ;
+
+        
+    
+    
+            var marker_87fe2121972c53bded071f9d433f0806 = L.marker(
+                [30.27891, -81.58305],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_70767b4f86b5ffb0adbe45cfe0a90c74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_87fe2121972c53bded071f9d433f0806.setIcon(icon_70767b4f86b5ffb0adbe45cfe0a90c74);
+        
+    
+        var popup_2671a5f213fc544b00464cd81be73e33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5be1c21bec59acbda8f24fe89e67581c = $(`<div id="html_5be1c21bec59acbda8f24fe89e67581c" style="width: 100.0%; height: 100.0%;">Client ID: 145317<br>Distance actuelle: 2339.00 km</div>`)[0];
+                popup_2671a5f213fc544b00464cd81be73e33.setContent(html_5be1c21bec59acbda8f24fe89e67581c);
+            
+        
+
+        marker_87fe2121972c53bded071f9d433f0806.bindPopup(popup_2671a5f213fc544b00464cd81be73e33)
+        ;
+
+        
+    
+    
+            var marker_e2510bc0e2db039b70f0fc9194d5da6c = L.marker(
+                [30.27891, -81.58305],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_dedf2be65da379db292d0991a975f0cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2510bc0e2db039b70f0fc9194d5da6c.setIcon(icon_dedf2be65da379db292d0991a975f0cd);
+        
+    
+        var popup_943d2540dedbc202a5fb79dc403f90b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb0deadb704107ddc39252f360e8506e = $(`<div id="html_eb0deadb704107ddc39252f360e8506e" style="width: 100.0%; height: 100.0%;">Client ID: 145317<br>Distance actuelle: 2339.00 km</div>`)[0];
+                popup_943d2540dedbc202a5fb79dc403f90b9.setContent(html_eb0deadb704107ddc39252f360e8506e);
+            
+        
+
+        marker_e2510bc0e2db039b70f0fc9194d5da6c.bindPopup(popup_943d2540dedbc202a5fb79dc403f90b9)
+        ;
+
+        
+    
+    
+            var marker_1b2b6bab628c85054762c851b37295e0 = L.marker(
+                [33.57215, -112.24838],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_cd0fac020bcec5e082c219c3bbc2ad7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1b2b6bab628c85054762c851b37295e0.setIcon(icon_cd0fac020bcec5e082c219c3bbc2ad7c);
+        
+    
+        var popup_01ca61beffb91e2761f5496dabe99a98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47fff792b0fd82601821f41dab0027ae = $(`<div id="html_47fff792b0fd82601821f41dab0027ae" style="width: 100.0%; height: 100.0%;">Client ID: 122287<br>Distance actuelle: 2099.61 km</div>`)[0];
+                popup_01ca61beffb91e2761f5496dabe99a98.setContent(html_47fff792b0fd82601821f41dab0027ae);
+            
+        
+
+        marker_1b2b6bab628c85054762c851b37295e0.bindPopup(popup_01ca61beffb91e2761f5496dabe99a98)
+        ;
+
+        
+    
+    
+            var marker_cea6559658d46a6924b3d0f62dd96fc8 = L.marker(
+                [40.79538, -73.92965],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_6e887f777789551313ec7214b1c3445e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cea6559658d46a6924b3d0f62dd96fc8.setIcon(icon_6e887f777789551313ec7214b1c3445e);
+        
+    
+        var popup_937593f7e6b88f360ab0acf54b223fa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f638ee3a6886e59f3fb3fcfcefaf48f0 = $(`<div id="html_f638ee3a6886e59f3fb3fcfcefaf48f0" style="width: 100.0%; height: 100.0%;">Client ID: 143658<br>Distance actuelle: 1939.71 km</div>`)[0];
+                popup_937593f7e6b88f360ab0acf54b223fa5.setContent(html_f638ee3a6886e59f3fb3fcfcefaf48f0);
+            
+        
+
+        marker_cea6559658d46a6924b3d0f62dd96fc8.bindPopup(popup_937593f7e6b88f360ab0acf54b223fa5)
+        ;
+
+        
+    
+    
+            var marker_e3e0a8a046deaa3f14e3cd3d353a7991 = L.marker(
+                [41.45069, -81.63032],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_17a21e84cb47f10ba9af4e9b92398f80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e3e0a8a046deaa3f14e3cd3d353a7991.setIcon(icon_17a21e84cb47f10ba9af4e9b92398f80);
+        
+    
+        var popup_8afcc6a31843facab48798f597331cc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30fc7a69709408e2b03f9464a8ad2262 = $(`<div id="html_30fc7a69709408e2b03f9464a8ad2262" style="width: 100.0%; height: 100.0%;">Client ID: 160465<br>Distance actuelle: 1365.94 km</div>`)[0];
+                popup_8afcc6a31843facab48798f597331cc7.setContent(html_30fc7a69709408e2b03f9464a8ad2262);
+            
+        
+
+        marker_e3e0a8a046deaa3f14e3cd3d353a7991.bindPopup(popup_8afcc6a31843facab48798f597331cc7)
+        ;
+
+        
+    
+    
+            var marker_2ff0707c259a9947851576f6832409c5 = L.marker(
+                [40.65172, -74.34328],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_bf2befed44bcbfe2a218ac3b4a427f1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ff0707c259a9947851576f6832409c5.setIcon(icon_bf2befed44bcbfe2a218ac3b4a427f1b);
+        
+    
+        var popup_e9004e9d7097bae652426ac1db56cd6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6250dfef271bbc027dee04de367f2f7 = $(`<div id="html_c6250dfef271bbc027dee04de367f2f7" style="width: 100.0%; height: 100.0%;">Client ID: 107720<br>Distance actuelle: 1918.86 km</div>`)[0];
+                popup_e9004e9d7097bae652426ac1db56cd6d.setContent(html_c6250dfef271bbc027dee04de367f2f7);
+            
+        
+
+        marker_2ff0707c259a9947851576f6832409c5.bindPopup(popup_e9004e9d7097bae652426ac1db56cd6d)
+        ;
+
+        
+    
+    
+            var marker_7ca74f236e9629bae00c9858fc7e9a3b = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_52eba4462d9e5c1e4841694c1e105aa9);
+        
+    
+            var icon_8db4c3c6deab7c4359713fc35522d9b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7ca74f236e9629bae00c9858fc7e9a3b.setIcon(icon_8db4c3c6deab7c4359713fc35522d9b1);
+        
+    
+        var popup_bf842d66a1a16f4248c725951be971ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ab37461d5360e063639440f49aaabcd = $(`<div id="html_8ab37461d5360e063639440f49aaabcd" style="width: 100.0%; height: 100.0%;">Client ID: 105333<br>Distance actuelle: 1937.86 km</div>`)[0];
+                popup_bf842d66a1a16f4248c725951be971ca.setContent(html_8ab37461d5360e063639440f49aaabcd);
+            
+        
+
+        marker_7ca74f236e9629bae00c9858fc7e9a3b.bindPopup(popup_bf842d66a1a16f4248c725951be971ca)
+        ;
+
+        
+    
+    
+            marker_cluster_52eba4462d9e5c1e4841694c1e105aa9.addTo(map_b42bdb25a2e62ce00a3697c7b3e0cdc5);
+        
+    
+            var marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_91bf5197f98d448459ab9d2ec75841e4 = L.marker(
+                [33.05657, -96.73286],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_8f3f618abb96371a0c28e4af6499e9c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_91bf5197f98d448459ab9d2ec75841e4.setIcon(icon_8f3f618abb96371a0c28e4af6499e9c1);
+        
+    
+        var popup_c87d59c575e1b9dcf647ee31ab8f438e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a581b1c2166c3e2910fb04019271e516 = $(`<div id="html_a581b1c2166c3e2910fb04019271e516" style="width: 100.0%; height: 100.0%;">Client ID: 158708<br>Distance optimale: 1366.29 km</div>`)[0];
+                popup_c87d59c575e1b9dcf647ee31ab8f438e.setContent(html_a581b1c2166c3e2910fb04019271e516);
+            
+        
+
+        marker_91bf5197f98d448459ab9d2ec75841e4.bindPopup(popup_c87d59c575e1b9dcf647ee31ab8f438e)
+        ;
+
+        
+    
+    
+            var marker_2abd76c43f6a1fb7465629c8b1b2e67a = L.marker(
+                [33.12084, -96.83778],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_c06ee2589afdad8d2ee799e7220fdf2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2abd76c43f6a1fb7465629c8b1b2e67a.setIcon(icon_c06ee2589afdad8d2ee799e7220fdf2c);
+        
+    
+        var popup_c06e2b3ad727c094b41013f0b4f8b44c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d16073498873bca203ef645989f82a08 = $(`<div id="html_d16073498873bca203ef645989f82a08" style="width: 100.0%; height: 100.0%;">Client ID: 165449<br>Distance optimale: 1371.46 km</div>`)[0];
+                popup_c06e2b3ad727c094b41013f0b4f8b44c.setContent(html_d16073498873bca203ef645989f82a08);
+            
+        
+
+        marker_2abd76c43f6a1fb7465629c8b1b2e67a.bindPopup(popup_c06e2b3ad727c094b41013f0b4f8b44c)
+        ;
+
+        
+    
+    
+            var marker_7bffc48ab6c0edfd3443158511862131 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_13107be31e9bad6e780525faf9093e7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7bffc48ab6c0edfd3443158511862131.setIcon(icon_13107be31e9bad6e780525faf9093e7a);
+        
+    
+        var popup_2f9d6e953e874f64e92633e1c93c329e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf5251a0d036b63a3e1b534b4001b7fc = $(`<div id="html_cf5251a0d036b63a3e1b534b4001b7fc" style="width: 100.0%; height: 100.0%;">Client ID: 135279<br>Distance optimale: 823.94 km</div>`)[0];
+                popup_2f9d6e953e874f64e92633e1c93c329e.setContent(html_cf5251a0d036b63a3e1b534b4001b7fc);
+            
+        
+
+        marker_7bffc48ab6c0edfd3443158511862131.bindPopup(popup_2f9d6e953e874f64e92633e1c93c329e)
+        ;
+
+        
+    
+    
+            var marker_92e41e0b219c7ce7db20eaa407237220 = L.marker(
+                [40.78534, -73.97138],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_3e230a56e650959dd6fd7018d566009e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_92e41e0b219c7ce7db20eaa407237220.setIcon(icon_3e230a56e650959dd6fd7018d566009e);
+        
+    
+        var popup_972bc9a15654be1344ec718c15c2b68c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5818e05cd27d9fd50ab6bee0b8179fdd = $(`<div id="html_5818e05cd27d9fd50ab6bee0b8179fdd" style="width: 100.0%; height: 100.0%;">Client ID: 146864<br>Distance optimale: 827.67 km</div>`)[0];
+                popup_972bc9a15654be1344ec718c15c2b68c.setContent(html_5818e05cd27d9fd50ab6bee0b8179fdd);
+            
+        
+
+        marker_92e41e0b219c7ce7db20eaa407237220.bindPopup(popup_972bc9a15654be1344ec718c15c2b68c)
+        ;
+
+        
+    
+    
+            var marker_3d832b6b965b015bb2d88d41471fef5b = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_a5b5ddd3ee8c78a2b3d515c9f862140f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d832b6b965b015bb2d88d41471fef5b.setIcon(icon_a5b5ddd3ee8c78a2b3d515c9f862140f);
+        
+    
+        var popup_335fc840d70e25e72500172073904775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d86eb9046fc0313be98cf3209f040f8 = $(`<div id="html_0d86eb9046fc0313be98cf3209f040f8" style="width: 100.0%; height: 100.0%;">Client ID: 113677<br>Distance optimale: 823.94 km</div>`)[0];
+                popup_335fc840d70e25e72500172073904775.setContent(html_0d86eb9046fc0313be98cf3209f040f8);
+            
+        
+
+        marker_3d832b6b965b015bb2d88d41471fef5b.bindPopup(popup_335fc840d70e25e72500172073904775)
+        ;
+
+        
+    
+    
+            var marker_d41df91aa24ecc7f7c7945bb2da2e290 = L.marker(
+                [41.54939, -73.06738],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_ee2668596e5661f4ab75884574263e4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d41df91aa24ecc7f7c7945bb2da2e290.setIcon(icon_ee2668596e5661f4ab75884574263e4b);
+        
+    
+        var popup_5aabc74edf2981e4984c02202d5248d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89c60b37d74f19d93bded33600a59cdc = $(`<div id="html_89c60b37d74f19d93bded33600a59cdc" style="width: 100.0%; height: 100.0%;">Client ID: 139822<br>Distance optimale: 926.43 km</div>`)[0];
+                popup_5aabc74edf2981e4984c02202d5248d4.setContent(html_89c60b37d74f19d93bded33600a59cdc);
+            
+        
+
+        marker_d41df91aa24ecc7f7c7945bb2da2e290.bindPopup(popup_5aabc74edf2981e4984c02202d5248d4)
+        ;
+
+        
+    
+    
+            var marker_3bde52e6865337087137f9b16a79025f = L.marker(
+                [41.83877, -71.43926],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_86055459abacb3d6bb86949aa21abdde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3bde52e6865337087137f9b16a79025f.setIcon(icon_86055459abacb3d6bb86949aa21abdde);
+        
+    
+        var popup_9075f8b6da0dafb40b1964477aa17949 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4584c4a25df1239905cee7eac5fd96c3 = $(`<div id="html_4584c4a25df1239905cee7eac5fd96c3" style="width: 100.0%; height: 100.0%;">Client ID: 140158<br>Distance optimale: 1065.06 km</div>`)[0];
+                popup_9075f8b6da0dafb40b1964477aa17949.setContent(html_4584c4a25df1239905cee7eac5fd96c3);
+            
+        
+
+        marker_3bde52e6865337087137f9b16a79025f.bindPopup(popup_9075f8b6da0dafb40b1964477aa17949)
+        ;
+
+        
+    
+    
+            var marker_cee215d1e20dc8a5f5ae02252d50b594 = L.marker(
+                [47.68547, -122.28234],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_034ddf951270d6c17446ec45aa3eafc3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cee215d1e20dc8a5f5ae02252d50b594.setIcon(icon_034ddf951270d6c17446ec45aa3eafc3);
+        
+    
+        var popup_9a67a81004fb7ed5f3bc3f1f4db67d7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41e414c87d891b50bd362ea2d9e8f3df = $(`<div id="html_41e414c87d891b50bd362ea2d9e8f3df" style="width: 100.0%; height: 100.0%;">Client ID: 131954<br>Distance optimale: 3327.12 km</div>`)[0];
+                popup_9a67a81004fb7ed5f3bc3f1f4db67d7c.setContent(html_41e414c87d891b50bd362ea2d9e8f3df);
+            
+        
+
+        marker_cee215d1e20dc8a5f5ae02252d50b594.bindPopup(popup_9a67a81004fb7ed5f3bc3f1f4db67d7c)
+        ;
+
+        
+    
+    
+            var marker_fd155dc3d8ea298d354f7b6acdbd370c = L.marker(
+                [37.74975, -122.41528],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_5de5e1f94e4d9b2009ab112a4c8b1870 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fd155dc3d8ea298d354f7b6acdbd370c.setIcon(icon_5de5e1f94e4d9b2009ab112a4c8b1870);
+        
+    
+        var popup_cdd11bd50fee6ab332d5b56b91d84d0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d65ab236b5d0c2d73f32dfd286862b2 = $(`<div id="html_2d65ab236b5d0c2d73f32dfd286862b2" style="width: 100.0%; height: 100.0%;">Client ID: 106033<br>Distance optimale: 3432.11 km</div>`)[0];
+                popup_cdd11bd50fee6ab332d5b56b91d84d0f.setContent(html_2d65ab236b5d0c2d73f32dfd286862b2);
+            
+        
+
+        marker_fd155dc3d8ea298d354f7b6acdbd370c.bindPopup(popup_cdd11bd50fee6ab332d5b56b91d84d0f)
+        ;
+
+        
+    
+    
+            var marker_b0390c4c0e6c61c3139dfd84b56f263b = L.marker(
+                [39.94315, -75.22664],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_08bd3c4ff369e22fbb001f9bd30e2ebe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b0390c4c0e6c61c3139dfd84b56f263b.setIcon(icon_08bd3c4ff369e22fbb001f9bd30e2ebe);
+        
+    
+        var popup_e8b78088a750a34544b6f470653d95c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b00715c35cbc973d1a6c19f680c80d6f = $(`<div id="html_b00715c35cbc973d1a6c19f680c80d6f" style="width: 100.0%; height: 100.0%;">Client ID: 114867<br>Distance optimale: 700.54 km</div>`)[0];
+                popup_e8b78088a750a34544b6f470653d95c1.setContent(html_b00715c35cbc973d1a6c19f680c80d6f);
+            
+        
+
+        marker_b0390c4c0e6c61c3139dfd84b56f263b.bindPopup(popup_e8b78088a750a34544b6f470653d95c1)
+        ;
+
+        
+    
+    
+            var marker_9a7b7d211f00e9b02df8822115a41b9f = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_27f43acbbe97d7c9fbd20c06e85aef27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a7b7d211f00e9b02df8822115a41b9f.setIcon(icon_27f43acbbe97d7c9fbd20c06e85aef27);
+        
+    
+        var popup_2208a8195a90a86da36a77b4c830adae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31b0016cd5887968cb6b41ce67f23bcb = $(`<div id="html_31b0016cd5887968cb6b41ce67f23bcb" style="width: 100.0%; height: 100.0%;">Client ID: 143980<br>Distance optimale: 823.94 km</div>`)[0];
+                popup_2208a8195a90a86da36a77b4c830adae.setContent(html_31b0016cd5887968cb6b41ce67f23bcb);
+            
+        
+
+        marker_9a7b7d211f00e9b02df8822115a41b9f.bindPopup(popup_2208a8195a90a86da36a77b4c830adae)
+        ;
+
+        
+    
+    
+            var marker_cf19a295d1fae6881457871dea667349 = L.marker(
+                [35.02915, -85.153],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_bbc641cc6fd4294e0121ecea8842a247 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cf19a295d1fae6881457871dea667349.setIcon(icon_bbc641cc6fd4294e0121ecea8842a247);
+        
+    
+        var popup_aa818de1ebfc909e5850b1452a62b473 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_704ae0050e8bb05ac48c919289023e65 = $(`<div id="html_704ae0050e8bb05ac48c919289023e65" style="width: 100.0%; height: 100.0%;">Client ID: 140977<br>Distance optimale: 406.07 km</div>`)[0];
+                popup_aa818de1ebfc909e5850b1452a62b473.setContent(html_704ae0050e8bb05ac48c919289023e65);
+            
+        
+
+        marker_cf19a295d1fae6881457871dea667349.bindPopup(popup_aa818de1ebfc909e5850b1452a62b473)
+        ;
+
+        
+    
+    
+            var marker_85ee49b5ca1be3cea8ddc6ae4bb03045 = L.marker(
+                [42.25213, -84.38301],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_9cfa2ba86119ddc65b5a979030e4d34b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_85ee49b5ca1be3cea8ddc6ae4bb03045.setIcon(icon_9cfa2ba86119ddc65b5a979030e4d34b);
+        
+    
+        var popup_a1f747cde7d72288f6c846b207f0b0af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bc5da82a2900762b0771c538865f12e = $(`<div id="html_7bc5da82a2900762b0771c538865f12e" style="width: 100.0%; height: 100.0%;">Client ID: 110324<br>Distance optimale: 456.97 km</div>`)[0];
+                popup_a1f747cde7d72288f6c846b207f0b0af.setContent(html_7bc5da82a2900762b0771c538865f12e);
+            
+        
+
+        marker_85ee49b5ca1be3cea8ddc6ae4bb03045.bindPopup(popup_a1f747cde7d72288f6c846b207f0b0af)
+        ;
+
+        
+    
+    
+            var marker_fc1f4b0e4bf791f737c1bb03c7bfc434 = L.marker(
+                [39.94315, -75.22664],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_cc5059553d1976ba411fb06be3af404e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc1f4b0e4bf791f737c1bb03c7bfc434.setIcon(icon_cc5059553d1976ba411fb06be3af404e);
+        
+    
+        var popup_c911299a89b2dd5cddd26b502a5c200f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd867ac08e9f3f2e589a2f55916dc2e0 = $(`<div id="html_dd867ac08e9f3f2e589a2f55916dc2e0" style="width: 100.0%; height: 100.0%;">Client ID: 151043<br>Distance optimale: 700.54 km</div>`)[0];
+                popup_c911299a89b2dd5cddd26b502a5c200f.setContent(html_dd867ac08e9f3f2e589a2f55916dc2e0);
+            
+        
+
+        marker_fc1f4b0e4bf791f737c1bb03c7bfc434.bindPopup(popup_c911299a89b2dd5cddd26b502a5c200f)
+        ;
+
+        
+    
+    
+            var marker_f95250ed9d03bd7bfa1bfa30bc4b4053 = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_5f74506816160e3616224abfef3a7a33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f95250ed9d03bd7bfa1bfa30bc4b4053.setIcon(icon_5f74506816160e3616224abfef3a7a33);
+        
+    
+        var popup_8b7f172d645e582d62bedec16560d59a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6da606c279c52f216b08115041b38043 = $(`<div id="html_6da606c279c52f216b08115041b38043" style="width: 100.0%; height: 100.0%;">Client ID: 131499<br>Distance optimale: 823.94 km</div>`)[0];
+                popup_8b7f172d645e582d62bedec16560d59a.setContent(html_6da606c279c52f216b08115041b38043);
+            
+        
+
+        marker_f95250ed9d03bd7bfa1bfa30bc4b4053.bindPopup(popup_8b7f172d645e582d62bedec16560d59a)
+        ;
+
+        
+    
+    
+            var marker_f113945e6671502da0c15389f5353b5b = L.marker(
+                [40.01224, -75.14512],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_f404d8b9a37c53d68db4e2761c14807e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f113945e6671502da0c15389f5353b5b.setIcon(icon_f404d8b9a37c53d68db4e2761c14807e);
+        
+    
+        var popup_6cbfb2c5903921fa9f163959ca424b9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40bb881bf3dd3f89198b2726254e8d25 = $(`<div id="html_40bb881bf3dd3f89198b2726254e8d25" style="width: 100.0%; height: 100.0%;">Client ID: 141558<br>Distance optimale: 709.06 km</div>`)[0];
+                popup_6cbfb2c5903921fa9f163959ca424b9a.setContent(html_40bb881bf3dd3f89198b2726254e8d25);
+            
+        
+
+        marker_f113945e6671502da0c15389f5353b5b.bindPopup(popup_6cbfb2c5903921fa9f163959ca424b9a)
+        ;
+
+        
+    
+    
+            var marker_a47a1f6b0a4a2c245306428c29e6a979 = L.marker(
+                [42.25213, -84.38301],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_cbbba1f00a67544d9d5fe8697dd4cc33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a47a1f6b0a4a2c245306428c29e6a979.setIcon(icon_cbbba1f00a67544d9d5fe8697dd4cc33);
+        
+    
+        var popup_13b720f4f05cde19fd97e86c9b5b54f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2604cf2a484af48581aef074c874f8f = $(`<div id="html_a2604cf2a484af48581aef074c874f8f" style="width: 100.0%; height: 100.0%;">Client ID: 127026<br>Distance optimale: 456.97 km</div>`)[0];
+                popup_13b720f4f05cde19fd97e86c9b5b54f5.setContent(html_a2604cf2a484af48581aef074c874f8f);
+            
+        
+
+        marker_a47a1f6b0a4a2c245306428c29e6a979.bindPopup(popup_13b720f4f05cde19fd97e86c9b5b54f5)
+        ;
+
+        
+    
+    
+            var marker_caf1a6ca0ccaa89553a16d0b7368ca7a = L.marker(
+                [41.65045, -83.67255],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_3576147d811bdfbfe38c40bc6d523ce7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_caf1a6ca0ccaa89553a16d0b7368ca7a.setIcon(icon_3576147d811bdfbfe38c40bc6d523ce7);
+        
+    
+        var popup_0c754811f2f514dda30a0c0e1a9eeb64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cd7df46f3dc9ef4565f74ce8fd7bec0 = $(`<div id="html_7cd7df46f3dc9ef4565f74ce8fd7bec0" style="width: 100.0%; height: 100.0%;">Client ID: 120089<br>Distance optimale: 379.49 km</div>`)[0];
+                popup_0c754811f2f514dda30a0c0e1a9eeb64.setContent(html_7cd7df46f3dc9ef4565f74ce8fd7bec0);
+            
+        
+
+        marker_caf1a6ca0ccaa89553a16d0b7368ca7a.bindPopup(popup_0c754811f2f514dda30a0c0e1a9eeb64)
+        ;
+
+        
+    
+    
+            var marker_428ec3b8131fe4229b510ef724c296b6 = L.marker(
+                [40.78534, -73.97138],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_fc0f5e69268852c4a999f05bd3287313 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_428ec3b8131fe4229b510ef724c296b6.setIcon(icon_fc0f5e69268852c4a999f05bd3287313);
+        
+    
+        var popup_d86806b82efd33cb08eae74722ae86cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2e4c4048c7322f2fe189323a2d1f046 = $(`<div id="html_b2e4c4048c7322f2fe189323a2d1f046" style="width: 100.0%; height: 100.0%;">Client ID: 164973<br>Distance optimale: 827.67 km</div>`)[0];
+                popup_d86806b82efd33cb08eae74722ae86cf.setContent(html_b2e4c4048c7322f2fe189323a2d1f046);
+            
+        
+
+        marker_428ec3b8131fe4229b510ef724c296b6.bindPopup(popup_d86806b82efd33cb08eae74722ae86cf)
+        ;
+
+        
+    
+    
+            var marker_b8c55bcead53629f75c14e1a1a952bf4 = L.marker(
+                [43.10197, -78.95282],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_e75f40759aaafdcf00482a8d992c5f6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8c55bcead53629f75c14e1a1a952bf4.setIcon(icon_e75f40759aaafdcf00482a8d992c5f6d);
+        
+    
+        var popup_b9598c8d11c71bcf33fb0028d144e33e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2a6d06127fb7f2b7c69bf0fb4047f57 = $(`<div id="html_f2a6d06127fb7f2b7c69bf0fb4047f57" style="width: 100.0%; height: 100.0%;">Client ID: 113138<br>Distance optimale: 638.13 km</div>`)[0];
+                popup_b9598c8d11c71bcf33fb0028d144e33e.setContent(html_f2a6d06127fb7f2b7c69bf0fb4047f57);
+            
+        
+
+        marker_b8c55bcead53629f75c14e1a1a952bf4.bindPopup(popup_b9598c8d11c71bcf33fb0028d144e33e)
+        ;
+
+        
+    
+    
+            var marker_e95b6a7ed37545d3f4e6759376f4f079 = L.marker(
+                [41.84793, -87.71753],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_2dcecfc49d3f4647090648c2728e5651 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e95b6a7ed37545d3f4e6759376f4f079.setIcon(icon_2dcecfc49d3f4647090648c2728e5651);
+        
+    
+        var popup_612ac66a16680ea283c3e0d7cef19c8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93354e433d6903eb5b56d174ad11b1d6 = $(`<div id="html_93354e433d6903eb5b56d174ad11b1d6" style="width: 100.0%; height: 100.0%;">Client ID: 147375<br>Distance optimale: 563.25 km</div>`)[0];
+                popup_612ac66a16680ea283c3e0d7cef19c8e.setContent(html_93354e433d6903eb5b56d174ad11b1d6);
+            
+        
+
+        marker_e95b6a7ed37545d3f4e6759376f4f079.bindPopup(popup_612ac66a16680ea283c3e0d7cef19c8e)
+        ;
+
+        
+    
+    
+            var marker_77fcc4f0b5d5e44bded19593b8881ac2 = L.marker(
+                [39.71379, -75.74033],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_de5a944e829942a0d8a885bcb401fd09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_77fcc4f0b5d5e44bded19593b8881ac2.setIcon(icon_de5a944e829942a0d8a885bcb401fd09);
+        
+    
+        var popup_f82b38380bba7701799d6f575c97ec5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8287cbde8c16f2c4e88267dd69a3abf9 = $(`<div id="html_8287cbde8c16f2c4e88267dd69a3abf9" style="width: 100.0%; height: 100.0%;">Client ID: 115413<br>Distance optimale: 652.11 km</div>`)[0];
+                popup_f82b38380bba7701799d6f575c97ec5f.setContent(html_8287cbde8c16f2c4e88267dd69a3abf9);
+            
+        
+
+        marker_77fcc4f0b5d5e44bded19593b8881ac2.bindPopup(popup_f82b38380bba7701799d6f575c97ec5f)
+        ;
+
+        
+    
+    
+            var marker_1f85f0fb9c708138b84ef2bc524ab11c = L.marker(
+                [41.81924, -87.61017],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_ed559bba27da9e3feb281c426549d528 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f85f0fb9c708138b84ef2bc524ab11c.setIcon(icon_ed559bba27da9e3feb281c426549d528);
+        
+    
+        var popup_9fde96a9f391cf16326e98c37ea795c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_465f21547e2fb9c6cbdcbdfbc101e72a = $(`<div id="html_465f21547e2fb9c6cbdcbdfbc101e72a" style="width: 100.0%; height: 100.0%;">Client ID: 152618<br>Distance optimale: 554.59 km</div>`)[0];
+                popup_9fde96a9f391cf16326e98c37ea795c6.setContent(html_465f21547e2fb9c6cbdcbdfbc101e72a);
+            
+        
+
+        marker_1f85f0fb9c708138b84ef2bc524ab11c.bindPopup(popup_9fde96a9f391cf16326e98c37ea795c6)
+        ;
+
+        
+    
+    
+            var marker_7f660d1cab3fc7d0fabd1bede6781b5f = L.marker(
+                [25.86583, -80.30247],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_084fbef588186b2fc67fd87131429620 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f660d1cab3fc7d0fabd1bede6781b5f.setIcon(icon_084fbef588186b2fc67fd87131429620);
+        
+    
+        var popup_85ca8cc0ec9cc415272417a7a8d078b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_118296501dec51305ba54a2eeb6ae4e5 = $(`<div id="html_118296501dec51305ba54a2eeb6ae4e5" style="width: 100.0%; height: 100.0%;">Client ID: 123533<br>Distance optimale: 1399.08 km</div>`)[0];
+                popup_85ca8cc0ec9cc415272417a7a8d078b3.setContent(html_118296501dec51305ba54a2eeb6ae4e5);
+            
+        
+
+        marker_7f660d1cab3fc7d0fabd1bede6781b5f.bindPopup(popup_85ca8cc0ec9cc415272417a7a8d078b3)
+        ;
+
+        
+    
+    
+            var marker_ba2604f7d80de05abf6470f43fb723a1 = L.marker(
+                [43.58394, -84.33648],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_e489d28c8bf866e3fb1828ce1cfc1191 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba2604f7d80de05abf6470f43fb723a1.setIcon(icon_e489d28c8bf866e3fb1828ce1cfc1191);
+        
+    
+        var popup_2cf2e41b369db4d8911bf279b15d88e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_235d89009609e0fd0f3a784d0246b9f3 = $(`<div id="html_235d89009609e0fd0f3a784d0246b9f3" style="width: 100.0%; height: 100.0%;">Client ID: 120782<br>Distance optimale: 600.41 km</div>`)[0];
+                popup_2cf2e41b369db4d8911bf279b15d88e1.setContent(html_235d89009609e0fd0f3a784d0246b9f3);
+            
+        
+
+        marker_ba2604f7d80de05abf6470f43fb723a1.bindPopup(popup_2cf2e41b369db4d8911bf279b15d88e1)
+        ;
+
+        
+    
+    
+            var marker_36cc5da13cae1d7334f36f0a9b1f629c = L.marker(
+                [29.86203, -95.58187],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_be57b3fbea79c38003865d30413a8db0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_36cc5da13cae1d7334f36f0a9b1f629c.setIcon(icon_be57b3fbea79c38003865d30413a8db0);
+        
+    
+        var popup_168fd65ce192aaffc13c422badf72bfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43e20f276fc482c546b3a556157a91a6 = $(`<div id="html_43e20f276fc482c546b3a556157a91a6" style="width: 100.0%; height: 100.0%;">Client ID: 141698<br>Distance optimale: 1484.20 km</div>`)[0];
+                popup_168fd65ce192aaffc13c422badf72bfb.setContent(html_43e20f276fc482c546b3a556157a91a6);
+            
+        
+
+        marker_36cc5da13cae1d7334f36f0a9b1f629c.bindPopup(popup_168fd65ce192aaffc13c422badf72bfb)
+        ;
+
+        
+    
+    
+            var marker_7fc8eba6700ec8d09aa10e51eae880b6 = L.marker(
+                [30.27891, -81.58305],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_00d3f479defeb4f01ec4b9e954ef7b70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7fc8eba6700ec8d09aa10e51eae880b6.setIcon(icon_00d3f479defeb4f01ec4b9e954ef7b70);
+        
+    
+        var popup_0c97024a00e2b02872d1f06be1912987 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13184dbb628f57bd8fbab9f7f0377ab6 = $(`<div id="html_13184dbb628f57bd8fbab9f7f0377ab6" style="width: 100.0%; height: 100.0%;">Client ID: 145317<br>Distance optimale: 896.21 km</div>`)[0];
+                popup_0c97024a00e2b02872d1f06be1912987.setContent(html_13184dbb628f57bd8fbab9f7f0377ab6);
+            
+        
+
+        marker_7fc8eba6700ec8d09aa10e51eae880b6.bindPopup(popup_0c97024a00e2b02872d1f06be1912987)
+        ;
+
+        
+    
+    
+            var marker_91ad3513af159678113d18878acafd40 = L.marker(
+                [30.27891, -81.58305],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_f7ad3e1c4227de70fc8c3dabe518276d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_91ad3513af159678113d18878acafd40.setIcon(icon_f7ad3e1c4227de70fc8c3dabe518276d);
+        
+    
+        var popup_5e962fae6113eca39b32f73786924aa3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46b7884b4ae4be01250c2dcbfdcb3813 = $(`<div id="html_46b7884b4ae4be01250c2dcbfdcb3813" style="width: 100.0%; height: 100.0%;">Client ID: 145317<br>Distance optimale: 896.21 km</div>`)[0];
+                popup_5e962fae6113eca39b32f73786924aa3.setContent(html_46b7884b4ae4be01250c2dcbfdcb3813);
+            
+        
+
+        marker_91ad3513af159678113d18878acafd40.bindPopup(popup_5e962fae6113eca39b32f73786924aa3)
+        ;
+
+        
+    
+    
+            var marker_aefd9e2a7fff1cf6e2e7971899079daa = L.marker(
+                [33.57215, -112.24838],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_6b631255a646c0527ea2a4d7c20352c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aefd9e2a7fff1cf6e2e7971899079daa.setIcon(icon_6b631255a646c0527ea2a4d7c20352c0);
+        
+    
+        var popup_ebcdd80ec2a2726534326b59aef28f5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_177c47c49eca5ce363e58960ea61fbca = $(`<div id="html_177c47c49eca5ce363e58960ea61fbca" style="width: 100.0%; height: 100.0%;">Client ID: 122287<br>Distance optimale: 2675.69 km</div>`)[0];
+                popup_ebcdd80ec2a2726534326b59aef28f5d.setContent(html_177c47c49eca5ce363e58960ea61fbca);
+            
+        
+
+        marker_aefd9e2a7fff1cf6e2e7971899079daa.bindPopup(popup_ebcdd80ec2a2726534326b59aef28f5d)
+        ;
+
+        
+    
+    
+            var marker_64b1bb72a5c93bb971fb4140e7b82893 = L.marker(
+                [40.79538, -73.92965],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_d508d1f8c13cd884334b2eda5dad2334 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64b1bb72a5c93bb971fb4140e7b82893.setIcon(icon_d508d1f8c13cd884334b2eda5dad2334);
+        
+    
+        var popup_1b67dc3565bb24870abec5389ee00828 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_187b5481e76220348df70b04490b551f = $(`<div id="html_187b5481e76220348df70b04490b551f" style="width: 100.0%; height: 100.0%;">Client ID: 143658<br>Distance optimale: 831.36 km</div>`)[0];
+                popup_1b67dc3565bb24870abec5389ee00828.setContent(html_187b5481e76220348df70b04490b551f);
+            
+        
+
+        marker_64b1bb72a5c93bb971fb4140e7b82893.bindPopup(popup_1b67dc3565bb24870abec5389ee00828)
+        ;
+
+        
+    
+    
+            var marker_f90c1d13cfdab96a83666844999c5a4e = L.marker(
+                [41.45069, -81.63032],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_0f4600fa0da4dd7eabc35011f4e6071f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f90c1d13cfdab96a83666844999c5a4e.setIcon(icon_0f4600fa0da4dd7eabc35011f4e6071f);
+        
+    
+        var popup_b923a7fe1fbb26414a66fe984c2616db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_960fe573bf1f647fa305f7b84efece8c = $(`<div id="html_960fe573bf1f647fa305f7b84efece8c" style="width: 100.0%; height: 100.0%;">Client ID: 160465<br>Distance optimale: 373.37 km</div>`)[0];
+                popup_b923a7fe1fbb26414a66fe984c2616db.setContent(html_960fe573bf1f647fa305f7b84efece8c);
+            
+        
+
+        marker_f90c1d13cfdab96a83666844999c5a4e.bindPopup(popup_b923a7fe1fbb26414a66fe984c2616db)
+        ;
+
+        
+    
+    
+            var marker_a2c30c49ec6310569a4e0df32f30ccef = L.marker(
+                [40.65172, -74.34328],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_acdbde3c8e3f634c493188ed50dfd202 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2c30c49ec6310569a4e0df32f30ccef.setIcon(icon_acdbde3c8e3f634c493188ed50dfd202);
+        
+    
+        var popup_da4b3eeb8959991d7691c813d7d28c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7739a71cf839bf493aa274765d61d93e = $(`<div id="html_7739a71cf839bf493aa274765d61d93e" style="width: 100.0%; height: 100.0%;">Client ID: 107720<br>Distance optimale: 793.30 km</div>`)[0];
+                popup_da4b3eeb8959991d7691c813d7d28c05.setContent(html_7739a71cf839bf493aa274765d61d93e);
+            
+        
+
+        marker_a2c30c49ec6310569a4e0df32f30ccef.bindPopup(popup_da4b3eeb8959991d7691c813d7d28c05)
+        ;
+
+        
+    
+    
+            var marker_0fd02f72af4b700365513db762d7b7ab = L.marker(
+                [40.74173, -74.00037],
+                {
+}
+            ).addTo(marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c);
+        
+    
+            var icon_fe986de0ca9bfa2a7f93aee8483c294a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0fd02f72af4b700365513db762d7b7ab.setIcon(icon_fe986de0ca9bfa2a7f93aee8483c294a);
+        
+    
+        var popup_2ef37c714d5ad9cd14ef4e8fd5506ff7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fbce38029769192bb533ef7119ad4cb = $(`<div id="html_9fbce38029769192bb533ef7119ad4cb" style="width: 100.0%; height: 100.0%;">Client ID: 105333<br>Distance optimale: 823.94 km</div>`)[0];
+                popup_2ef37c714d5ad9cd14ef4e8fd5506ff7.setContent(html_9fbce38029769192bb533ef7119ad4cb);
+            
+        
+
+        marker_0fd02f72af4b700365513db762d7b7ab.bindPopup(popup_2ef37c714d5ad9cd14ef4e8fd5506ff7)
+        ;
+
+        
+    
+    
+            marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c.addTo(map_b42bdb25a2e62ce00a3697c7b3e0cdc5);
+        
+    
+            var marker_9ccd884fecf16e4f97616d328fcaf03a = L.marker(
+                [48.11914, -96.18115],
+                {
+}
+            ).addTo(map_b42bdb25a2e62ce00a3697c7b3e0cdc5);
+        
+    
+            var icon_f32c91ba4c7597c428d3d3f6f1050c3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9ccd884fecf16e4f97616d328fcaf03a.setIcon(icon_f32c91ba4c7597c428d3d3f6f1050c3a);
+        
+    
+        var popup_040dd94a3b63e575739aac1bc69aacb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62ae3c6e5981869a3be62609f1c1db9a = $(`<div id="html_62ae3c6e5981869a3be62609f1c1db9a" style="width: 100.0%; height: 100.0%;">Usine actuelle: Sugar Shack</div>`)[0];
+                popup_040dd94a3b63e575739aac1bc69aacb7.setContent(html_62ae3c6e5981869a3be62609f1c1db9a);
+            
+        
+
+        marker_9ccd884fecf16e4f97616d328fcaf03a.bindPopup(popup_040dd94a3b63e575739aac1bc69aacb7)
+        ;
+
+        
+    
+    
+            var marker_6e8c86a08524c29452adb6629c561136 = L.marker(
+                [38.26765841121495, -83.03805869158879],
+                {
+}
+            ).addTo(map_b42bdb25a2e62ce00a3697c7b3e0cdc5);
+        
+    
+            var icon_1db35a08b105a751e77b082aa8955c21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e8c86a08524c29452adb6629c561136.setIcon(icon_1db35a08b105a751e77b082aa8955c21);
+        
+    
+        var popup_634b383890b99b2e483c38c1a28b0c1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faf106914291cebde8b291708f4d719e = $(`<div id="html_faf106914291cebde8b291708f4d719e" style="width: 100.0%; height: 100.0%;">Position optimale (calculée)</div>`)[0];
+                popup_634b383890b99b2e483c38c1a28b0c1f.setContent(html_faf106914291cebde8b291708f4d719e);
+            
+        
+
+        marker_6e8c86a08524c29452adb6629c561136.bindPopup(popup_634b383890b99b2e483c38c1a28b0c1f)
+        ;
+
+        
+    
+    
+            var layer_control_ed762c054a6633efcd63069550000655_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_da0ccecb8e06fa8621f4499fb26edeaa,
+                },
+                overlays :  {
+                    "Clients - Usine Actuelle" : marker_cluster_52eba4462d9e5c1e4841694c1e105aa9,
+                    "Clients - Position Optimale" : marker_cluster_d2328acaacf1650e2ee1c4ef39b5304c,
+                },
+            };
+            let layer_control_ed762c054a6633efcd63069550000655 = L.control.layers(
+                layer_control_ed762c054a6633efcd63069550000655_layers.base_layers,
+                layer_control_ed762c054a6633efcd63069550000655_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_b42bdb25a2e62ce00a3697c7b3e0cdc5);
+
+        
+</script>
+</html>
